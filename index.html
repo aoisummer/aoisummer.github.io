@@ -1,12 +1,14 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
+<h2>{{ site.title }}</h2>
+
+<div>Latest Post</div>
 
 <ul>
 {% for post in site.posts %}
 <li>
-<a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | '%Y-%m-%d' }}
+<a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date: '%Y-%m-%d' }}
 </li>
 {% endfor %}
 </ul>
