@@ -1,0 +1,12 @@
+# Site settings
+title: Example Blog
+
+# Handling Reading
+exclude: ['README.md']
+
+# Conversion
+markdown: kramdown
+
+# Outputting
+permalink: /post/:year/:month/:title.html
+timezone: Asia/Hong_Kong
