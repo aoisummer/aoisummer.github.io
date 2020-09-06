@@ -61,7 +61,8 @@ function App() {
         });
     };
     React.useEffect(() => {
-        setSources(getSourceGroup('pcrcn'));
+        const group = new URLSearchParams(location.search).get('group');
+        setSources(getSourceGroup(group || 'pcrcn'));
     }, []);
     return (
         <>
@@ -76,6 +77,10 @@ function getSourceGroup(name) {
         'pcrcn': [
             { id: 'pcr-cn', color: '#f08', _text: '剧情活动' },
             { id: 'pcr-cn-clan-battle', color: '#f08', _text: '行会战' },
+        ],
+        'imas': [
+            { id: 'slstage', color: '#6ff', _text: '星光舞台' },
+            { id: 'theaterdays', color: '#f66', _text: '剧场时光' },
         ]
     };
     return sources.hasOwnProperty(name) ? sources[name].map((item) => {

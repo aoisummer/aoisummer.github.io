@@ -2,7 +2,9 @@
 <html>
 <head>
 <meta charset="utf-8" />
+<title>日历</title>
 <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
+<link rel="dns-prefetch" href="//raw.githubusercontent.com" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.3.1/main.min.css" />
 <style>
 body { margin: 0; font-family: system-ui, Segoe UI, Helvetica, Arial, sans-serif; font-size: 0.875rem; color: #333; background-color: #fff; }
@@ -26,7 +28,7 @@ body { margin: 0; font-family: system-ui, Segoe UI, Helvetica, Arial, sans-serif
 <script>
 (function () {
     var scripts = [];
-    (!window.Set || !window.Map) && scripts.push('https://cdn.jsdelivr.net/npm/core-js-bundle@3.6.5/minified.js');
+    (!window.Set || !window.Map || !window.URLSearchParams) && scripts.push('https://cdn.jsdelivr.net/npm/core-js-bundle@3.6.5/minified.js');
     !window.Intl && scripts.push('https://cdn.jsdelivr.net/npm/intl@1.2.5/dist/Intl.complete.js');
     scripts.push('https://cdn.jsdelivr.net/npm/fullcalendar@5.3.1/main.min.js');
     document.documentElement.hasAttribute('dev') ?
