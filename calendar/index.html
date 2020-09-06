@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.3.1/main.min.css" />
+<style>
+body { margin: 0; font-family: system-ui, Segoe UI, Helvetica, Arial, sans-serif; font-size: 0.875rem; color: #333; background-color: #fff; }
+.loading { display: inline-block; margin: 1em; }
+.x-sidebar { position: fixed; top: 0; left: 0; bottom: 0; z-index: 11; overflow-x: hidden; overflow-y: auto; width: 200px; background-color: #f6f6f6; }
+.x-calendar { height: calc(100vh - 20px); margin: 10px 10px 0 210px; }
+.x-calendar .fc-toolbar.fc-header-toolbar { margin-bottom: 10px; }
+.x-calendar .fc-toolbar-title { font-size: 1.5em; font-weight: 500; }
+.x-calendar table { font-size: 0.75rem; }
+.x-calendar .fc-daygrid-event { font-size: 1em; }
+.x-calendar .fc-event.hidden0 { display: none; }
+.x-sidebar-title { padding: 10px 15px; font-size: 0.75rem; font-weight: 600; }
+.x-sidebar-list { margin: 0; padding: 0; list-style: none; user-select: none; }
+.x-sidebar-item { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; padding: 10px 15px; }
+.x-sidebar-item-text { -ms-flex: 1; flex: 1; }
+.x-sidebar-item-checkbox { vertical-align: middle; }
+</style>
+</head>
+<body>
+<div id="root"><span class="loading">Loading...</span></div>
+<script>
+(function () {
+    var scripts = [];
+    (!window.Set || !window.Map) && scripts.push('https://cdn.jsdelivr.net/npm/core-js-bundle@3.6.5/minified.js');
+    !window.Intl && scripts.push('https://cdn.jsdelivr.net/npm/intl@1.2.5/dist/Intl.complete.js');
+    scripts.push('https://cdn.jsdelivr.net/npm/fullcalendar@5.3.1/main.min.js');
+    document.documentElement.hasAttribute('dev') ?
+        scripts.push('https://cdn.jsdelivr.net/npm/react@16.13.1/umd/react.development.js', 'https://cdn.jsdelivr.net/npm/react-dom@16.13.1/umd/react-dom.development.js', 'main.build.js') :
+        scripts.push('https://cdn.jsdelivr.net/npm/react@16.13.1/umd/react.production.min.js', 'https://cdn.jsdelivr.net/npm/react-dom@16.13.1/umd/react-dom.production.min.js', 'main.min.js');
+    document.write(scripts.map(function (url) { return '<script src="%s"><\/script>'.replace('%s', url); }).join(''));
+})();
+</script>
+</body>
+</html>
