@@ -32,7 +32,7 @@ function Calendar({ sources }) {
             _calendar.current.destory();
         };
     }, []);
-    
+
     React.useEffect(() => {
         const oldArr = _calendar.current.getEventSources().map((es) => es.id);
         const newArr = sources.filter((es) => es._checked).map((es) => es.id);
@@ -46,7 +46,7 @@ function Calendar({ sources }) {
             addArr.indexOf(es.id) !== -1 && _calendar.current.addEventSource(es);
         });
     }, [sources]);
-    
+
     return (
         <div className="x-calendar" ref={calEl}></div>
     );
@@ -60,10 +60,12 @@ function App() {
             return prevState.map((es) => es.id === id ? { ...es, _checked: !es._checked } : es);
         });
     };
+
     React.useEffect(() => {
         const group = new URLSearchParams(location.search).get('group');
         setSources(getSourceGroup(group || 'pcrcn'));
     }, []);
+
     return (
         <>
             <Sidebar sources={sources} onSourceClick={onSourceClick} />
@@ -85,7 +87,7 @@ function getSourceGroup(name) {
     };
     return sources.hasOwnProperty(name) ? sources[name].map((item) => {
         // return { ...item, url: `data/${item.id}.json`, _checked: true };
-        return { ...item, url: `https://raw.githubusercontent.com/aoisummer/ics-collection/master/dist/${item.id}.json`, _checked: true };
+        return { ...item, url: `https://cdn.jsdelivr.net/gh/aoisummer/ics-collection@master/dist/${item.id}.json`, _checked: true };
     }) : [];
 };
 
