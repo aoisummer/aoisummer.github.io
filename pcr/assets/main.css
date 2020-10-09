@@ -1,0 +1,115 @@
+body {
+    font-size: 0.875rem;
+    background-color: #f8f9fa;
+}
+
+.x-text-sm {
+    font-size: 0.75rem;
+}
+.x-text-md {
+    font-size: 0.875rem;
+}
+.x-text-lg {
+    font-size: 1rem;
+}
+.x-text-primary {
+    color: #f55291;
+}
+
+
+.x-navbar-toggle {
+    display: none;
+}
+.x-navbar-toggle:checked ~ .navbar-collapse {
+    display: block;
+    margin-top: 0.5rem;
+}
+
+
+.x-card-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    text-align: center;
+    color: inherit;
+    background-color: #fff;
+}
+.x-card-link:hover {
+    text-decoration: none;
+    color: inherit;
+    background-color: #f8f9fa;
+}
+.x-card-link:active {
+    background-color: #e9ecef;
+}
+
+
+.x-header {
+    position: relative;
+    overflow: hidden;
+    height: 42rem;
+}
+.x-header-art {
+    position: absolute;
+    top: 50%;
+    margin-bottom: 0;
+    font-size: 0.75rem;
+    color: rgba(0, 0, 0, 0.15) !important;
+    transform: translate(0, -50%);
+}
+.x-header-inner {
+    position: relative;
+    height: 100%;
+}
+
+.x-info > li {
+    margin-bottom: 0.25rem;
+}
+.x-info > li:nth-last-of-type(1) {
+    margin-bottom: 0;
+}
+.x-badge {
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    border-radius: 0.25rem;
+    color: #fff;
+    background-color: #6c96ea;
+    white-space: nowrap;
+}
+
+
+.x-table {
+    /*width: auto;*/
+    margin-bottom: 0;
+    /*font-size: 0.75rem;*/
+    background-color: #fff;
+}
+.x-table thead th {
+    white-space: nowrap;
+}
+.x-table thead > tr:nth-of-type(1) > th {
+    border-top: 0;
+}
+
+
+.x-calendar a {
+    color: inherit;
+}
+.x-calendar a:hover {
+    text-decoration: none;
+}
+.x-calendar table {
+    font-size: 0.75rem;
+    background-color: #fff;
+}
+.x-calendar .fc-toolbar-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.x-calendar .fc-toolbar.fc-header-toolbar {
+    margin-bottom: 1rem;
+}
+.x-calendar .fc-daygrid-event {
+    font-size: 1em;
+}
