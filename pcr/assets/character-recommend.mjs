@@ -22,7 +22,7 @@ function DataTableHead({ data }) {
         col1.push(
             <th colSpan={item.row.length} key={index}>
                 { item.source ?
-                    <a href={item.source} target="_blank" title={'更新时间：' + item.lastModified}>{item.author}</a> :
+                    <a href={item.source} target="_blank" rel="noopener" title={'更新时间：' + item.lastModified}>{item.author}</a> :
                     <a href="#" onClick={onAuthorClick}>{item.author}</a> }
             </th>
         );
@@ -47,18 +47,20 @@ function DataTableHead({ data }) {
 }
 
 function DataTableBody({ data }) {
+    const currentDate = new Date();
+    const outdated = data.extra.map((item) => {
+        const contentDate = new Date(item.lastModified);
+        return !(currentDate.getFullYear() === contentDate.getFullYear() && currentDate.getMonth() === contentDate.getMonth());
+    });
     const getColsById = (id) => {
         const cols = [];
-        const currentDate = new Date();
         data.extra.forEach((item1, index1) => {
-            const contentDate = new Date(item1.lastModified);
-            const isOutdated = !(currentDate.getFullYear() === contentDate.getFullYear() && currentDate.getMonth() === contentDate.getMonth());
             const row = item1.data.filter((item1Child) => item1Child.cid === id);
             const length = item1.row.length;
             const className = [];
             let empty = 0;
             
-            isOutdated && className.push('x-table-cell-outdated');
+            outdated[index1] && className.push('x-table-cell-outdated');
             if (row.length > 0) {
                 row[0].row.slice(0, length).forEach((item2, index2) => {
                     cols.push(
