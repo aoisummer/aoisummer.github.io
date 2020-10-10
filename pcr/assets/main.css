@@ -91,6 +91,9 @@ body {
 .x-table thead > tr:nth-of-type(1) > th {
     border-top: 0;
 }
+.x-table-cell-outdated {
+    background-color: rgba(0, 0, 0, 0.03);
+}
 
 
 .x-calendar a {

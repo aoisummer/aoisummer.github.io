@@ -16,9 +16,7 @@ function DataTable({ data }) {
 function DataTableHead({ data }) {
     const col1 = [];
     const col2 = [];
-    const onAuthorClick = (e) => {
-        e.preventDefault();
-    };
+    const onAuthorClick = (e) => e.preventDefault();
 
     data.extra.forEach((item, index) => {
         col1.push(
@@ -51,25 +49,34 @@ function DataTableHead({ data }) {
 function DataTableBody({ data }) {
     const getColsById = (id) => {
         const cols = [];
+        const currentDate = new Date();
         data.extra.forEach((item1, index1) => {
+            const contentDate = new Date(item1.lastModified);
+            const isOutdated = !(currentDate.getFullYear() === contentDate.getFullYear() && currentDate.getMonth() === contentDate.getMonth());
             const row = item1.data.filter((item1Child) => item1Child.cid === id);
             const length = item1.row.length;
+            const className = [];
             let empty = 0;
+            
+            isOutdated && className.push('x-table-cell-outdated');
             if (row.length > 0) {
                 row[0].row.slice(0, length).forEach((item2, index2) => {
                     cols.push(
-                        <td key={[id, index1, index2].join(',')}>{item2}</td>
+                        <td className={className.join(' ')} key={[id, index1, index2].join(',')}>{item2}</td>
                     );
                 });
                 empty = length - row[0].row.length;
             } else {
                 empty = length;
             }
-            empty > 0 && new Array(empty).fill('').forEach((item2, index2) => {
-                cols.push(
-                    <td key={[id, index1, index2 - empty].join(',')} className="x-table-cell-empty">{item2}</td>
-                );
-            });
+            if (empty > 0) {
+                className.push('x-table-cell-empty');
+                new Array(empty).fill('').forEach((item2, index2) => {
+                    cols.push(
+                        <td className={className.join(' ')} key={[id, index1, index2 - empty].join(',')}>{item2}</td>
+                    );
+                });
+            }
         });
         return cols;
     };
@@ -124,6 +131,7 @@ function App() {
                 </div>
             </div>
             <div className="mt-2 text-secondary x-text-sm">※ 各推荐皆统计于各位作者文章，点击名字可以查看来源</div>
+            <div className="text-secondary x-text-sm">※ 灰色背景表示该数据可能过期，仅供参考</div>
         </div>
     );
 }

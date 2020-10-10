@@ -32,12 +32,10 @@ function App() {
     });
 
     return (
-        <>
-            <div className="container my-3">
-                <Navbar current="0" />
-                <Calendar sources={sources} />
-            </div>
-        </>
+        <div className="container my-3">
+            <Navbar current="0" />
+            <Calendar sources={sources} />
+        </div>
     );
 }
 
