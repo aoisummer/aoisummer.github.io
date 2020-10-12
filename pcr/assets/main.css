@@ -1,3 +1,8 @@
+:root {
+    --color-primary: #2c94e4;
+    --color-pink: #f55291;
+}
+
 body {
     font-size: 0.875rem;
     background-color: #f8f9fa;
@@ -80,9 +85,7 @@ body {
 
 
 .x-table {
-    /*width: auto;*/
     margin-bottom: 0;
-    /*font-size: 0.75rem;*/
     background-color: #fff;
 }
 .x-table thead th {
@@ -115,4 +118,92 @@ body {
 }
 .x-calendar .fc-daygrid-event {
     font-size: 1em;
+}
+
+
+.x-tabs-nav {
+    display: inline-flex;
+    border-radius: 1.25rem;
+    box-shadow: 1px 1px 0.25rem rgba(0, 0, 0, 0.15);
+}
+.x-tabs-nav-block {
+    display: flex;
+}
+.x-tabs-nav-item {
+    display: block;
+    padding: 0.5rem 1.25rem;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    color: inherit;
+    background-color: #fff;
+}
+.x-tabs-nav-item:hover {
+    text-decoration: none;
+    color: inherit;
+    background-color: #f8f9fa;
+}
+.x-tabs-nav-item + .x-tabs-nav-item {
+    border-left-width: 0;
+}
+.x-tabs-nav > .x-tabs-nav-item:nth-of-type(1) {
+    border-top-left-radius: 1.25rem;
+    border-bottom-left-radius: 1.25rem;
+}
+.x-tabs-nav > .x-tabs-nav-item:nth-last-of-type(1) {
+    border-top-right-radius: 1.25rem;
+    border-bottom-right-radius: 1.25rem;
+}
+.x-tabs-nav-item.active {
+    color: #fff;
+    background-color: #2c94e4;
+    background-image: linear-gradient(#2c94e4, #07c);
+    border-color: #2c94e4;
+}
+.x-tabs-nav-block .x-tabs-nav-item {
+    flex-grow: 1;
+}
+
+
+.x-checkbox {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 2.5rem;
+    height: 1.5rem;
+    margin-bottom: 0;
+    border-radius: 0.75rem;
+    overflow: hidden;
+}
+.x-checkbox-toggle {
+    display: none;
+}
+.x-checkbox-view {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+.x-checkbox-view::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    display: block;
+    width: calc(1.5rem - 2px);
+    height: calc(1.5rem - 2px);
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: left 0.2s;
+}
+.x-checkbox > .x-checkbox-toggle:checked + .x-checkbox-view {
+    border-color: #2c94e4;
+    background-color: #2c94e4;
+}
+.x-checkbox > .x-checkbox-toggle:checked + .x-checkbox-view::before {
+    left: 1rem;
 }

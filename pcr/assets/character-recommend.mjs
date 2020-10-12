@@ -1,4 +1,5 @@
 import Navbar from './component/navbar.mjs';
+import Checkbox from './component/checkbox.mjs';
 import characterData from './data/character.mjs';
 import recommendData from './data/recommend.mjs';
 
@@ -111,8 +112,8 @@ function DataTableBody({ data }) {
         { chars.map((item1, index1) =>
             <tr key={item1.id}>
                 { getPositionCell(index1) }
-                <td className="x-table-cell-position">{item1.position}</td>
-                <td className="x-table-cell-name">{item1.name}</td>
+                <td>{item1.position}</td>
+                <td>{item1.name}</td>
                 { getColsById(item1.id) }
             </tr>
         ) }
@@ -121,19 +122,27 @@ function DataTableBody({ data }) {
 }
 
 function App() {
+    const [showUpcoming, setShowUpcoming] = React.useState(false);
+    const handleUpcomingChange = (e) => setShowUpcoming((state) => !state);
+
     return (
         <div className="container my-3">
             <Navbar current="1" />
+            <div className="mb-3 text-right">
+                <span className="mr-2 align-middle"><del className="mr-1 text-secondary">千里眼</del>亚里莎</span>
+                <Checkbox isChecked={showUpcoming} onChange={handleUpcomingChange} />
+            </div>
             <div className="card">
                 <div className="card-body">
                     <DataTable data={{
-                        character: characterData,
+                        character: showUpcoming ? characterData : characterData.filter((item) => !!item.debutDateCN),
                         extra: recommendData
                     }} />
                 </div>
             </div>
             <div className="mt-2 text-secondary x-text-sm">※ 各推荐皆统计于各位作者文章，点击名字可以查看来源</div>
             <div className="text-secondary x-text-sm">※ 灰色背景表示该数据可能过期，仅供参考</div>
+            <div className="text-secondary x-text-sm">※ 千里眼资料参考：蘭德索爾圖書館</div>
         </div>
     );
 }
