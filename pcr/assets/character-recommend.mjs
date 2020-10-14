@@ -1,25 +1,27 @@
 import Navbar from './component/navbar.mjs';
 import Checkbox from './component/checkbox.mjs';
-import characterData from './data/character.mjs';
+
+import characterCoreData from './data/character-core.mjs';
+import characterDebutData from './data/character-debut.mjs';
 import recommendData from './data/recommend.mjs';
 
-function DataTable({ data }) {
+function DataTable({ character, extra }) {
     return (
         <div className="table-responsive">
             <table className="table table-sm x-table">
-                <DataTableHead data={data} />
-                <DataTableBody data={data} />
+                <DataTableHead extra={extra} />
+                <DataTableBody character={character} extra={extra} />
             </table>
         </div>
     );
 }
 
-function DataTableHead({ data }) {
+function DataTableHead({ extra }) {
     const col1 = [];
     const col2 = [];
     const onAuthorClick = (e) => e.preventDefault();
 
-    data.extra.forEach((item, index) => {
+    extra.forEach((item, index) => {
         col1.push(
             <th colSpan={item.row.length} key={index}>
                 { item.source ?
@@ -40,6 +42,7 @@ function DataTableHead({ data }) {
                 <th rowSpan="2"></th>
                 <th rowSpan="2">位置</th>
                 <th rowSpan="2">名字</th>
+                <th rowSpan="2">稀有度</th>
                 {col1}
             </tr>
             <tr>{col2}</tr>
@@ -47,83 +50,101 @@ function DataTableHead({ data }) {
     );
 }
 
-function DataTableBody({ data }) {
-    const currentDate = new Date();
-    const outdated = data.extra.map((item) => {
-        const contentDate = new Date(item.lastModified);
-        return !(currentDate.getFullYear() === contentDate.getFullYear() && currentDate.getMonth() === contentDate.getMonth());
-    });
-    const getColsById = (id) => {
-        const cols = [];
-        data.extra.forEach((item1, index1) => {
-            const row = item1.data.filter((item1Child) => item1Child.cid === id);
-            const length = item1.row.length;
-            const className = [];
-            let empty = 0;
-            
-            outdated[index1] && className.push('x-table-cell-outdated');
-            if (row.length > 0) {
-                row[0].row.slice(0, length).forEach((item2, index2) => {
-                    cols.push(
-                        <td className={className.join(' ')} key={[id, index1, index2].join(',')}>{item2}</td>
-                    );
-                });
-                empty = length - row[0].row.length;
-            } else {
-                empty = length;
-            }
-            if (empty > 0) {
-                className.push('x-table-cell-empty');
-                new Array(empty).fill('').forEach((item2, index2) => {
-                    cols.push(
-                        <td className={className.join(' ')} key={[id, index1, index2 - empty].join(',')}>{item2}</td>
-                    );
-                });
-            }
-        });
-        return cols;
-    };
-    const chars = data.character.slice();
+function DataTableBody({ character, extra }) {
+    const chars = character.slice();
     chars.sort((char1, char2) => char1.position - char2.position);
-    
-    const type = [ 0, 0, 0 ];
+
+    const typeCount = [0, 0, 0];
     chars.forEach((item, index) => {
         if (item.position <= 300) {
-            type[0]++;
+            typeCount[0]++;
         } else if (item.position <= 600) {
-            type[1]++;
+            typeCount[1]++;
         } else {
-            type[2]++;
+            typeCount[2]++;
         }
     });
-    const getPositionCell = (index) => {
-        switch (index) {
-            case 0:
-                return <td rowSpan={type[0]}>前卫</td>;
-            case type[0]:
-                return <td rowSpan={type[1]}>中卫</td>;
-            case type[0] + type[1]:
-                return <td rowSpan={type[2]}>后卫</td>;
-        }
-    };
 
     return (
         <tbody>
-        { chars.map((item1, index1) =>
-            <tr key={item1.id}>
-                { getPositionCell(index1) }
-                <td>{item1.position}</td>
-                <td>{item1.name}</td>
-                { getColsById(item1.id) }
+        { chars.map((item, index) =>
+            <tr key={item.id}>
+                <DataTableTypeCell typeCount={typeCount} index={index} />
+                <td>{item.position}</td>
+                <td>{item.name}</td>
+                <DataTableRarityCell number={item.rarity} />
+                <DataTableValueCells extra={extra} id={item.id} />
             </tr>
         ) }
         </tbody>
     );
 }
 
+function DataTableValueCells({ extra, id }) {
+    const cols = [];
+    const currentDate = new Date();
+
+    extra.forEach((item1, index1) => {
+        const row = item1.data.filter((item1Child) => item1Child.cid === id);
+        const className = [];
+        const colSize = item1.row.length;
+        const contentDate = new Date(item1.lastModified);
+        const isOutdated = !(currentDate.getFullYear() === contentDate.getFullYear() && currentDate.getMonth() === contentDate.getMonth());
+        let empty = 0;
+        
+        isOutdated && className.push('x-table-cell-outdated');
+        if (row.length > 0) {
+            row[0].row.slice(0, colSize).forEach((item2, index2) => {
+                cols.push(
+                    <td className={className.join(' ')} key={[id, index1, index2].join(',')}>{item2}</td>
+                );
+            });
+            empty = colSize - row[0].row.length;
+        } else {
+            empty = colSize;
+        }
+        if (empty > 0) {
+            className.push('x-table-cell-empty');
+            for (let emptyIndex = 0; emptyIndex < empty; emptyIndex++) {
+                cols.push(
+                    <td className={className.join(' ')} key={[id, index1, emptyIndex - empty].join(',')}></td>
+                );
+            }
+        }
+    });
+    return cols;
+}
+
+function DataTableTypeCell({ typeCount, index }) {
+    switch (index) {
+        case 0:
+            return <td rowSpan={typeCount[0]}>前卫</td>;
+        case typeCount[0]:
+            return <td rowSpan={typeCount[1]}>中卫</td>;
+        case typeCount[0] + typeCount[1]:
+            return <td rowSpan={typeCount[2]}>后卫</td>;
+        default:
+            return null;
+    }
+}
+
+function DataTableRarityCell({ number }) {
+    const str = '<i class="i-star"></i>';
+    let result = '';
+    for (let i = 0; i < number; i++) {
+        result += str;
+    }
+    return (
+        <td>
+            <div className="d-flex align-items-center" style={{ height: '1.5em' }} dangerouslySetInnerHTML={{ __html: result }}></div>
+        </td>
+    );
+}
+
 function App() {
     const [showUpcoming, setShowUpcoming] = React.useState(false);
     const handleUpcomingChange = (e) => setShowUpcoming((state) => !state);
+    const debutCharacter = characterDebutData.filter((item) => !!item.debutDateCN).map((item) => item.cid);
 
     return (
         <div className="container my-3">
@@ -134,15 +155,11 @@ function App() {
             </div>
             <div className="card">
                 <div className="card-body">
-                    <DataTable data={{
-                        character: showUpcoming ? characterData : characterData.filter((item) => !!item.debutDateCN),
-                        extra: recommendData
-                    }} />
+                    <DataTable character={showUpcoming ? characterCoreData : characterCoreData.filter((item) => debutCharacter.indexOf(item.id) > 0)} extra={recommendData} />
                 </div>
             </div>
             <div className="mt-2 text-secondary x-text-sm">※ 各推荐皆统计于各位作者文章，点击名字可以查看来源</div>
             <div className="text-secondary x-text-sm">※ 灰色背景表示该数据可能过期，仅供参考</div>
-            <div className="text-secondary x-text-sm">※ 千里眼资料参考：蘭德索爾圖書館</div>
         </div>
     );
 }

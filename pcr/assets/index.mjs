@@ -43,6 +43,7 @@ function App() {
         { text: "活动日历", to: "calendar.html" },
         { text: "角色 Rank、星级推荐", to: "character-recommend.html" },
         { text: "6星角色一览", to: "character-star-6.html" },
+        { text: "角色实装顺序", to: "character-debut.html" },
     ];
     const nav2 = [
         { text: "行会战工具", to: "https://www.bigfun.cn/tools/pcrteam/" },
@@ -73,7 +74,7 @@ function App() {
                 <div className="row mt-3">
                     { nav2.map((item, index) =>
                         <div className="col-sm-6 col-lg-4 mb-3" key={index}>
-                            <a className="x-card-link" href={item.to} target="_blank">{item.text}</a>
+                            <a className="x-card-link" href={item.to} target="_blank" rel="noopener">{item.text}</a>
                         </div>
                     ) }
                 </div>
@@ -101,7 +102,7 @@ function App() {
                             <span className="x-badge mr-2">运营</span>Bilibili
                         </li>
                         <li className="col-md-6">
-                            <span className="x-badge mr-2">官网</span><a href="https://game.bilibili.com/pcr/" target="_blank">简体字版</a>、<a href="https://priconne-redive.jp/" target="_blank">日版</a>
+                            <span className="x-badge mr-2">官网</span><a href="https://game.bilibili.com/pcr/" target="_blank" rel="noopener">简体字版</a>、<a href="https://priconne-redive.jp/" target="_blank" rel="noopener">日版</a>
                         </li>
                     </ul>
                 </div>
@@ -109,6 +110,7 @@ function App() {
             <div className="container mb-3 x-text-sm text-secondary">
                 <div>※ 这个网站主要是为了<del>补别家不容易查的资料</del>安利用</div>
                 <div>※ 内容中若出现游戏相关图片等，其版权属开发商、运营所有</div>
+                <div>※ 数据参考：Gamewith、蘭德索爾圖書館</div>
                 <div>※ 若资料或内容中有错漏等情况，请联系工具人进行修改</div>
             </div>
         </>

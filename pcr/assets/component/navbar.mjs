@@ -4,6 +4,7 @@ export default ({ current }) => {
         { text: '活动日历', to: 'calendar.html' },
         { text: '角色推荐表', to: 'character-recommend.html' },
         { text: '6星角色表', to: 'character-star-6.html' },
+        { text: '角色实装顺序', to: 'character-debut.html' },
         { text: 'TBC', disabled: true },
     ];
     const navItems = nav.map((item, index) => {
