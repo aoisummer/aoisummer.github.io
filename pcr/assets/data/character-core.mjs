@@ -124,9 +124,10 @@ export default [
     { id: 1137, position: 530, name: "茜里（天使）", rarity: 3 },
     { id: 1138, position: 531, name: "依里（天使）", rarity: 3 },
     { id: 1139, position: 152, name: "纺希（万圣节）", rarity: 3 },
+    { id: 1140, position: 375, name: "怜（万圣节）", rarity: 3 },
     { id: 1141, position: 186, name: "茉莉（万圣节）", rarity: 1 },
+    { id: 1701, position: 433, name: "环奈", rarity: 3 },
     { id: 1802, position: 767, name: "优衣（公主）", rarity: 3 },
     { id: 1804, position: 155, name: "佩可莉姆（公主）", rarity: 3 },
-    { id: 1805, position: 555, name: "可可萝（公主）", rarity: 3 },
-    { id: 9001, position: 600, name: "环奈", rarity: 3 }
+    { id: 1805, position: 555, name: "可可萝（公主）", rarity: 3 }
 ]

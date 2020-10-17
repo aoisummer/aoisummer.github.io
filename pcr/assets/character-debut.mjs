@@ -9,9 +9,9 @@ function DataList({ arr }) {
         { arr.map((item, index) =>
             <li className="list-group-item" key={item.id}>
                 <div className="row">
-                    <div className="col-8 col-lg-6 text-nowrap text-truncate" title="角色名称">{item.name}</div>
+                    <div className="col-8 col-lg-5 text-nowrap text-truncate" title="角色名称">{item.name}</div>
                     <DataListRarityCol number={item.rarity} />
-                    <div className="col-4 col-lg-3 text-nowrap text-truncate text-right text-secondary" title="实装日期">{item.date}</div>
+                    <div className="col-4 col-lg-4 text-nowrap text-truncate text-right text-secondary" title="实装日期">{item.date}</div>
                 </div>
             </li>
         ) }
