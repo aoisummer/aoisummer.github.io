@@ -3,6 +3,29 @@ import Navbar from './component/navbar.mjs';
 import characterData from './data/character-core.mjs';
 import characterDebutData from './data/character-debut.mjs';
 
+const getDataList = (arr, map, field) => {
+    const result = [];
+    arr.forEach((item) => {
+        if (map.has(item.id) && !!map.get(item.id)[field]) {
+            result.push({ ...item, date: map.get(item.id)[field] });
+        }
+    });
+    result.sort((item1, item2) => {
+        const diff = new Date(item2.date) - new Date(item1.date);
+        return diff !== 0 ? diff : item2.id - item1.id;
+    });
+    return result;
+};
+const contentData = (() => {
+    const debutDataMap = new Map();
+    characterDebutData.forEach((item) => {
+        debutDataMap.set(item.cid, item);
+    });
+    const listCN = getDataList(characterData, debutDataMap, 'debutDateCN');
+    const listJP = getDataList(characterData, debutDataMap, 'debutDateJP');
+    return { listCN, listJP };
+})();
+
 function DataList({ arr }) {
     return (
         <ul className="list-group mb-3">
@@ -49,20 +72,8 @@ function App() {
         e.preventDefault();
         setFilterIndex(Number(e.currentTarget.getAttribute('data-index')));
     };
-
-    const parseDataList = (arr, field) => {
-        const result = arr.filter((item) => !!item[field]).map((item1) => {
-            const cData = characterData.filter((item2) => item2.id === item1.cid)[0];
-            return { ...cData, date: item1[field] };
-        });
-        result.sort((item1, item2) => {
-            const diff = new Date(item2.date) - new Date(item1.date);
-            return diff !== 0 ? diff : item2.id - item1.id;m
-        });
-        return result;
-    };
-    let data1 = parseDataList(characterDebutData, 'debutDateCN');
-    let data2 = parseDataList(characterDebutData, 'debutDateJP');
+    let data1 = contentData.listCN;
+    let data2 = contentData.listJP;
 
     switch (filterIndex) {
         case 1:

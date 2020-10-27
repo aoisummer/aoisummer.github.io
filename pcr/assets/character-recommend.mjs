@@ -5,16 +5,46 @@ import characterCoreData from './data/character-core.mjs';
 import characterDebutData from './data/character-debut.mjs';
 import recommendData from './data/recommend.mjs';
 
-function DataTable({ character, extra }) {
-    return (
-        <div className="table-responsive">
-            <table className="table table-sm x-table">
-                <DataTableHead extra={extra} />
-                <DataTableBody character={character} extra={extra} />
-            </table>
-        </div>
-    );
-}
+const repeatItem = (n, s = '') => {
+    const result = [];
+    for (let i = 0; i < n; i += 1) {
+        result.push(s);
+    }
+    return result;
+};
+const contentData = (() => {
+    const currentDate = new Date();
+    const sizeGroup = [];
+    const outdatedGroup = [];
+    const rowGroup = [];
+    const charList = [];
+    const debutCharCN = characterDebutData.filter((item) => !!item.debutDateCN).map((item) => item.cid);
+
+    recommendData.forEach((item1) => {
+        const size = item1.row.length;
+        const itemMap = new Map();
+        const contentDate = new Date(item1.lastModified);
+
+        sizeGroup.push(size);
+        Array.prototype.push.apply(outdatedGroup, repeatItem(size, !(currentDate.getFullYear() === contentDate.getFullYear() && currentDate.getMonth() === contentDate.getMonth())));
+        item1.data.forEach((item2) => {
+            itemMap.set(item2.cid, item2.row);
+        });
+        rowGroup.push(itemMap);
+    });
+
+    characterCoreData.forEach((char) => {
+        const rows = [];
+        sizeGroup.forEach((size, index) => {
+            const row = rowGroup[index].get(char.id) || [];
+            Array.prototype.push.apply(rows, row.slice(0, size));
+            Array.prototype.push.apply(rows, repeatItem(size - row.length));
+        });
+        charList.push({ ...char, row: rows });
+    });
+    charList.sort((char1, char2) => char1.position - char2.position);
+    return { charList, debutCharCN, outdatedGroup };
+})();
 
 function DataTableHead({ extra }) {
     const col1 = [];
@@ -50,71 +80,6 @@ function DataTableHead({ extra }) {
     );
 }
 
-function DataTableBody({ character, extra }) {
-    const chars = character.slice();
-    chars.sort((char1, char2) => char1.position - char2.position);
-
-    const typeCount = [0, 0, 0];
-    chars.forEach((item, index) => {
-        if (item.position <= 300) {
-            typeCount[0]++;
-        } else if (item.position <= 600) {
-            typeCount[1]++;
-        } else {
-            typeCount[2]++;
-        }
-    });
-
-    return (
-        <tbody>
-        { chars.map((item, index) =>
-            <tr key={item.id}>
-                <DataTableTypeCell typeCount={typeCount} index={index} />
-                <td>{item.position}</td>
-                <td>{item.name}</td>
-                <DataTableRarityCell number={item.rarity} />
-                <DataTableValueCells extra={extra} id={item.id} />
-            </tr>
-        ) }
-        </tbody>
-    );
-}
-
-function DataTableValueCells({ extra, id }) {
-    const cols = [];
-    const currentDate = new Date();
-
-    extra.forEach((item1, index1) => {
-        const row = item1.data.filter((item1Child) => item1Child.cid === id);
-        const className = [];
-        const colSize = item1.row.length;
-        const contentDate = new Date(item1.lastModified);
-        const isOutdated = !(currentDate.getFullYear() === contentDate.getFullYear() && currentDate.getMonth() === contentDate.getMonth());
-        let empty = 0;
-        
-        isOutdated && className.push('x-table-cell-outdated');
-        if (row.length > 0) {
-            row[0].row.slice(0, colSize).forEach((item2, index2) => {
-                cols.push(
-                    <td className={className.join(' ')} key={[id, index1, index2].join(',')}>{item2}</td>
-                );
-            });
-            empty = colSize - row[0].row.length;
-        } else {
-            empty = colSize;
-        }
-        if (empty > 0) {
-            className.push('x-table-cell-empty');
-            for (let emptyIndex = 0; emptyIndex < empty; emptyIndex++) {
-                cols.push(
-                    <td className={className.join(' ')} key={[id, index1, emptyIndex - empty].join(',')}></td>
-                );
-            }
-        }
-    });
-    return cols;
-}
-
 function DataTableTypeCell({ typeCount, index }) {
     switch (index) {
         case 0:
@@ -141,10 +106,42 @@ function DataTableRarityCell({ number }) {
     );
 }
 
+function DataTableBody({ charList, outdated }) {
+    const typeCount = [0, 0, 0];
+    charList.forEach((item, index) => {
+        if (item.position <= 300) {
+            typeCount[0] += 1;
+        } else if (item.position <= 600) {
+            typeCount[1] += 1;
+        } else {
+            typeCount[2] += 1;
+        }
+    });
+
+    return (
+        <tbody>
+        { charList.map((item, index) =>
+            <tr key={item.id}>
+                <DataTableTypeCell typeCount={typeCount} index={index} />
+                <td>{item.position}</td>
+                <td>{item.name}</td>
+                <DataTableRarityCell number={item.rarity} />
+                { item.row.map((item2, index2) => {
+                    const className = [];
+                    outdated[index2] && className.push('x-table-cell-outdated');
+                    return (
+                        <td className={className.join(' ')} key={index2}>{item2}</td>
+                    );
+                }) }
+            </tr>
+        ) }
+        </tbody>
+    );
+}
+
 function App() {
     const [showUpcoming, setShowUpcoming] = React.useState(false);
     const handleUpcomingChange = (e) => setShowUpcoming((state) => !state);
-    const debutCharacter = characterDebutData.filter((item) => !!item.debutDateCN).map((item) => item.cid);
 
     return (
         <div className="container my-3">
@@ -155,7 +152,12 @@ function App() {
             </div>
             <div className="card">
                 <div className="card-body">
-                    <DataTable character={showUpcoming ? characterCoreData : characterCoreData.filter((item) => debutCharacter.indexOf(item.id) > 0)} extra={recommendData} />
+                    <div className="table-responsive">
+                        <table className="table table-sm x-table">
+                            <DataTableHead extra={recommendData} />
+                            <DataTableBody charList={showUpcoming ? contentData.charList : contentData.charList.filter((item) => contentData.debutCharCN.indexOf(item.id) > 0)} outdated={contentData.outdatedGroup} />
+                        </table>
+                    </div>
                 </div>
             </div>
             <div className="mt-2 text-secondary x-text-sm">※ 各推荐皆统计于各位作者文章，点击名字可以查看来源</div>

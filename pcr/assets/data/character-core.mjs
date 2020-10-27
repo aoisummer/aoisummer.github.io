@@ -129,5 +129,5 @@ export default [
     { id: 1701, position: 433, name: "环奈", rarity: 3 },
     { id: 1802, position: 767, name: "优衣（公主）", rarity: 3 },
     { id: 1804, position: 155, name: "佩可莉姆（公主）", rarity: 3 },
-    { id: 1805, position: 555, name: "可可萝（公主）", rarity: 3 }
+    { id: 1805, position: 555, name: "可可萝（公主）", rarity: 3 },
 ]

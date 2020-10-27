@@ -3,6 +3,20 @@ import Navbar from './component/navbar.mjs';
 import characterData from './data/character-core.mjs';
 import characterStar6Data from './data/character-star-6.mjs';
 
+const parseDataList = (field) => {
+    const result = characterStar6Data.filter((item) => !!item[field]).map((item1) => {
+        const cData = characterData.filter((item2) => item2.id === item1.cid)[0];
+        return { ...cData, date: item1[field] };
+    });
+    result.sort((item1, item2) => new Date(item1.date) - new Date(item2.date));
+    return result;
+};
+const contentData = (() => {
+    const listCN = [];
+    const listJP = parseDataList('star6DateJP');
+    return { listCN, listJP };
+})();
+
 function DataList({ arr }) {
     return (
         <ul className="list-group">
@@ -31,17 +45,6 @@ function DataListRarityCol({ number }) {
 }
 
 function App() {
-    const parseDataList = (arr, field) => {
-        const result = arr.filter((item) => !!item[field]).map((item1) => {
-            const cData = characterData.filter((item2) => item2.id === item1.cid)[0];
-            return { ...cData, date: item1[field] };
-        });
-        result.sort((item1, item2) => new Date(item1.date) - new Date(item2.date));
-        return result;
-    };
-    // const data1 = parseDataList(characterStar6Data, 'star6DateCN');
-    const data2 = parseDataList(characterStar6Data, 'star6DateJP');
-
     return (
         <div className="container my-3">
             <Navbar current="2" />
@@ -54,7 +57,7 @@ function App() {
                 </div>
                 <div className="col-md-6">
                     <h2 className="h5 mb-3">日版进度</h2>
-                    <DataList arr={data2} />
+                    <DataList arr={contentData.listJP} />
                 </div>
             </div>
             <h2 className="h5 mt-3 mb-3">功能简介</h2>
@@ -96,4 +99,3 @@ ReactDOM.render(
     <App />,
     document.querySelector('#root')
 );
-
