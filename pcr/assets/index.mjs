@@ -50,6 +50,7 @@ function App() {
         { text: "竞技场对战查询", to: "https://pcrdfans.com/battle" },
         { text: "专用装备一览", to: "https://pcredivewiki.tw/UniqueEquipment" },
         { text: "角色碎片获取", to: "https://pcredivewiki.tw/Other/PieceOfMemory" },
+        { text: "装备需求计算", to: "https://pcredivewiki.tw/Armory" },
     ];
     const handleEmptyLink = (e) => e.preventDefault();
     return (
@@ -110,7 +111,7 @@ function App() {
             <div className="container mb-3 x-text-sm text-secondary">
                 <div>※ 这个网站主要是为了<del>补别家不容易查的资料</del>安利用</div>
                 <div>※ 内容中若出现游戏相关图片等，其版权属开发商、运营所有</div>
-                <div>※ 数据参考：Gamewith、蘭德索爾圖書館</div>
+                <div>※ 数据参考：Gamewith プリコネR攻略、蘭德索爾圖書館</div>
                 <div>※ 若资料或内容中有错漏等情况，请联系工具人进行修改</div>
             </div>
         </>

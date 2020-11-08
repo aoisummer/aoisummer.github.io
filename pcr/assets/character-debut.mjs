@@ -92,7 +92,7 @@ function App() {
 
     return (
         <div className="container my-3">
-            <Navbar current="3" />
+            <Navbar />
             <Tabs current={filterIndex} onTabClick={handleFilterClick} />
             <div className="row mb-3">
                 <div className="col-md-6">

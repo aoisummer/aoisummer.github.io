@@ -22,6 +22,9 @@ body {
 }
 
 
+.x-navbar .dropdown-menu {
+    font-size: inherit;
+}
 .x-navbar-toggle {
     display: none;
 }

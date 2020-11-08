@@ -145,7 +145,7 @@ function App() {
 
     return (
         <div className="container my-3">
-            <Navbar current="1" />
+            <Navbar />
             <div className="mb-3 text-right">
                 <span className="mr-2 align-middle"><del className="mr-1 text-secondary">千里眼</del>亚里莎</span>
                 <Checkbox isChecked={showUpcoming} onChange={handleUpcomingChange} />

@@ -47,7 +47,7 @@ function DataListRarityCol({ number }) {
 function App() {
     return (
         <div className="container my-3">
-            <Navbar current="2" />
+            <Navbar />
             <div className="row mb-2">
                 <div className="col-md-6">
                     <h2 className="h5 mb-3">简体字版进度</h2>
