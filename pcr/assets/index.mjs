@@ -44,6 +44,7 @@ function App() {
         { text: "角色 Rank、星级推荐", to: "character-recommend.html" },
         { text: "6星角色一览", to: "character-star-6.html" },
         { text: "角色实装顺序", to: "character-debut.html" },
+        { text: "剧情活动一览", to: "quest-storyevent.html" },
     ];
     const nav2 = [
         { text: "行会战工具", to: "https://www.bigfun.cn/tools/pcrteam/" },

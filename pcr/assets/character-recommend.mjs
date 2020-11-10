@@ -155,7 +155,7 @@ function App() {
                     <div className="table-responsive">
                         <table className="table table-sm x-table">
                             <DataTableHead extra={recommendData} />
-                            <DataTableBody charList={showUpcoming ? contentData.charList : contentData.charList.filter((item) => contentData.debutCharCN.indexOf(item.id) > 0)} outdated={contentData.outdatedGroup} />
+                            <DataTableBody charList={showUpcoming ? contentData.charList : contentData.charList.filter((item) => contentData.debutCharCN.indexOf(item.id) > -1)} outdated={contentData.outdatedGroup} />
                         </table>
                     </div>
                 </div>
