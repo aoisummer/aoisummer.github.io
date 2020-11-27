@@ -19,4 +19,5 @@ export default [
     { cid: 1032, star6DateCN: null, star6DateJP: "2020-09-07" },
     { cid: 1030, star6DateCN: null, star6DateJP: "2020-10-07" },
     { cid: 1033, star6DateCN: null, star6DateJP: "2020-11-05" },
+    { cid: 1016, star6DateCN: null, star6DateJP: "2020-12-07" },
 ]
