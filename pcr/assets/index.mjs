@@ -44,12 +44,13 @@ function App() {
         { text: "角色 Rank、星级推荐", to: "character-recommend.html" },
         { text: "6星角色一览", to: "character-star-6.html" },
         { text: "角色实装顺序", to: "character-debut.html" },
+        { text: '专属装备一览', to: 'character-specific-equipment.html' },
         { text: "剧情活动一览", to: "quest-storyevent.html" },
     ];
     const nav2 = [
         { text: "行会战工具", to: "https://www.bigfun.cn/tools/pcrteam/" },
         { text: "竞技场对战查询", to: "https://pcrdfans.com/battle" },
-        { text: "专用装备一览", to: "https://pcredivewiki.tw/UniqueEquipment" },
+        { text: "专用装备一览（日、繁）", to: "https://pcredivewiki.tw/UniqueEquipment" },
         { text: "角色碎片获取", to: "https://pcredivewiki.tw/Other/PieceOfMemory" },
         { text: "装备需求计算", to: "https://pcredivewiki.tw/Armory" },
     ];

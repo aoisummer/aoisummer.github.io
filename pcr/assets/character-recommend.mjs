@@ -26,7 +26,7 @@ const contentData = (() => {
         const contentDate = new Date(item1.lastModified);
 
         sizeGroup.push(size);
-        Array.prototype.push.apply(outdatedGroup, repeatItem(size, !(currentDate.getFullYear() === contentDate.getFullYear() && currentDate.getMonth() === contentDate.getMonth())));
+        Array.prototype.push.apply(outdatedGroup, repeatItem(size, currentDate.getFullYear() * 100 + currentDate.getMonth() > contentDate.getFullYear() * 100 + contentDate.getMonth()));
         item1.data.forEach((item2) => {
             itemMap.set(item2.cid, item2.row);
         });

@@ -128,6 +128,8 @@ export default [
     { id: 1141, position: 186, name: "茉莉（万圣节）", rarity: 1 },
     { id: 1142, position: 528, name: "莫妮卡（魔法少女）", rarity: 3 },
     { id: 1143, position: 402, name: "智（魔法少女）", rarity: 3 },
+    { id: 1144, position: 189, name: "秋乃（圣诞节）", rarity: 3 },
+    { id: 1146, position: 408, name: "由加莉（圣诞节）", rarity: 1 },
     { id: 1701, position: 433, name: "环奈", rarity: 3 },
     { id: 1802, position: 767, name: "优衣（公主）", rarity: 3 },
     { id: 1804, position: 155, name: "佩可莉姆（公主）", rarity: 3 },

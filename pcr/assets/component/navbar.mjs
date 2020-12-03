@@ -1,5 +1,3 @@
-const handleEmptyLink = (e) => e.preventDefault();
-
 function NavbarNav({ data, current, onItemClick }) {
     const [clickIndex, setClickIndex] = React.useState(-1);
 
@@ -56,6 +54,7 @@ export default ({ current }) => {
             { text: '角色推荐表', to: 'character-recommend.html' },
             { text: '6星角色表', to: 'character-star-6.html' },
             { text: '角色实装顺序', to: 'character-debut.html' },
+            { text: '专属装备一览', to: 'character-specific-equipment.html' },
         ] },
         { text: '冒险', child: [
             { text: '故事活动一览', to: 'quest-storyevent.html' },

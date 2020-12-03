@@ -34,6 +34,9 @@ body {
 }
 
 
+.x-card-body-sm {
+    padding: 0.75rem 1rem;
+}
 .x-card-link {
     display: block;
     padding: 0.5rem 1rem;
