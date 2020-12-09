@@ -50,7 +50,7 @@ function Tabs({ current, onTabClick }) {
 }
 
 function App() {
-    const [filterIndex, setFilterIndex] = React.useState(1);
+    const [filterIndex, setFilterIndex] = React.useState(0);
     const handleFilterClick = (e) => {
         e.preventDefault();
         setFilterIndex(Number(e.currentTarget.getAttribute('data-index')));

@@ -63,7 +63,7 @@ export default ({ current }) => {
 
     return (
         <div className="navbar navbar-expand-md navbar-light bg-white shadow-sm rounded mb-3 x-navbar">
-            <a className="navbar-brand" href="./">&lt;公主连结R小工具 /&gt;</a>
+            <a className="navbar-brand" href="./">公主连接R小工具</a>
             <label className="navbar-toggler mb-0" htmlFor="navbar-toggle">
                 <span className="navbar-toggler-icon"></span>
             </label>

@@ -12,4 +12,8 @@ export default [
     { cid: 1046, equipmentName: '梦幻鲷鱼烧', addDate: '2020-11-30' },
     { cid: 1048, equipmentName: '溟龙枪利维坦', addDate: '2020-11-30' },
     { cid: 1063, equipmentName: '女王缇达尼亚斯', addDate: '2020-11-30' },
+    { cid: 1030, equipmentName: '紅蓮爆炎扇', addDate: '2020-12-20' },
+    { cid: 1031, equipmentName: '凜魂之袍', addDate: '2020-12-20' },
+    { cid: 1034, equipmentName: '永恆之盅', addDate: '2020-12-20' },
+    { cid: 1049, equipmentName: '神聖之刃', addDate: '2020-12-20' },
 ]
