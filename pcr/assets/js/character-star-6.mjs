@@ -60,37 +60,6 @@ function App() {
                     <DataList arr={contentData.listJP} />
                 </div>
             </div>
-            <h2 className="h5 mt-3 mb-3">功能简介</h2>
-            <div className="row">
-                <div className="col-md-6 mb-3">
-                    <div className="card">
-                        <div className="card-body">
-                            <h3 className="h6 mb-3">角色升级到 6 星带来的变化</h3>
-                            <ol className="mb-0">
-                                <li>连结爆发强化</li>
-                                <li>基础状态值提升</li>
-                                <li>连结爆发的演出发生变化</li>
-                                <li>角色 SD 和插画发生变化</li>
-                                <li>好感度上限增加，角色故事也将增加</li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-md-6 mb-3">
-                    <div className="card">
-                        <div className="card-body">
-                            <h3 className="h6 mb-3">方法</h3>
-                            <ol className="mb-0">
-                                <li>将角色开花到 5 星，并装备上专属装备</li>
-                                <li>收集 50 个记忆碎片</li>
-                                <li>收集 100 个纯净记忆碎片</li>
-                                <li>收集 100 个公主宝珠</li>
-                                <li>收集以上物品后完成 6 星解放关卡</li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     );
 }

@@ -10,9 +10,10 @@ const contentData = (() => {
         map.set(item.id, item);
     });
     const parseData = (arr) => {
-        return arr.map((item) => {
+        const arr2 = arr.map((item) => {
             return { ...item, character: item.character.map((item2) => map.get(item2).name) };
-        })
+        });
+        return arr2.reverse();
     };
     return [parseData(storyeventDataCN), parseData(storyeventDataJP)];
 })();
@@ -25,43 +26,31 @@ function DataList({ data }) {
             return (
                 <li className="list-group-item" key={index}>
                     <div className="row">
-                        <div className="col-sm-6" title="活动名称">{item.name}</div>
-                        <div className="col-sm-4" title="角色碎片">{item.character.join('、')}</div>
-                        <div className="col-sm-2 text-right text-secondary" title="活动日期">{dateField}</div>
+                        <div className="col-8" title="活动名称">{item.name}</div>
+                        <div className="col-4 text-right text-secondary" title="活动日期">{dateField}</div>
+                        <div className="col mt-1 x-text-sm text-secondary">角色碎片：{item.character.join('、')}</div>
                     </div>
                 </li>
-            );
+            )
         }) }
         </ul>
     );
 }
 
-function Tabs({ current, onTabClick }) {
-    const tabs = ['简体字版', '日版'];
-    return (
-        <div className="x-tabs-nav x-tabs-nav-block mb-3">
-        { tabs.map((item, index) => {
-            const className = ['x-tabs-nav-item'];
-            current === index && className.push('active');
-            return <a className={className.join(' ')} href="#" data-index={index} key={index} onClick={onTabClick}>{item}</a>
-        }) }
-        </div>
-    );
-}
-
 function App() {
-    const [filterIndex, setFilterIndex] = React.useState(0);
-    const handleFilterClick = (e) => {
-        e.preventDefault();
-        setFilterIndex(Number(e.currentTarget.getAttribute('data-index')));
-    };
-
     return (
         <div className="container my-3">
             <Navbar />
-            <h2 className="h5 mb-3">剧情活动一览</h2>
-            <Tabs current={filterIndex} onTabClick={handleFilterClick} />
-            <DataList data={contentData[filterIndex]} />
+            <div className="row">
+                <div className="col-lg-6 mb-3">
+                    <h2 className="h5 mb-3">简体字版</h2>
+                    <DataList data={contentData[0]} />
+                </div>
+                <div className="col-lg-6">
+                    <h2 className="h5 mb-3">日版</h2>
+                    <DataList data={contentData[1]} />
+                </div>
+            </div>
         </div>
     );
 }

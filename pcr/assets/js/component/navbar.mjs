@@ -57,7 +57,7 @@ export default ({ current }) => {
             { text: '专属装备一览', to: 'character-specific-equipment.html' },
         ] },
         { text: '冒险', child: [
-            { text: '故事活动一览', to: 'quest-storyevent.html' },
+            { text: '剧情活动一览', to: 'quest-storyevent.html' },
         ] },
     ];
 
