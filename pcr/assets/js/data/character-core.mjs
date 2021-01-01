@@ -132,8 +132,10 @@ export default [
     { id: 1145, position: 150, name: "咲恋（圣诞节）", rarity: 3 },
     { id: 1146, position: 408, name: "由加莉（圣诞节）", rarity: 1 },
     { id: 1701, position: 433, name: "环奈", rarity: 3 },
-    { id: 1702, position: 600, name: "环奈（振袖）", rarity: 3 },
+    { id: 1702, position: 520, name: "环奈（振袖）", rarity: 3 },
+    { id: 1801, position: 300, name: "日和莉（公主）", rarity: 3 },
     { id: 1802, position: 767, name: "优衣（公主）", rarity: 3 },
     { id: 1804, position: 155, name: "佩可莉姆（公主）", rarity: 3 },
     { id: 1805, position: 555, name: "可可萝（公主）", rarity: 3 },
+    { id: 9001, position: 300, name: "矛依未（新年）", rarity: 1 },
 ]
