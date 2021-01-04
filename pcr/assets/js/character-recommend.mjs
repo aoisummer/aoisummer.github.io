@@ -70,7 +70,7 @@ function DataTableHead({ extra }) {
         <thead>
             <tr>
                 <th rowSpan="2"></th>
-                <th rowSpan="2">位置</th>
+                <th rowSpan="2">距离</th>
                 <th rowSpan="2">名字</th>
                 <th rowSpan="2">稀有度</th>
                 {col1}
