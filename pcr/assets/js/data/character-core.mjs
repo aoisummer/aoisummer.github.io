@@ -103,6 +103,7 @@ export default [
     { id: 1115, position: 265, name: "克莉丝提娜（圣诞节）", rarity: 3 },
     { id: 1116, position: 418, name: "望（圣诞节）", rarity: 1 },
     { id: 1117, position: 255, name: "伊莉亚（圣诞节）", rarity: 3 },
+    { id: 1118, position: 248, name: "佩可莉姆（新年）", rarity: 3 },
     { id: 1119, position: 159, name: "可可萝（新年）", rarity: 3 },
     { id: 1120, position: 690, name: "凯露（新年）", rarity: 3 },
     { id: 1121, position: 722, name: "铃莓（新年）", rarity: 1 },
@@ -138,5 +139,4 @@ export default [
     { id: 1802, position: 767, name: "优衣（公主）", rarity: 3 },
     { id: 1804, position: 155, name: "佩可莉姆（公主）", rarity: 3 },
     { id: 1805, position: 555, name: "可可萝（公主）", rarity: 3 },
-    { id: 9002, position: 300, name: "佩可莉姆（新年）", rarity: 3 },
 ]
