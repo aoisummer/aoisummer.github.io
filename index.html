@@ -3,12 +3,64 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css" />
+<style>
+html,
+body {
+    height: 100%;
+}
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0;
+    line-height: 1.5;
+    background-color: #fff;
+    color: #000;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+}
+.text {
+    display: inline-block;
+    min-width: 1.5rem;
+    padding: 0 0.5rem;
+    border: 2px solid #000;
+    background-color: #000;
+    color: #fff;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+.text + .text {
+    margin-left: 0.75rem;
+}
+.text-spacing {
+    text-indent: 0.5rem;
+    letter-spacing: 0.5rem;
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #000;
+        color: #fff;
+    }
+    .text {
+        border-color: currentColor;
+    }
+}
+</style>
 </head>
 <body>
-<div id="root">
-<div class="m-3">Hello, world.</div>
+<div class="row">
+<span class="text text-spacing">HELLO WORLD</span>
 </div>
 </body>
 </html>
