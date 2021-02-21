@@ -56,6 +56,7 @@ export default [
     { id: 1060, position: 750, name: "凯露", rarity: 1 },
     { id: 1061, position: 162, name: "矛依未", rarity: 3 },
     { id: 1063, position: 625, name: "亚里莎", rarity: 3 },
+    { id: 1064, position: 368, name: "雪菲", rarity: 3 },
     { id: 1065, position: 168, name: "嘉夜", rarity: 3 },
     { id: 1066, position: 197, name: "祈梨", rarity: 3 },
     { id: 1068, position: 560, name: "菈比莉斯塔", rarity: 3 },
@@ -142,4 +143,6 @@ export default [
     { id: 1802, position: 767, name: "优衣（公主）", rarity: 3 },
     { id: 1804, position: 155, name: "佩可莉姆（公主）", rarity: 3 },
     { id: 1805, position: 555, name: "可可萝（公主）", rarity: 3 },
+    { id: 1806, position: 900, name: "凯露（公主）", rarity: 3 },
+    { id: 9001, position: 900, name: "霞（夏日）", rarity: 3 },
 ]

@@ -56,6 +56,7 @@ export default [
     { cid: 1060, debutDateCN: "2020-04-17", debutDateJP: "2018-02-15" },
     { cid: 1061, debutDateCN: null, debutDateJP: "2019-02-15" },
     { cid: 1063, debutDateCN: "2020-05-15", debutDateJP: "2018-03-31" },
+    { cid: 1064, debutDateCN: null, debutDateJP: "2021-02-15" },
     { cid: 1065, debutDateCN: null, debutDateJP: "2019-11-15" },
     { cid: 1066, debutDateCN: null, debutDateJP: "2020-06-17" },
     { cid: 1068, debutDateCN: null, debutDateJP: "2020-08-31" },
@@ -142,4 +143,6 @@ export default [
     { cid: 1802, debutDateCN: null, debutDateJP: "2020-06-30" },
     { cid: 1804, debutDateCN: null, debutDateJP: "2020-02-15" },
     { cid: 1805, debutDateCN: null, debutDateJP: "2020-05-31" },
+    { cid: 1806, debutDateCN: null, debutDateJP: "2021-02-28" },
+    { cid: 9001, debutDateCN: null, debutDateJP: "2021-02-23" },
 ]
