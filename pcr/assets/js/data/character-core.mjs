@@ -137,6 +137,8 @@ export default [
     { id: 1150, position: 562, name: "似似花（新年）", rarity: 3 },
     { id: 1155, position: 533, name: "可可萝（礼服）", rarity: 3 },
     { id: 1156, position: 578, name: "优衣（礼服）", rarity: 1 },
+    { id: 1157, position: 738, name: "霞（夏日）", rarity: 3 },
+    { id: 1158, position: 173, name: "莉玛（灰姑娘）", rarity: 1 },
     { id: 1701, position: 433, name: "环奈", rarity: 3 },
     { id: 1702, position: 527, name: "环奈（振袖）", rarity: 3 },
     { id: 1801, position: 199, name: "日和莉（公主）", rarity: 3 },
@@ -144,5 +146,5 @@ export default [
     { id: 1804, position: 155, name: "佩可莉姆（公主）", rarity: 3 },
     { id: 1805, position: 555, name: "可可萝（公主）", rarity: 3 },
     { id: 1806, position: 900, name: "凯露（公主）", rarity: 3 },
-    { id: 9001, position: 900, name: "霞（夏日）", rarity: 3 },
+    { id: 9001, position: 300, name: "真琴（灰姑娘）", rarity: 3 },
 ]

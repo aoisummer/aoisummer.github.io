@@ -1,4 +1,4 @@
 .jekyll/
 
-*.build.js
+*.dev.js
 *.dev.html

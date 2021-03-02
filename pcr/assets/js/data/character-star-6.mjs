@@ -22,7 +22,7 @@ export default [
     { cid: 1016, star6DateCN: null, star6DateJP: "2020-12-07" },
     { cid: 1006, star6DateCN: null, star6DateJP: "2021-01-07" },
     { cid: 1022, star6DateCN: null, star6DateJP: "2021-02-08" },
-    { cid: 1004, star6DateCN: null, star6DateJP: "2021-03-08" },
-    { cid: 1020, star6DateCN: null, star6DateJP: "2021-03-08" },
-    { cid: 1036, star6DateCN: null, star6DateJP: "2021-03-08" },
+    { cid: 1004, star6DateCN: null, star6DateJP: "2021-03-05" },
+    { cid: 1020, star6DateCN: null, star6DateJP: "2021-03-05" },
+    { cid: 1036, star6DateCN: null, star6DateJP: "2021-03-05" },
 ]
