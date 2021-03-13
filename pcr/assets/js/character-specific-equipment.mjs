@@ -20,7 +20,7 @@ const contentData = (() => {
     map.forEach((value, key) => {
         result.push({ date: key, list: value });
     });
-    return result;
+    return result.reverse();
 })();
 
 function DataListRarityCol({ className, number }) {
@@ -40,7 +40,7 @@ function DataList({ arr }) {
         { arr.map((item, index) =>
             <div className="mb-3" key={index}>
                 <div className="d-flex align-items-center mb-1 px-3">
-                    <h3 className="flex-grow-1 h6">第{index + 1}批</h3>
+                    <h3 className="flex-grow-1 h6">第{arr.length - index}批</h3>
                     <div className="ml-auto text-secondary">{item.date}</div>
                 </div>
                 <div className="row">
@@ -72,10 +72,6 @@ function App() {
             <Navbar />
             <div className="d-flex align-items-center mb-3">
                 <h2 className="h5">角色专属装备一览</h2>
-                <div className="ml-auto text-secondary x-text-sm" hidden>
-                    <span>日版数据参考</span>
-                    <a href="https://pcredivewiki.tw/UniqueEquipment" target="_blank" rel="noopener">蘭德索爾圖書館</a>
-                </div>
             </div>
             <DataList arr={contentData} />
         </div>
