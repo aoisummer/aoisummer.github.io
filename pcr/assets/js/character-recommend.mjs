@@ -80,61 +80,65 @@ function DataTableHead({ extra }) {
     );
 }
 
-function DataTableTypeCell({ typeCount, index }) {
-    switch (index) {
-        case 0:
-            return <td rowSpan={typeCount[0]}>前卫</td>;
-        case typeCount[0]:
-            return <td rowSpan={typeCount[1]}>中卫</td>;
-        case typeCount[0] + typeCount[1]:
-            return <td rowSpan={typeCount[2]}>后卫</td>;
-        default:
-            return null;
-    }
-}
-
-function DataTableRarityCell({ number }) {
-    const str = '<i class="i-star"></i>';
-    let result = '';
-    for (let i = 0; i < number; i++) {
-        result += str;
-    }
-    return (
-        <td>
-            <div className="d-flex align-items-center" style={{ height: '1.5em' }} dangerouslySetInnerHTML={{ __html: result }}></div>
-        </td>
-    );
-}
-
-function DataTableBody({ charList, outdated }) {
-    const typeCount = [0, 0, 0];
-    charList.forEach((item, index) => {
-        if (item.position <= 300) {
-            typeCount[0] += 1;
-        } else if (item.position <= 600) {
-            typeCount[1] += 1;
-        } else {
-            typeCount[2] += 1;
+const DataTableRow = React.memo(({ data, type, outdated }) => {
+    const getRarityCell = (number) => {
+        const r = [];
+        for (let i = 0; i < number; i++) {
+            r.push(
+                <i className="i-star" key={i}></i>
+            );
         }
-    });
+        return r;
+    };
+
+    return (
+        <tr>
+            {type.text ? <td rowSpan={type.count}>{type.text}</td> : null}
+            <td>{data.position}</td>
+            <td>{data.name}</td>
+            <td>
+                <div className="d-flex align-items-center" style={{ height: '1.5em' }}>{getRarityCell(data.rarity)}</div>
+            </td>
+            {data.row.map((item2, index2) =>
+                <td className={outdated[index2] ? 'x-table-cell-outdated' : null} key={index2}>{item2}</td>
+            )}
+        </tr>
+    );
+});
+
+function DataTableBody({ data, outdated }) {
+    const typeCount = React.useMemo(() => {
+        const arr = [0, 0, 0];
+        data.forEach((item) => {
+            if (item.position <= 300) {
+                arr[0] += 1;
+            } else if (item.position <= 600) {
+                arr[1] += 1;
+            } else {
+                arr[2] += 1;
+            }
+        });
+        return arr;
+    }, [data]);
+
+    const getTypeCol = (index) => {
+        switch (index) {
+            case 0:
+                return { text: '前卫', count: typeCount[0] };
+            case typeCount[0]:
+                return { text: '中卫', count: typeCount[1] };
+            case typeCount[0] + typeCount[1]:
+                return { text: '后卫', count: typeCount[2] };
+            default:
+                return { text: null, count: 0 };
+        }
+    };
 
     return (
         <tbody>
-        { charList.map((item, index) =>
-            <tr key={item.id}>
-                <DataTableTypeCell typeCount={typeCount} index={index} />
-                <td>{item.position}</td>
-                <td>{item.name}</td>
-                <DataTableRarityCell number={item.rarity} />
-                { item.row.map((item2, index2) => {
-                    const className = [];
-                    outdated[index2] && className.push('x-table-cell-outdated');
-                    return (
-                        <td className={className.join(' ')} key={index2}>{item2}</td>
-                    );
-                }) }
-            </tr>
-        ) }
+        {data.map((item, index) =>
+            <DataTableRow key={item.id} data={item} type={getTypeCol(index)} outdated={outdated} />
+        )}
         </tbody>
     );
 }
@@ -155,7 +159,7 @@ function App() {
                     <div className="table-responsive">
                         <table className="table table-sm x-table">
                             <DataTableHead extra={recommendData} />
-                            <DataTableBody charList={showUpcoming ? contentData.charList : contentData.charList.filter((item) => contentData.debutCharCN.indexOf(item.id) > -1)} outdated={contentData.outdatedGroup} />
+                            <DataTableBody data={showUpcoming ? contentData.charList : contentData.charList.filter((item) => contentData.debutCharCN.indexOf(item.id) > -1)} outdated={contentData.outdatedGroup} />
                         </table>
                     </div>
                 </div>
