@@ -47,15 +47,18 @@ function App() {
     return (
         <div className="container my-3">
             <Navbar />
+            <div className="d-flex align-items-center mb-3">
+                <h2 className="h5">6星角色一览</h2>
+            </div>
             <div className="row mb-2">
                 <div className="col-md-6">
-                    <h2 className="h5 mb-3">简体字版</h2>
+                    <h3 className="h6 mx-3 mb-3">简体字版</h3>
                     <div className="alert alert-warning">
                         <strong>注意：</strong>本项功能尚未实装。
                     </div>
                 </div>
                 <div className="col-md-6">
-                    <h2 className="h5 mb-3">日版</h2>
+                    <h3 className="h6 mx-3 mb-3">日版</h3>
                     <DataList data={contentData.listJP} />
                 </div>
             </div>

@@ -23,18 +23,17 @@ const contentData = (() => {
     return result.reverse();
 })();
 
-function DataListRarityCol({ className, number }) {
-    const str = '<i class="i-star"></i>';
-    let result = '';
-    for (let i = 0; i < number; i++) {
-        result += str;
-    }
-    return (
-        <div className={className} title="稀有度" dangerouslySetInnerHTML={{ __html: result }}></div>
-    );
-}
-
 function DataList({ arr }) {
+    const getRarityCell = React.useCallback((number) => {
+        const r = [];
+        for (let i = 0; i < number; i++) {
+            r.push(
+                <i className="i-star" key={i}></i>
+            );
+        }
+        return r;
+    }, []);
+
     return (
         <>
         { arr.map((item, index) =>
@@ -51,7 +50,7 @@ function DataList({ arr }) {
                                 <div className="row">
                                     <div className="col-6">{item2.name}</div>
                                     <div className="col-6 d-flex">
-                                        <DataListRarityCol className="d-none d-lg-flex align-items-center" number={item2.rarity} />
+                                        <div className="d-none d-lg-flex align-items-center" title="稀有度">{getRarityCell(item2.rarity)}</div>
                                         <div className="ml-auto text-secondary">{item2.equipmentName}</div>
                                     </div>
                                 </div>

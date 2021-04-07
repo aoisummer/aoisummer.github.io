@@ -104,9 +104,6 @@ body {
     background-color: rgba(0, 0, 0, 0.03);
 }
 
-.x-table2 {
-    /*font-size: 0.75rem;*/
-}
 .x-table2 th,
 .x-table2 td {
     padding: 0.25em 0.5em;
@@ -119,7 +116,7 @@ body {
     margin-left: 0.25em;
 }
 .x-table2-icon {
-    width: 32px;
+    width: 48px;
     padding: 0 !important;
 }
 

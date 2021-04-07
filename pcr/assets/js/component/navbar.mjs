@@ -1,4 +1,4 @@
-function NavbarNav({ data, current, onItemClick }) {
+function NavbarNav({ data, current }) {
     const [clickIndex, setClickIndex] = React.useState(-1);
 
     const handleItemClick = (e) => {
@@ -51,6 +51,7 @@ export default ({ current }) => {
     const nav = [
         { text: '活动日历', to: 'calendar.html' },
         { text: '角色', child: [
+            { text: '角色列表', to: 'character-list.html' },
             { text: '角色推荐表', to: 'character-recommend.html' },
             { text: '6星角色表', to: 'character-star-6.html' },
             { text: '角色实装顺序', to: 'character-debut.html' },

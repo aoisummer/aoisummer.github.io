@@ -150,9 +150,12 @@ function App() {
     return (
         <div className="container my-3">
             <Navbar />
-            <div className="mb-3 text-right">
-                <span className="mr-2 align-middle"><del className="mr-1 text-secondary">千里眼</del>亚里莎</span>
-                <Checkbox isChecked={showUpcoming} onChange={handleUpcomingChange} />
+            <div className="d-flex align-items-center mb-3">
+                <h2 className="h5 mb-0">角色 Rank、星级推荐</h2>
+                <div className="ml-auto">
+                    <span className="mr-2 align-middle"><del className="mr-1 text-secondary">千里眼</del>亚里莎</span>
+                    <Checkbox isChecked={showUpcoming} onChange={handleUpcomingChange} />
+                </div>
             </div>
             <div className="card">
                 <div className="card-body">
