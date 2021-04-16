@@ -1,3 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 import Navbar from './component/navbar.mjs';
 
 import characterCoreData from './data/character-core.mjs';

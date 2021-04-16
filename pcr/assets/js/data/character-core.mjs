@@ -149,4 +149,5 @@ export default [
     { id: 1804, position: 155, name: "佩可莉姆（公主）", rarity: 3 },
     { id: 1805, position: 555, name: "可可萝（公主）", rarity: 3 },
     { id: 1806, position: 747, name: "凯露（公主）", rarity: 3 },
+    { id: 9001, position: 300, name: "克萝依（圣学祭）", rarity: 3 },
 ]

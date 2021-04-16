@@ -1,3 +1,7 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import FullCalendar from 'fullcalendar';
+
 import Navbar from './component/navbar.mjs';
 
 function Calendar({ sources }) {
@@ -27,9 +31,7 @@ function App() {
         { id: 'pcr-cn', color: '#f08', _text: '剧情活动' },
         { id: 'pcr-cn-clan-battle', color: '#f08', _text: '行会战' },
         { id: 'pcr-cn-luna-tower', color: '#f08', _text: '露娜塔' },
-    ].map((item) => {
-        return { ...item, url: `https://cdn.jsdelivr.net/gh/aoisummer/ics-collection@master/dist/${item.id}.json` };
-    });
+    ].map((item) => ({ ...item, url: `https://cdn.jsdelivr.net/gh/aoisummer/ics-collection@master/dist/${item.id}.json` }));
 
     return (
         <div className="container my-3">

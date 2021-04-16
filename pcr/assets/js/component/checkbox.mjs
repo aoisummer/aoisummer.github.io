@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default ({ isChecked, onChange }) => {
     return (
         <label className="x-checkbox">

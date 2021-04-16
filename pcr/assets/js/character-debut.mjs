@@ -1,3 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 import Navbar from './component/navbar.mjs';
 
 import characterData from './data/character-core.mjs';
@@ -26,7 +29,7 @@ const contentData = (() => {
     return { listCN, listJP };
 })();
 
-const DataListRow = React.memo(({ data }) => {
+const DataListRow = React.memo(function DataListRow({ data }) {
     const getRarityCell = React.useCallback((number) => {
         const r = [];
         for (let i = 0; i < number; i++) {
@@ -69,37 +72,33 @@ function Tabs({ current, onTabClick }) {
 
 function App() {
     const [filterIndex, setFilterIndex] = React.useState(0);
-
-    const data1 = React.useMemo(() => {
-        const arr = [...contentData.listCN];
-        switch (filterIndex) {
-            case 1:
-                return arr.filter((item) => item.position <= 300);
-            case 2:
-                return arr.filter((item) => item.position > 300 && item.position <= 600);
-            case 3:
-                return arr.filter((item) => item.position > 600);
-            default:
-                return arr;
-        }
-    }, [filterIndex]);
-    const data2 = React.useMemo(() => {
-        const arr = [...contentData.listJP];
-        switch (filterIndex) {
-            case 1:
-                return arr.filter((item) => item.position <= 300);
-            case 2:
-                return arr.filter((item) => item.position > 300 && item.position <= 600);
-            case 3:
-                return arr.filter((item) => item.position > 600);
-            default:
-                return arr;
-        }
-    }, [filterIndex]);
+    const [list1, setList1] = React.useState(() => [...contentData.listCN]);
+    const [list2, setList2] = React.useState(() => [...contentData.listJP]);
 
     const handleFilterClick = React.useCallback((index) => {
         setFilterIndex(index);
     }, []);
+
+    React.useEffect(() => {
+        let arr1 = [...contentData.listCN];
+        let arr2 = [...contentData.listJP];
+        switch (filterIndex) {
+            case 1:
+                arr1 = arr1.filter((item) => item.position <= 300);
+                arr2 = arr2.filter((item) => item.position <= 300);
+                break;
+            case 2:
+                arr1 = arr1.filter((item) => item.position > 300 && item.position <= 600);
+                arr2 = arr2.filter((item) => item.position > 300 && item.position <= 600);
+                break;
+            case 3:
+                arr1 = arr1.filter((item) => item.position > 600);
+                arr2 = arr2.filter((item) => item.position > 600);
+                break;
+        }
+        setList1(arr1);
+        setList2(arr2);
+    }, [filterIndex]);
 
     return (
         <div className="container my-3">
@@ -110,7 +109,7 @@ function App() {
                 <div className="col-md-6">
                     <h3 className="h6 mx-3 mb-3">简体字版</h3>
                     <ul className="list-group mb-3">
-                    {data1.map((item) =>
+                    {list1.map((item) =>
                         <DataListRow data={item} key={item.id} />
                     )}
                     </ul>
@@ -118,7 +117,7 @@ function App() {
                 <div className="col-md-6">
                     <h3 className="h6 mx-3 mb-3">日版</h3>
                     <ul className="list-group mb-3">
-                    {data2.map((item) =>
+                    {list2.map((item) =>
                         <DataListRow data={item} key={item.id} />
                     )}
                     </ul>

@@ -1,7 +1,9 @@
+import React from 'react';
+
 function NavbarNav({ data, current }) {
     const [clickIndex, setClickIndex] = React.useState(-1);
 
-    const handleItemClick = (e) => {
+    const handleItemClick = React.useCallback((e) => {
         if (e.currentTarget.getAttribute('href') === '#') {
             e.preventDefault();
         }
@@ -13,7 +15,7 @@ function NavbarNav({ data, current }) {
             const i = Number(index);
             return prev === i ? -1 : i;
         });
-    };
+    }, []);
 
     return (
         <ul className="navbar-nav mr-auto">
@@ -47,7 +49,7 @@ function NavbarNav({ data, current }) {
     );
 };
 
-export default ({ current }) => {
+export default React.memo(function Navbar({ current }) {
     const nav = [
         { text: '活动日历', to: 'calendar.html' },
         { text: '角色', child: [
@@ -74,4 +76,4 @@ export default ({ current }) => {
             </div>
         </div>
     );
-}
+});

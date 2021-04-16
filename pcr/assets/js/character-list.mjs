@@ -123,7 +123,18 @@ function DataTable({ data, sort, onSort }) {
 
 function App() {
     const [sortType, setSortType] = React.useState('id');
-    const dataList = React.useMemo(() => {
+    const [dataList, setDataList] = React.useState(() => [...allData]);
+
+    const onTableSort = (type) => {
+        setSortType(type);
+    };
+
+    React.useEffect(() => {
+        const sort = new URLSearchParams(location.search).get('sort');
+        sort && setSortType(sort);
+    }, []);
+
+    React.useEffect(() => {
         const arr = [...allData];
         switch (sortType) {
             // case 'id':
@@ -146,17 +157,8 @@ function App() {
                 arr.sort((a, b) => new Date(b[sortType]) - new Date(a[sortType]));
                 break;
         }
-        return arr;
+        setDataList(arr);
     }, [sortType]);
-
-    const onTableSort = (type) => {
-        setSortType(type);
-    };
-
-    React.useEffect(() => {
-        const sort = new URLSearchParams(location.search).get('sort');
-        sort && setSortType(sort);
-    }, []);
 
     return (
         <div className="container my-3">

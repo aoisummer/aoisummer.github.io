@@ -1,3 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 import Navbar from './component/navbar.mjs';
 import Checkbox from './component/checkbox.mjs';
 
@@ -46,25 +49,33 @@ const contentData = (() => {
     return { charList, debutCharCN, outdatedGroup };
 })();
 
-function DataTableHead({ extra }) {
-    const col1 = [];
-    const col2 = [];
-    const onAuthorClick = (e) => e.preventDefault();
+const DataTableHead = React.memo(function DataTableHead({ extra }) {
+    const handleAuthorClick = (e) => e.preventDefault();
 
-    extra.forEach((item, index) => {
-        col1.push(
-            <th colSpan={item.row.length} key={index}>
-                { item.source ?
-                    <a href={item.source} target="_blank" rel="noopener" title={'更新时间：' + item.lastModified}>{item.author}</a> :
-                    <a href="#" onClick={onAuthorClick}>{item.author}</a> }
-            </th>
-        );
-        item.row.forEach((col, index2) => {
-            col2.push(
-                <th key={[index, index2].join(',')}>{col}</th>
+    const col1 = React.useMemo(() => {
+        const col1 = [];
+        extra.forEach((item, index) => {
+            col1.push(
+                <th colSpan={item.row.length} key={index}>
+                    { item.source ?
+                        <a href={item.source} target="_blank" rel="noopener" title={'更新时间：' + item.lastModified}>{item.author}</a> :
+                        <a href="#" onClick={handleAuthorClick}>{item.author}</a> }
+                </th>
             );
         });
-    });
+        return col1;
+    }, [extra]);
+    const col2 = React.useMemo(() => {
+        const col2 = [];
+        extra.forEach((item, index) => {
+            item.row.forEach((col, index2) => {
+                col2.push(
+                    <th key={[index, index2].join(',')}>{col}</th>
+                );
+            });
+        });
+        return col2;
+    }, [extra]);
 
     return (
         <thead>
@@ -78,9 +89,9 @@ function DataTableHead({ extra }) {
             <tr>{col2}</tr>
         </thead>
     );
-}
+});
 
-const DataTableRow = React.memo(({ data, type, outdated }) => {
+const DataTableRow = React.memo(function DataTableRow({ data, type, outdated }) {
     const getRarityCell = (number) => {
         const r = [];
         for (let i = 0; i < number; i++) {
@@ -121,7 +132,7 @@ function DataTableBody({ data, outdated }) {
         return arr;
     }, [data]);
 
-    const getTypeCol = (index) => {
+    const getTypeCol = React.useCallback((index) => {
         switch (index) {
             case 0:
                 return { text: '前卫', count: typeCount[0] };
@@ -132,7 +143,7 @@ function DataTableBody({ data, outdated }) {
             default:
                 return { text: null, count: 0 };
         }
-    };
+    }, [typeCount]);
 
     return (
         <tbody>
@@ -145,7 +156,13 @@ function DataTableBody({ data, outdated }) {
 
 function App() {
     const [showUpcoming, setShowUpcoming] = React.useState(false);
-    const handleUpcomingChange = (e) => setShowUpcoming((state) => !state);
+    const [dataList, setDataList] = React.useState(() => [...contentData.charList].filter((item) => contentData.debutCharCN.indexOf(item.id) > -1));
+
+    const handleUpcomingChange = React.useCallback((e) => setShowUpcoming((prev) => !prev), []);
+
+    React.useEffect(() => {
+        setDataList(showUpcoming ? [...contentData.charList] : [...contentData.charList].filter((item) => contentData.debutCharCN.indexOf(item.id) > -1));
+    }, [showUpcoming]);
 
     return (
         <div className="container my-3">
@@ -162,7 +179,7 @@ function App() {
                     <div className="table-responsive">
                         <table className="table table-sm x-table">
                             <DataTableHead extra={recommendData} />
-                            <DataTableBody data={showUpcoming ? contentData.charList : contentData.charList.filter((item) => contentData.debutCharCN.indexOf(item.id) > -1)} outdated={contentData.outdatedGroup} />
+                            <DataTableBody data={dataList} outdated={contentData.outdatedGroup} />
                         </table>
                     </div>
                 </div>
