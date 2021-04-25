@@ -2,6 +2,7 @@ import React from 'react';
 
 function NavbarNav({ data, current }) {
     const [clickIndex, setClickIndex] = React.useState(-1);
+    const navRoot = React.useRef(null);
 
     const handleItemClick = React.useCallback((e) => {
         if (e.currentTarget.getAttribute('href') === '#') {
@@ -16,9 +17,19 @@ function NavbarNav({ data, current }) {
             return prev === i ? -1 : i;
         });
     }, []);
+    const handleOutsideClick = React.useCallback((e) => {
+        if (navRoot.current && navRoot.current !== e.target && !navRoot.current.contains(e.target)) {
+            setClickIndex(-1);
+        }
+    }, []);
+
+    React.useEffect(() => {
+        document.addEventListener('click', handleOutsideClick);
+        return () => document.removeEventListener('click', handleOutsideClick);
+    }, []);
 
     return (
-        <ul className="navbar-nav mr-auto">
+        <ul className="navbar-nav mr-auto" ref={navRoot}>
             { data.map((item, index) => {
                 const className1 = ['nav-item'];
                 const className2 = ['nav-link'];

@@ -141,6 +141,7 @@ export default [
     { id: 1158, position: 173, name: "莉玛（灰姑娘）", rarity: 1 },
     { id: 1159, position: 166, name: "真琴（灰姑娘）", rarity: 3 },
     { id: 1160, position: 645, name: "真步（灰姑娘）", rarity: 3 },
+    { id: 1162, position: 184, name: "克萝依（圣学祭）", rarity: 3 },
     { id: 1163, position: 223, name: "琪爱儿（圣学祭）", rarity: 3 },
     { id: 1701, position: 433, name: "环奈", rarity: 3 },
     { id: 1702, position: 527, name: "环奈（振袖）", rarity: 3 },
@@ -149,5 +150,4 @@ export default [
     { id: 1804, position: 155, name: "佩可莉姆（公主）", rarity: 3 },
     { id: 1805, position: 555, name: "可可萝（公主）", rarity: 3 },
     { id: 1806, position: 747, name: "凯露（公主）", rarity: 3 },
-    { id: 9001, position: 300, name: "克萝依（圣学祭）", rarity: 3 },
 ]
