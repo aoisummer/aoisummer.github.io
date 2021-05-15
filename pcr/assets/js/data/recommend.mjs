@@ -131,7 +131,7 @@ export default [
             { cid: 1091, row: ["keep*"] },
             { cid: 1033, row: ["-*"] },
             { cid: 1034, row: ["12/keep*"] },
-            { cid: 1053, row: ["-*"] },
+            { cid: 1053, row: ["12*"] },
             { cid: 1030, row: ["12*"] },
             { cid: 1048, row: ["-*"] },
             { cid: 1044, row: ["13"] },
