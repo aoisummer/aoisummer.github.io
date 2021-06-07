@@ -144,6 +144,7 @@ export default [
     { id: 1162, position: 184, name: "克萝依（圣学祭）", rarity: 3 },
     { id: 1163, position: 223, name: "琪爱儿（圣学祭）", rarity: 3 },
     { id: 1165, position: 252, name: "祈梨（时光旅行）", rarity: 3 },
+    { id: 1166, position: 169, name: "嘉夜（时光旅行）", rarity: 3 },
     { id: 1701, position: 433, name: "环奈", rarity: 3 },
     { id: 1702, position: 527, name: "环奈（振袖）", rarity: 3 },
     { id: 1801, position: 199, name: "日和莉（公主）", rarity: 3 },
@@ -151,5 +152,6 @@ export default [
     { id: 1804, position: 155, name: "佩可莉姆（公主）", rarity: 3 },
     { id: 1805, position: 555, name: "可可萝（公主）", rarity: 3 },
     { id: 1806, position: 747, name: "凯露（公主）", rarity: 3 },
-    { id: 9001, position: 300, name: "嘉夜（时光旅行）", rarity: 3 },
+    { id: 9001, position: 300, name: "珠希（工作服）", rarity: 1 },
+    { id: 9002, position: 600, name: "碧（工作服）", rarity: 3 },
 ]
