@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useCallback, useEffect, useMemo, memo} from 'react';
 import ReactDOM from 'react-dom';
 
 import Navbar from './component/navbar.mjs';
@@ -49,10 +49,10 @@ const contentData = (() => {
     return { charList, debutCharCN, outdatedGroup };
 })();
 
-const DataTableHead = React.memo(function DataTableHead({ extra }) {
+const DataTableHead = memo(function DataTableHead({ extra }) {
     const handleAuthorClick = (e) => e.preventDefault();
 
-    const col1 = React.useMemo(() => {
+    const col1 = useMemo(() => {
         const col1 = [];
         extra.forEach((item, index) => {
             col1.push(
@@ -65,7 +65,7 @@ const DataTableHead = React.memo(function DataTableHead({ extra }) {
         });
         return col1;
     }, [extra]);
-    const col2 = React.useMemo(() => {
+    const col2 = useMemo(() => {
         const col2 = [];
         extra.forEach((item, index) => {
             item.row.forEach((col, index2) => {
@@ -91,7 +91,7 @@ const DataTableHead = React.memo(function DataTableHead({ extra }) {
     );
 });
 
-const DataTableRow = React.memo(function DataTableRow({ data, type, outdated }) {
+const DataTableRow = memo(function DataTableRow({ data, type, outdated }) {
     const getRarityCell = (number) => {
         const r = [];
         for (let i = 0; i < number; i++) {
@@ -118,7 +118,7 @@ const DataTableRow = React.memo(function DataTableRow({ data, type, outdated }) 
 });
 
 function DataTableBody({ data, outdated }) {
-    const typeCount = React.useMemo(() => {
+    const typeCount = useMemo(() => {
         const arr = [0, 0, 0];
         data.forEach((item) => {
             if (item.position <= 300) {
@@ -132,7 +132,7 @@ function DataTableBody({ data, outdated }) {
         return arr;
     }, [data]);
 
-    const getTypeCol = React.useCallback((index) => {
+    const getTypeCol = useCallback((index) => {
         switch (index) {
             case 0:
                 return { text: '前卫', count: typeCount[0] };
@@ -155,12 +155,12 @@ function DataTableBody({ data, outdated }) {
 }
 
 function App() {
-    const [showUpcoming, setShowUpcoming] = React.useState(false);
-    const [dataList, setDataList] = React.useState(() => [...contentData.charList].filter((item) => contentData.debutCharCN.indexOf(item.id) > -1));
+    const [showUpcoming, setShowUpcoming] = useState(false);
+    const [dataList, setDataList] = useState(() => [...contentData.charList].filter((item) => contentData.debutCharCN.indexOf(item.id) > -1));
 
-    const handleUpcomingChange = React.useCallback((e) => setShowUpcoming((prev) => !prev), []);
+    const handleUpcomingChange = useCallback((e) => setShowUpcoming((prev) => !prev), []);
 
-    React.useEffect(() => {
+    useEffect(() => {
         setDataList(showUpcoming ? [...contentData.charList] : [...contentData.charList].filter((item) => contentData.debutCharCN.indexOf(item.id) > -1));
     }, [showUpcoming]);
 

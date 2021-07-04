@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 import ReactDOM from 'react-dom';
 
 import Navbar from './component/navbar.mjs';
@@ -27,7 +27,7 @@ const contentData = (() => {
 })();
 
 function DataList({ arr }) {
-    const getRarityCell = React.useCallback((number) => {
+    const getRarityCell = useCallback((number) => {
         const r = [];
         for (let i = 0; i < number; i++) {
             r.push(

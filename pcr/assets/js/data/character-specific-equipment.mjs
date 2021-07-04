@@ -41,4 +41,10 @@ export default [
     { cid: 1045, equipmentName: '愉悦项圈', addDate: '2021-05-15' },
     { cid: 1053, equipmentName: '羽翼大衣', addDate: '2021-05-15' },
     { cid: 1057, equipmentName: '亚修凯隆', addDate: '2021-05-15' },
+    { cid: 1004, equipmentName: '捣蛋礼物', addDate: '2021-06-14' },
+    { cid: 1007, equipmentName: '灵甘幽灵布丁', addDate: '2021-06-14' },
+    { cid: 1020, equipmentName: '兔兔长剑', addDate: '2021-06-14' },
+    { cid: 1036, equipmentName: '宇宙蓝色魔杖', addDate: '2021-06-14' },
+    { cid: 1044, equipmentName: '夜之牙暗斧', addDate: '2021-06-14' },
+    { cid: 1050, equipmentName: '魔眼杖‧恶魔之眼', addDate: '2021-06-14' },
 ]

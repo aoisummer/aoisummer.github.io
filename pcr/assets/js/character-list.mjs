@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useCallback, useEffect, memo } from 'react';
 import ReactDOM from 'react-dom';
 
 import Navbar from './component/navbar.mjs';
@@ -39,7 +39,7 @@ const allData = (() => {
     })
 })();
 
-const DataTableRow = React.memo(({ data }) => {
+const DataTableRow = memo(({ data }) => {
     const getRarityCell = (number) => {
         const r = [];
         for (let i = 0; i < number; i++) {
@@ -94,7 +94,7 @@ function DataTable({ data, sort, onSort }) {
         { name: 'debutDateJP', text: '实装时间（日）' },
     ];
 
-    const handleSortClick = React.useCallback((e) => {
+    const handleSortClick = useCallback((e) => {
         e.preventDefault();
         onSort(e.currentTarget.getAttribute('data-sort'));
     }, []);
@@ -122,19 +122,19 @@ function DataTable({ data, sort, onSort }) {
 }
 
 function App() {
-    const [sortType, setSortType] = React.useState('id');
-    const [dataList, setDataList] = React.useState(() => [...allData]);
+    const [sortType, setSortType] = useState('id');
+    const [dataList, setDataList] = useState(() => [...allData]);
 
-    const onTableSort = (type) => {
+    const onTableSort = useCallback((type) => {
         setSortType(type);
-    };
+    }, []);
 
-    React.useEffect(() => {
+    useEffect(() => {
         const sort = new URLSearchParams(location.search).get('sort');
         sort && setSortType(sort);
     }, []);
 
-    React.useEffect(() => {
+    useEffect(() => {
         const arr = [...allData];
         switch (sortType) {
             // case 'id':

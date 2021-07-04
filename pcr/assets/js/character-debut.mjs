@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useCallback, useEffect, memo } from 'react';
 import ReactDOM from 'react-dom';
 
 import Navbar from './component/navbar.mjs';
@@ -29,8 +29,8 @@ const contentData = (() => {
     return { listCN, listJP };
 })();
 
-const DataListRow = React.memo(function DataListRow({ data }) {
-    const getRarityCell = React.useCallback((number) => {
+const DataListRow = memo(function DataListRow({ data }) {
+    const getRarityCell = useCallback((number) => {
         const r = [];
         for (let i = 0; i < number; i++) {
             r.push(
@@ -54,7 +54,7 @@ const DataListRow = React.memo(function DataListRow({ data }) {
 function Tabs({ current, onTabClick }) {
     const tabs = ['全部', '前卫', '中卫', '后卫'];
 
-    const handleItemClick = React.useCallback((e) => {
+    const handleItemClick = useCallback((e) => {
         e.preventDefault();
         typeof onTabClick === 'function' && onTabClick(Number(e.currentTarget.getAttribute('data-index')));
     }, []);
@@ -71,15 +71,15 @@ function Tabs({ current, onTabClick }) {
 }
 
 function App() {
-    const [filterIndex, setFilterIndex] = React.useState(0);
-    const [list1, setList1] = React.useState(() => [...contentData.listCN]);
-    const [list2, setList2] = React.useState(() => [...contentData.listJP]);
+    const [filterIndex, setFilterIndex] = useState(0);
+    const [list1, setList1] = useState(() => [...contentData.listCN]);
+    const [list2, setList2] = useState(() => [...contentData.listJP]);
 
-    const handleFilterClick = React.useCallback((index) => {
+    const handleFilterClick = useCallback((index) => {
         setFilterIndex(index);
     }, []);
 
-    React.useEffect(() => {
+    useEffect(() => {
         let arr1 = [...contentData.listCN];
         let arr2 = [...contentData.listJP];
         switch (filterIndex) {

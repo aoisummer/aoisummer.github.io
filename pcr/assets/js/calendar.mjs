@@ -1,14 +1,14 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import ReactDOM from 'react-dom';
 import FullCalendar from 'fullcalendar';
 
 import Navbar from './component/navbar.mjs';
 
 function Calendar({ sources }) {
-    const el = React.useRef(null);
-    const calendar = React.useRef(null);
+    const el = useRef(null);
+    const calendar = useRef(null);
 
-    React.useEffect(() => {
+    useEffect(() => {
         calendar.current = new FullCalendar.Calendar(el.current, {
             locale: 'zh-cn',
             displayEventEnd: true,

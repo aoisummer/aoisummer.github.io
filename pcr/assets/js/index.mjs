@@ -1,4 +1,3 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
 
 import Navbar from './component/navbar.mjs';
@@ -59,7 +58,7 @@ function App() {
         { text: "角色碎片获取", to: "https://pcredivewiki.tw/Other/PieceOfMemory" },
         { text: "装备需求计算", to: "https://pcredivewiki.tw/Armory" },
     ];
-    const handleEmptyLink = (e) => e.preventDefault();
+
     return (
         <>
             <div className="container mt-3">
