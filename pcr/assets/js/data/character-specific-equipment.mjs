@@ -47,4 +47,11 @@ export default [
     { cid: 1036, equipmentName: '宇宙蓝色魔杖', addDate: '2021-06-14' },
     { cid: 1044, equipmentName: '夜之牙暗斧', addDate: '2021-06-14' },
     { cid: 1050, equipmentName: '魔眼杖‧恶魔之眼', addDate: '2021-06-14' },
+    { cid: 1010, equipmentName: '纯洁童话权杖', addDate: '2021-07-12' },
+    { cid: 1016, equipmentName: '决胜口红', addDate: '2021-07-12' },
+    { cid: 1042, equipmentName: '符文音符翠灵谱', addDate: '2021-07-12' },
+    { cid: 1054, equipmentName: '高级定制皮带', addDate: '2021-07-12' },
+    { cid: 1075, equipmentName: '傘劍海灘公主', addDate: '2021-07-23' },
+    { cid: 1076, equipmentName: '涼槍水色碳酸果汁', addDate: '2021-07-23' },
+    { cid: 1078, equipmentName: '貓輪夏日漂浮', addDate: '2021-07-23' },
 ]

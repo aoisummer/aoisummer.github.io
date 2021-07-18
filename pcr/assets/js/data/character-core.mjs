@@ -148,6 +148,8 @@ export default [
     { id: 1167, position: 527, name: "碧（工作服）", rarity: 3 },
     { id: 1168, position: 216, name: "珠希（工作服）", rarity: 1 },
     { id: 1169, position: 216, name: "美冬（工作服）", rarity: 3 },
+    { id: 1170, position: 407, name: "惠理子（夏日）", rarity: 3 },
+    { id: 1171, position: 163, name: "静流（夏日）", rarity: 3 },
     { id: 1701, position: 433, name: "环奈", rarity: 3 },
     { id: 1702, position: 527, name: "环奈（振袖）", rarity: 3 },
     { id: 1801, position: 199, name: "日和莉（公主）", rarity: 3 },
@@ -156,5 +158,4 @@ export default [
     { id: 1804, position: 155, name: "佩可莉姆（公主）", rarity: 3 },
     { id: 1805, position: 555, name: "可可萝（公主）", rarity: 3 },
     { id: 1806, position: 747, name: "凯露（公主）", rarity: 3 },
-    { id: 9001, position: 600, name: "惠理子（夏日）", rarity: 3 },
 ]
