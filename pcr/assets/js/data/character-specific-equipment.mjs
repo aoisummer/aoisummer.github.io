@@ -51,7 +51,10 @@ export default [
     { cid: 1016, equipmentName: '决胜口红', addDate: '2021-07-12' },
     { cid: 1042, equipmentName: '符文音符翠灵谱', addDate: '2021-07-12' },
     { cid: 1054, equipmentName: '高级定制皮带', addDate: '2021-07-12' },
-    { cid: 1075, equipmentName: '傘劍海灘公主', addDate: '2021-07-23' },
-    { cid: 1076, equipmentName: '涼槍水色碳酸果汁', addDate: '2021-07-23' },
-    { cid: 1078, equipmentName: '貓輪夏日漂浮', addDate: '2021-07-23' },
+    { cid: 1075, equipmentName: '伞剑海滩公主', addDate: '2021-07-23' },
+    { cid: 1076, equipmentName: '凉枪水精灵果汁', addDate: '2021-07-23' },
+    { cid: 1078, equipmentName: '夏日猫猫泳圈', addDate: '2021-07-23' },
+    { cid: 1013, equipmentName: '七七香最強法杖', addDate: '2021-08-09' },
+    { cid: 1014, equipmentName: '偵探放大鏡', addDate: '2021-08-09' },
+    { cid: 1056, equipmentName: '真打 絕海‧波浪丸', addDate: '2021-08-09' },
 ]
