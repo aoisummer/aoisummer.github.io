@@ -57,4 +57,7 @@ export default [
     { cid: 1013, equipmentName: '七七香最強法杖', addDate: '2021-08-09' },
     { cid: 1014, equipmentName: '偵探放大鏡', addDate: '2021-08-09' },
     { cid: 1056, equipmentName: '真打 絕海‧波浪丸', addDate: '2021-08-09' },
+    { cid: 1077, equipmentName: '陽杖日光閃耀', addDate: '2021-08-19' },
+    { cid: 1079, equipmentName: '冰鯛冰之匕首', addDate: '2021-08-19' },
+    { cid: 1080, equipmentName: '蒼龍槍蛟龍', addDate: '2021-08-19' },
 ]

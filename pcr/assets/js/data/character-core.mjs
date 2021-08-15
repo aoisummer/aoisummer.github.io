@@ -151,6 +151,7 @@ export default [
     { id: 1170, position: 407, name: "惠理子（夏日）", rarity: 3 },
     { id: 1171, position: 163, name: "静流（夏日）", rarity: 3 },
     { id: 1172, position: 417, name: "望（夏日）", rarity: 3 },
+    { id: 1173, position: 520, name: "千歌（夏日）", rarity: 3 },
     { id: 1174, position: 355, name: "纺希（夏日）", rarity: 1 },
     { id: 1701, position: 433, name: "环奈", rarity: 3 },
     { id: 1702, position: 527, name: "环奈（振袖）", rarity: 3 },
