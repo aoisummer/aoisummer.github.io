@@ -60,4 +60,5 @@ export default [
     { cid: 1077, equipmentName: '陽杖日光閃耀', addDate: '2021-08-19' },
     { cid: 1079, equipmentName: '冰鯛冰之匕首', addDate: '2021-08-19' },
     { cid: 1080, equipmentName: '蒼龍槍蛟龍', addDate: '2021-08-19' },
+    { cid: 1055, equipmentName: '跟蹤披風', addDate: '2021-09-06' },
 ]

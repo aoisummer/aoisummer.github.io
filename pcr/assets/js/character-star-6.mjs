@@ -15,7 +15,7 @@ const parseDataList = (field) => {
     return result;
 };
 const contentData = (() => {
-    const listCN = [];
+    const listCN = parseDataList('star6DateCN');
     const listJP = parseDataList('star6DateJP');
     return { listCN, listJP };
 })();
@@ -56,9 +56,7 @@ function App() {
             <div className="row mb-2">
                 <div className="col-md-6">
                     <h3 className="h6 mx-3 mb-3">简体字版</h3>
-                    <div className="alert alert-warning">
-                        <strong>注意：</strong>本项功能尚未实装。
-                    </div>
+                    <DataList data={contentData.listCN} />
                 </div>
                 <div className="col-md-6">
                     <h3 className="h6 mx-3 mb-3">日版</h3>
