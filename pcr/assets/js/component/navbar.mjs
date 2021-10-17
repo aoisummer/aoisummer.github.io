@@ -66,8 +66,8 @@ export default React.memo(function Navbar({ current }) {
         { text: '角色', child: [
             { text: '角色列表', to: 'character-list.html' },
             { text: '角色推荐表', to: 'character-recommend.html' },
-            { text: '6星角色表', to: 'character-star-6.html' },
             { text: '角色实装顺序', to: 'character-debut.html' },
+            { text: '6星角色表', to: 'character-star-6.html' },
             { text: '专属装备一览', to: 'character-specific-equipment.html' },
         ] },
         { text: '冒险', child: [

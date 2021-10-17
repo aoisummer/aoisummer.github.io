@@ -61,4 +61,7 @@ export default [
     { cid: 1079, equipmentName: '鲷鱼棒冰匕首', addDate: '2021-08-19' },
     { cid: 1080, equipmentName: '苍龙矛 蛟龙', addDate: '2021-08-19' },
     { cid: 1055, equipmentName: '跟踪用斗篷', addDate: '2021-09-06' },
+    { cid: 1081, equipmentName: '靈鐮南瓜鐮刀', addDate: '2021-10-14' },
+    { cid: 1082, equipmentName: '萬聖節布丁', addDate: '2021-10-14' },
+    { cid: 1083, equipmentName: '魔帚萬聖‧眼球', addDate: '2021-10-14' },
 ]
