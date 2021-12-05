@@ -63,5 +63,8 @@
     { "cid": 1055, "equipmentName": "跟踪用斗篷", "addDate": "2021-09-06" },
     { "cid": 1081, "equipmentName": "靈鐮南瓜鐮刀", "addDate": "2021-10-14" },
     { "cid": 1082, "equipmentName": "萬聖節布丁", "addDate": "2021-10-14" },
-    { "cid": 1083, "equipmentName": "魔帚萬聖‧眼球", "addDate": "2021-10-14" }
+    { "cid": 1083, "equipmentName": "魔帚萬聖‧眼球", "addDate": "2021-10-14" },
+    { "cid": 1084, "equipmentName": "翠靈杖符文之雪", "addDate": "2021-12-11" },
+    { "cid": 1085, "equipmentName": "聖誕鼓舞之鈴", "addDate": "2021-12-11" },
+    { "cid": 1086, "equipmentName": "聖誕噗吉王", "addDate": "2021-12-11" }
 ]
