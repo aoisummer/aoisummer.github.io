@@ -164,7 +164,9 @@
     { "id": 1190, "position": 714, "name": "伊绪（黑化）", "rarity": 3 },
     { "id": 1191, "position": 143, "name": "空花（黑化）", "rarity": 3 },
     { "id": 1192, "position": 397, "name": "真阳（圣诞节）", "rarity": 1 },
+    { "id": 1193, "position": 762, "name": "璃乃（圣诞节）", "rarity": 3 },
     { "id": 1199, "position": 302, "name": "宫子（圣诞节）", "rarity": 3 },
+    { "id": 1208, "position": 193, "name": "流夏（新年）", "rarity": 1 },
     { "id": 1701, "position": 433, "name": "环奈", "rarity": 3 },
     { "id": 1702, "position": 527, "name": "环奈（振袖）", "rarity": 3 },
     { "id": 1801, "position": 199, "name": "日和莉（公主）", "rarity": 3 },
@@ -173,5 +175,6 @@
     { "id": 1804, "position": 155, "name": "佩可莉姆（公主）", "rarity": 3 },
     { "id": 1805, "position": 555, "name": "可可萝（公主）", "rarity": 3 },
     { "id": 1806, "position": 747, "name": "凯露（公主）", "rarity": 3 },
-    { "id": 1807, "position": 732, "name": "初音&栞", "rarity": 3 }
+    { "id": 1807, "position": 732, "name": "初音&栞", "rarity": 3 },
+    { "id": 1808, "position": 465, "name": "未奏希&美美&镜华", "rarity": 3 }
 ]
