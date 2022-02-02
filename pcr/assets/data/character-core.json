@@ -169,6 +169,7 @@
     { "id": 1207, "position": 283, "name": "雪菲（新年）", "rarity": 3 },
     { "id": 1208, "position": 193, "name": "流夏（新年）", "rarity": 1 },
     { "id": 1209, "position": 424, "name": "伊莉亚（新年）", "rarity": 3 },
+    { "id": 1210, "position": 164, "name": "佩可莉姆（OVERLOAD）", "rarity": 3 },
     { "id": 1701, "position": 433, "name": "环奈", "rarity": 3 },
     { "id": 1702, "position": 527, "name": "环奈（振袖）", "rarity": 3 },
     { "id": 1801, "position": 199, "name": "日和莉（公主）", "rarity": 3 },
@@ -178,6 +179,5 @@
     { "id": 1805, "position": 555, "name": "可可萝（公主）", "rarity": 3 },
     { "id": 1806, "position": 747, "name": "凯露（公主）", "rarity": 3 },
     { "id": 1807, "position": 732, "name": "初音&栞", "rarity": 3 },
-    { "id": 1808, "position": 465, "name": "未奏希&美美&镜华", "rarity": 3 },
-    { "id": 9001, "position": 300, "name": "佩可莉姆（OVERLOAD）", "rarity": 3 }
+    { "id": 1808, "position": 465, "name": "未奏希&美美&镜华", "rarity": 3 }
 ]
