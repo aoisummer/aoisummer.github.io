@@ -10,7 +10,7 @@
     { "cid": 1002, "star6DateCN": "2022-02-28", "star6DateJP": "2020-02-29" },
     { "cid": 1003, "star6DateCN": "2022-02-28", "star6DateJP": "2020-02-29" },
     { "cid": 1001, "star6DateCN": "2022-02-28", "star6DateJP": "2020-02-29" },
-    { "cid": 1012, "star6DateCN": null, "star6DateJP": "2020-03-31" },
+    { "cid": 1012, "star6DateCN": "2022-03-31", "star6DateJP": "2020-03-31" },
     { "cid": 1046, "star6DateCN": null, "star6DateJP": "2020-04-30" },
     { "cid": 1048, "star6DateCN": null, "star6DateJP": "2020-05-31" },
     { "cid": 1049, "star6DateCN": null, "star6DateJP": "2020-06-30" },
@@ -38,5 +38,6 @@
     { "cid": 1042, "star6DateCN": null, "star6DateJP": "2022-01-07" },
     { "cid": 1075, "star6DateCN": null, "star6DateJP": "2022-03-08" },
     { "cid": 1076, "star6DateCN": null, "star6DateJP": "2022-03-08" },
-    { "cid": 1078, "star6DateCN": null, "star6DateJP": "2022-03-08" }
+    { "cid": 1078, "star6DateCN": null, "star6DateJP": "2022-03-08" },
+    { "cid": 1045, "star6DateCN": null, "star6DateJP": "2022-04-07" }
 ]
