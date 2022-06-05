@@ -180,6 +180,8 @@
     { "id": 1216, "position": 292, "name": "祈梨（怪盗）", "rarity": 3 },
     { "id": 1219, "position": 293, "name": "杏奈（海盗）", "rarity": 3 },
     { "id": 1220, "position": 380, "name": "忍（海盗）", "rarity": 3 },
+    { "id": 1221, "position": 731, "name": "碧（露营）", "rarity": 1 },
+    { "id": 1222, "position": 419, "name": "由加莉（露营）", "rarity": 3 },
     { "id": 1701, "position": 433, "name": "环奈", "rarity": 3 },
     { "id": 1702, "position": 527, "name": "环奈（振袖）", "rarity": 3 },
     { "id": 1801, "position": 199, "name": "日和莉（公主）", "rarity": 3 },
