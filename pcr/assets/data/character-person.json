@@ -79,5 +79,6 @@
     { "name": "未央", "guild": "New Generations", "race": "人类", "age": 15, "height": 161, "weight": 46 },
     { "name": "克蕾琪塔", "guild": "里士满商工会", "race": "人类", "age": 26, "height": 160, "weight": 57 },
     { "name": "兰法", "guild": "愤怒军团", "race": "魔族", "age": 20, "height": 165, "weight": 53 },
-    { "name": "佳凛", "guild": "？？？", "race": "人类", "age": 24, "height": 152, "weight": 43 }
+    { "name": "佳凛", "guild": "？？？", "race": "人类", "age": 24, "height": 152, "weight": 43 },
+    { "name": "斑比", "guild": "？？？", "race": "魔族", "age": null, "height": 149, "weight": 41 }
 ]

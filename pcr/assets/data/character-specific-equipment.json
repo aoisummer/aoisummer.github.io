@@ -80,5 +80,9 @@
     { "cid": 1096, "equipmentName": "徹底化身女忍套組", "addDate": "2022-05-10" },
     { "cid": 1100, "equipmentName": "盛夏弓飛濺之心", "addDate": "2022-06-07" },
     { "cid": 1101, "equipmentName": "惠愛劍夏日戀愛親密", "addDate": "2022-06-07" },
-    { "cid": 1103, "equipmentName": "纖麗劍夏日閃耀", "addDate": "2022-06-07" }
+    { "cid": 1103, "equipmentName": "纖麗劍夏日閃耀", "addDate": "2022-06-07" },
+    { "cid": 1061, "equipmentName": "羈絆之證", "addDate": "2022-06-30" },
+    { "cid": 1104, "equipmentName": "夏日青狼之劍", "addDate": "2022-07-08" },
+    { "cid": 1105, "equipmentName": "琉球犬式‧神舞之護手", "addDate": "2022-07-08" },
+    { "cid": 1106, "equipmentName": "夏華杖幻想靈杖", "addDate": "2022-07-08" }
 ]
