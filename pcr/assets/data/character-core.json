@@ -183,6 +183,8 @@
     { "id": 1221, "position": 731, "name": "碧（露营）", "rarity": 1 },
     { "id": 1222, "position": 419, "name": "由加莉（露营）", "rarity": 3 },
     { "id": 1223, "position": 564, "name": "斑比", "rarity": 3 },
+    { "id": 1224, "position": 264, "name": "日和莉（夏日）", "rarity": 1 },
+    { "id": 1225, "position": 250, "name": "怜（夏日）", "rarity": 3 },
     { "id": 1701, "position": 433, "name": "环奈", "rarity": 3 },
     { "id": 1702, "position": 527, "name": "环奈（振袖）", "rarity": 3 },
     { "id": 1801, "position": 199, "name": "日和莉（公主）", "rarity": 3 },
