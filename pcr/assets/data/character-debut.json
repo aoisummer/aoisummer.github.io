@@ -60,7 +60,7 @@
     { "cid": 1065, "debutDateCN": "2021-11-16", "debutDateJP": "2019-11-15" },
     { "cid": 1066, "debutDateCN": "2022-06-14", "debutDateJP": "2020-06-17" },
     { "cid": 1067, "debutDateCN": null, "debutDateJP": "2021-10-31" },
-    { "cid": 1068, "debutDateCN": null, "debutDateJP": "2020-08-31" },
+    { "cid": 1068, "debutDateCN": "2022-08-31", "debutDateJP": "2020-08-31" },
     { "cid": 1070, "debutDateCN": "2021-09-06", "debutDateJP": "2019-08-31" },
     { "cid": 1071, "debutDateCN": "2020-11-23", "debutDateJP": "2018-10-31" },
     { "cid": 1075, "debutDateCN": "2020-08-03", "debutDateJP": "2018-06-30" },
@@ -124,7 +124,7 @@
     { "cid": 1134, "debutDateCN": "2022-07-31", "debutDateJP": "2020-07-31" },
     { "cid": 1135, "debutDateCN": "2022-07-31", "debutDateJP": "2020-07-31" },
     { "cid": 1136, "debutDateCN": "2022-08-15", "debutDateJP": "2020-08-15" },
-    { "cid": 1137, "debutDateCN": null, "debutDateJP": "2020-09-03" },
+    { "cid": 1137, "debutDateCN": "2022-09-03", "debutDateJP": "2020-09-03" },
     { "cid": 1138, "debutDateCN": null, "debutDateJP": "2020-09-19" },
     { "cid": 1139, "debutDateCN": null, "debutDateJP": "2020-09-30" },
     { "cid": 1140, "debutDateCN": null, "debutDateJP": "2020-10-15" },
@@ -186,6 +186,7 @@
     { "cid": 1224, "debutDateCN": null, "debutDateJP": "2022-06-30" },
     { "cid": 1225, "debutDateCN": null, "debutDateJP": "2022-06-30" },
     { "cid": 1226, "debutDateCN": null, "debutDateJP": "2022-07-15" },
+    { "cid": 1227, "debutDateCN": null, "debutDateJP": "2022-08-15" },
     { "cid": 1228, "debutDateCN": null, "debutDateJP": "2022-07-31" },
     { "cid": 1229, "debutDateCN": null, "debutDateJP": "2022-07-31" },
     { "cid": 1701, "debutDateCN": "2020-10-16", "debutDateJP": null },
@@ -199,6 +200,5 @@
     { "cid": 1807, "debutDateCN": null, "debutDateJP": "2021-08-31" },
     { "cid": 1808, "debutDateCN": null, "debutDateJP": "2021-12-31" },
     { "cid": 1809, "debutDateCN": null, "debutDateJP": "2022-04-30" },
-    { "cid": 9001, "debutDateCN": null, "debutDateJP": "2022-08-15" },
-    { "cid": 9002, "debutDateCN": null, "debutDateJP": "2022-08-31" }
+    { "cid": 10001, "debutDateCN": null, "debutDateJP": "2022-08-31" }
 ]
