@@ -189,6 +189,8 @@
     { "id": 1227, "position": 812, "name": "镜华（夏日）", "rarity": 3, "gacha": "常驻", "attackType": 2 },
     { "id": 1228, "position": 237, "name": "未奏希（夏日）", "rarity": 1, "gacha": "活动限定", "attackType": 1 },
     { "id": 1229, "position": 361, "name": "美美（夏日）", "rarity": 3, "gacha": "限定", "attackType": 1 },
+    { "id": 1230, "position": 746, "name": "爱梅斯", "rarity": 3, "gacha": "fes限定", "attackType": 2 },
+    { "id": 1231, "position": 793, "name": "真步（探险家）", "rarity": 3, "gacha": "常驻", "attackType": 2 },
     { "id": 1701, "position": 433, "name": "环奈", "rarity": 3, "gacha": "限定", "attackType": 1 },
     { "id": 1702, "position": 527, "name": "环奈（振袖）", "rarity": 3, "gacha": "限定", "attackType": 1 },
     { "id": 1801, "position": 199, "name": "日和莉（公主）", "rarity": 3, "gacha": "fes限定", "attackType": 1 },
@@ -199,6 +201,5 @@
     { "id": 1806, "position": 747, "name": "凯露（公主）", "rarity": 3, "gacha": "fes限定", "attackType": 2 },
     { "id": 1807, "position": 732, "name": "初音&栞", "rarity": 3, "gacha": "fes限定", "attackType": 1 },
     { "id": 1808, "position": 465, "name": "未奏希&美美&镜华", "rarity": 3, "gacha": "fes限定", "attackType": 1 },
-    { "id": 1809, "position": 421, "name": "秋乃&咲恋", "rarity": 3, "gacha": "fes限定", "attackType": 1 },
-    { "id": 10001, "position": null, "name": "爱梅斯", "rarity": 3, "gacha": "fes限定", "attackType": null }
+    { "id": 1809, "position": 421, "name": "秋乃&咲恋", "rarity": 3, "gacha": "fes限定", "attackType": 1 }
 ]
