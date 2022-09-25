@@ -81,5 +81,6 @@
     { "name": "兰法", "guild": "愤怒军团", "race": "魔族", "age": 20, "height": 165, "weight": 53 },
     { "name": "佳凛", "guild": "？？？", "race": "人类", "age": 24, "height": 152, "weight": 43 },
     { "name": "斑比", "guild": "？？？", "race": "魔族", "age": null, "height": 149, "weight": 41 },
-    { "name": "爱梅斯", "guild": "？？？", "race": "妖精", "age": null, "height": null, "weight": null }
+    { "name": "爱梅斯", "guild": "？？？", "race": "妖精", "age": null, "height": 150, "weight": null },
+    { "name": "涅娅", "guild": "愤怒军团", "race": "魔族？", "age": 19, "height": 157, "weight": 55 }
 ]
