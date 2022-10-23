@@ -180,7 +180,7 @@
 .i-char-1210::before { background-position: -200% -400%; }
 .i-char-1211::before { background-position: -300% -400%; }
 .i-char-1212::before { background-position: -400% -400%; }
-.i-char-1213::before, .i-char-1214::before, .i-char-1215::before, .i-char-1216::before, .i-char-1219::before, .i-char-1220::before, .i-char-1221::before, .i-char-1222::before, .i-char-1223::before, .i-char-1224::before, .i-char-1225::before, .i-char-1226::before, .i-char-1227::before, .i-char-1228::before, .i-char-1229::before, .i-char-1230::before, .i-char-1231::before, .i-char-1232::before, .i-char-1233::before, .i-char-1235::before, .i-char-1236::before, .i-char-1701::before, .i-char-1702::before, .i-char-1801::before, .i-char-1802::before { background-image: url('icon-char-7.png') !important; background-size: 500% 500% !important; }
+.i-char-1213::before, .i-char-1214::before, .i-char-1215::before, .i-char-1216::before, .i-char-1219::before, .i-char-1220::before, .i-char-1221::before, .i-char-1222::before, .i-char-1223::before, .i-char-1224::before, .i-char-1225::before, .i-char-1226::before, .i-char-1227::before, .i-char-1228::before, .i-char-1229::before, .i-char-1230::before, .i-char-1231::before, .i-char-1232::before, .i-char-1233::before, .i-char-1235::before, .i-char-1236::before, .i-char-1237::before, .i-char-1701::before, .i-char-1702::before, .i-char-1801::before { background-image: url('icon-char-7.png') !important; background-size: 500% 500% !important; }
 .i-char-1213::before { background-position: 0% 0%; }
 .i-char-1214::before { background-position: -100% 0%; }
 .i-char-1215::before { background-position: 0% -100%; }
@@ -202,15 +202,16 @@
 .i-char-1233::before { background-position: -400% -200%; }
 .i-char-1235::before { background-position: -400% -300%; }
 .i-char-1236::before { background-position: 0% -400%; }
-.i-char-1701::before { background-position: -100% -400%; }
-.i-char-1702::before { background-position: -200% -400%; }
-.i-char-1801::before { background-position: -300% -400%; }
-.i-char-1802::before { background-position: -400% -400%; }
-.i-char-1803::before, .i-char-1804::before, .i-char-1805::before, .i-char-1806::before, .i-char-1807::before, .i-char-1808::before, .i-char-1809::before { background-image: url('icon-char-8.png') !important; background-size: 300% 300% !important; }
-.i-char-1803::before { background-position: 0% 0%; }
-.i-char-1804::before { background-position: -100% 0%; }
-.i-char-1805::before { background-position: 0% -100%; }
-.i-char-1806::before { background-position: -100% -100%; }
-.i-char-1807::before { background-position: -200% 0%; }
-.i-char-1808::before { background-position: -200% -100%; }
-.i-char-1809::before { background-position: 0% -200%; }
+.i-char-1237::before { background-position: -100% -400%; }
+.i-char-1701::before { background-position: -200% -400%; }
+.i-char-1702::before { background-position: -300% -400%; }
+.i-char-1801::before { background-position: -400% -400%; }
+.i-char-1802::before, .i-char-1803::before, .i-char-1804::before, .i-char-1805::before, .i-char-1806::before, .i-char-1807::before, .i-char-1808::before, .i-char-1809::before { background-image: url('icon-char-8.png') !important; background-size: 300% 300% !important; }
+.i-char-1802::before { background-position: 0% 0%; }
+.i-char-1803::before { background-position: -100% 0%; }
+.i-char-1804::before { background-position: 0% -100%; }
+.i-char-1805::before { background-position: -100% -100%; }
+.i-char-1806::before { background-position: -200% 0%; }
+.i-char-1807::before { background-position: -200% -100%; }
+.i-char-1808::before { background-position: 0% -200%; }
+.i-char-1809::before { background-position: -100% -200%; }
