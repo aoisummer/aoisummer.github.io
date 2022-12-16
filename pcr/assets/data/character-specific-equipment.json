@@ -94,5 +94,8 @@
     { "cid": 1114, "equipmentName": "露娜的好朋友", "addDate": "2022-10-10" },
     { "cid": 1097, "equipmentName": "雷姆的髮飾", "addDate": "2022-11-10" },
     { "cid": 1098, "equipmentName": "拉姆的髮飾", "addDate": "2022-11-10" },
-    { "cid": 1099, "equipmentName": "約定的花束", "addDate": "2022-11-10" }
+    { "cid": 1099, "equipmentName": "約定的花束", "addDate": "2022-11-10" },
+    { "cid": 1115, "equipmentName": "聖域劍阿瓦隆", "addDate": "2022-12-10" },
+    { "cid": 1116, "equipmentName": "聖靈劍聖徒之望", "addDate": "2022-12-10" },
+    { "cid": 1117, "equipmentName": "聖夜斧聖誕之牙", "addDate": "2022-12-10" }
 ]
