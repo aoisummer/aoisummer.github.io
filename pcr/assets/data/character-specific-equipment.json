@@ -100,5 +100,7 @@
     { "cid": 1117, "equipmentName": "聖夜斧聖誕之牙", "addDate": "2022-12-10" },
     { "cid": 1119, "equipmentName": "新春祈幸的精靈杖", "addDate": "2023-01-12" },
     { "cid": 1120, "equipmentName": "賀正貓耳的毽球板", "addDate": "2023-01-12" },
-    { "cid": 1121, "equipmentName": "神殿巫女的鈴飾", "addDate": "2023-01-12" }
+    { "cid": 1121, "equipmentName": "神殿巫女的鈴飾", "addDate": "2023-01-12" },
+    { "cid": 1122, "equipmentName": "魔法Misty法杖", "addDate": "2023-02-10" },
+    { "cid": 1123, "equipmentName": "魔法Purely之弓", "addDate": "2023-02-10" }
 ]

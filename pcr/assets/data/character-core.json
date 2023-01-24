@@ -202,7 +202,7 @@
     { "id": 1240, "position": 438, "name": "茜里（圣诞节）", "rarity": 3, "gacha": "限定", "attackType": 2 },
     { "id": 1241, "position": 433, "name": "依里（圣诞节）", "rarity": 1, "gacha": "活动限定", "attackType": 2 },
     { "id": 1242, "position": 144, "name": "纯（圣诞节）", "rarity": 1, "gacha": "常驻", "attackType": 1 },
-    { "id": 1245, "position": 0, "name": "帆稀（新年）", "rarity": 3, "gacha": "", "attackType": 2 },
+    { "id": 1245, "position": 707, "name": "帆稀（新年）", "rarity": 3, "gacha": "限定", "attackType": 2 },
     { "id": 1246, "position": 698, "name": "美里（新年）", "rarity": 3, "gacha": "限定", "attackType": 2 },
     { "id": 1247, "position": 590, "name": "深月（新年）", "rarity": 1, "gacha": "活动限定", "attackType": 1 },
     { "id": 1701, "position": 433, "name": "环奈", "rarity": 3, "gacha": "限定", "attackType": 1 },
