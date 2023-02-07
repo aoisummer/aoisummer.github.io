@@ -205,6 +205,8 @@
     { "id": 1245, "position": 707, "name": "帆稀（新年）", "rarity": 3, "gacha": "限定", "attackType": 2 },
     { "id": 1246, "position": 698, "name": "美里（新年）", "rarity": 3, "gacha": "限定", "attackType": 2 },
     { "id": 1247, "position": 590, "name": "深月（新年）", "rarity": 1, "gacha": "活动限定", "attackType": 1 },
+    { "id": 1248, "position": 423, "name": "望（解放者）", "rarity": 3, "gacha": "限定", "attackType": 1 },
+    { "id": 1249, "position": 170, "name": "嘉夜（解放者）", "rarity": 1, "gacha": "活动限定", "attackType": 1 },
     { "id": 1701, "position": 433, "name": "环奈", "rarity": 3, "gacha": "限定", "attackType": 1 },
     { "id": 1702, "position": 527, "name": "环奈（振袖）", "rarity": 3, "gacha": "限定", "attackType": 1 },
     { "id": 1801, "position": 199, "name": "日和莉（公主）", "rarity": 3, "gacha": "fes限定", "attackType": 1 },
