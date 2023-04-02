@@ -212,6 +212,7 @@
     { "id": 1250, "position": 221, "name": "矛依未（解放者）", "rarity": 3, "gacha": "限定", "attackType": 1 },
     { "id": 1251, "position": 825, "name": "珠希（咖啡厅）", "rarity": 3, "gacha": "常驻", "attackType": 1 },
     { "id": 1252, "position": 463, "name": "莫妮卡（咖啡厅）", "rarity": 3, "gacha": "常驻", "attackType": 1 },
+    { "id": 1253, "position": 752, "name": "可可萝（游侠）", "rarity": 3, "gacha": "限定", "attackType": 1 },
     { "id": 1701, "position": 433, "name": "环奈", "rarity": 3, "gacha": "限定", "attackType": 1 },
     { "id": 1702, "position": 527, "name": "环奈（振袖）", "rarity": 3, "gacha": "限定", "attackType": 1 },
     { "id": 1801, "position": 199, "name": "日和莉（公主）", "rarity": 3, "gacha": "fes限定", "attackType": 1 },
