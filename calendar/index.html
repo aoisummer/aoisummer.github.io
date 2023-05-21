@@ -5,7 +5,7 @@
 <title>日历</title>
 <link rel="dns-prefetch" href="//unpkg.com" />
 <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
-<link rel="stylesheet" href="https://unpkg.com/fullcalendar@5.11.3/main.min.css" />
+<link rel="stylesheet" href="https://unpkg.com/fullcalendar@5.11.5/main.min.css" />
 <style>
 body { margin: 0; font-family: system-ui, Segoe UI, Helvetica, Arial, sans-serif; font-size: 0.875rem; color: #333; background-color: #fff; }
 .loading { display: inline-block; margin: 1em; }
@@ -25,7 +25,7 @@ body { margin: 0; font-family: system-ui, Segoe UI, Helvetica, Arial, sans-serif
 <script>
 (function () {
     var polyfill = [];
-    (!window.Set || !window.Map || !window.URLSearchParams) && polyfill.push('https://unpkg.com/core-js-bundle@3.26.1/minified.js');
+    (!window.Set || !window.Map || !window.URLSearchParams) && polyfill.push('https://unpkg.com/core-js-bundle@3.30.2/minified.js');
     !window.Intl && polyfill.push('https://unpkg.com/intl@1.2.5/dist/Intl.complete.js');
     polyfill.length > 0 && document.write(polyfill.map(function (src) {
         return '<script src="%s"><\/script>'.replace('%s', src);
@@ -37,9 +37,10 @@ body { margin: 0; font-family: system-ui, Segoe UI, Helvetica, Arial, sans-serif
 <div id="root">
 <span class="loading">Loading...</span>
 </div>
-<script src="https://unpkg.com/fullcalendar@5.11.3/main.min.js" defer></script>
-<script src="https://unpkg.com/react@16.14.0/umd/react.production.min.js" defer></script>
-<script src="https://unpkg.com/react-dom@16.14.0/umd/react-dom.production.min.js" defer></script>
+<script src="https://unpkg.com/fullcalendar@5.11.5/main.min.js" defer></script>
+<script src="https://unpkg.com/fullcalendar@5.11.5/locales-all.min.js" defer></script>
+<script src="https://unpkg.com/react@17.0.2/umd/react.production.min.js" defer></script>
+<script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js" defer></script>
 <script src="main.min.js" defer></script>
 </body>
 </html>

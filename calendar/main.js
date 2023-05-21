@@ -25,6 +25,7 @@ function Calendar({ sources }) {
     useEffect(() => {
         _calendar.current = new FullCalendar.Calendar(calEl.current, {
             locale: 'zh-cn',
+            dayMaxEvents: true,
             displayEventEnd: true,
             eventTimeFormat: { hour: 'numeric', minute: '2-digit', hour12: false },
             eventSources: [],
@@ -82,11 +83,12 @@ function getSourceGroup(name) {
             { id: 'pcr-cn', color: '#f08', _text: '剧情活动' },
             { id: 'pcr-cn-clan-battle', color: '#f08', _text: '行会战' },
             { id: 'pcr-cn-luna-tower', color: '#f08', _text: '露娜塔' },
+            { id: 'pcr-cn-gacha', color: '#f08', _text: '扭蛋' },
         ],
         'imas': [
             { id: 'slstage', color: '#6ff', _text: '星光舞台' },
             { id: 'theaterdays', color: '#f66', _text: '剧场时光' },
-        ]
+        ],
     };
     return sources.hasOwnProperty(name) ? sources[name].map((item) => {
         // return { ...item, url: `data/${item.id}.json`, _checked: true };

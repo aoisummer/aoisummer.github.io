@@ -215,6 +215,7 @@
   {"id":1253,"name":"可可萝（游侠）","isLimited":1,"rarity":3,"position":752,"atkType":1,"gacha":"限定"},
   {"id":1254,"name":"栞（游侠）","isLimited":0,"rarity":3,"position":710,"atkType":1,"gacha":"常驻"},
   {"id":1255,"name":"姬塔（术士）","isLimited":1,"rarity":3,"position":443,"atkType":2,"gacha":"限定"},
+  {"id":1256,"name":"碧卡拉","isLimited":1,"rarity":3,"position":267,"atkType":1,"gacha":"限定"},
   {"id":1257,"name":"佳凛（炼金术师）","isLimited":1,"rarity":1,"position":579,"atkType":2,"gacha":"常驻"},
   {"id":1258,"name":"莉莉（堕天使）","isLimited":0,"rarity":3,"position":464,"atkType":1,"gacha":"常驻"},
   {"id":1701,"name":"环奈","isLimited":1,"rarity":3,"position":433,"atkType":1,"gacha":"限定"},
