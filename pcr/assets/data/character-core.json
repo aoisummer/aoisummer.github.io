@@ -218,6 +218,7 @@
   {"id":1256,"name":"碧卡拉","isLimited":1,"rarity":3,"position":267,"atkType":1,"gacha":"限定"},
   {"id":1257,"name":"佳凛（炼金术师）","isLimited":1,"rarity":1,"position":579,"atkType":2,"gacha":"常驻"},
   {"id":1258,"name":"莉莉（堕天使）","isLimited":0,"rarity":3,"position":464,"atkType":1,"gacha":"常驻"},
+  {"id":1262,"name":"伊莉亚（祭服）","isLimited":1,"rarity":3,"position":568,"atkType":2,"gacha":"限定"},
   {"id":1701,"name":"环奈","isLimited":1,"rarity":3,"position":433,"atkType":1,"gacha":"限定"},
   {"id":1702,"name":"环奈（振袖）","isLimited":1,"rarity":3,"position":527,"atkType":1,"gacha":"限定"},
   {"id":1801,"name":"日和莉（公主）","isLimited":1,"rarity":3,"position":199,"atkType":1,"gacha":"fes限定"},
