@@ -226,6 +226,7 @@
   {"id":1268,"name":"由加莉（夏日）","isLimited":0,"rarity":3,"position":159,"atkType":1,"gacha":"常驻"},
   {"id":1269,"name":"兰法（夏日）","isLimited":1,"rarity":3,"position":682,"atkType":2,"gacha":"限定"},
   {"id":1270,"name":"空花（夏日）","isLimited":1,"rarity":1,"position":133,"atkType":1,"gacha":"活动限定"},
+  {"id":1271,"name":"忍（夏日）","isLimited":1,"rarity":3,"position":255,"atkType":1,"gacha":"限定"},
   {"id":1701,"name":"环奈","isLimited":1,"rarity":3,"position":433,"atkType":1,"gacha":"限定"},
   {"id":1702,"name":"环奈（振袖）","isLimited":1,"rarity":3,"position":527,"atkType":1,"gacha":"限定"},
   {"id":1801,"name":"日和莉（公主）","isLimited":1,"rarity":3,"position":199,"atkType":1,"gacha":"fes限定"},
