@@ -219,6 +219,7 @@
   {"id":1257,"name":"佳凛（炼金术师）","isLimited":1,"rarity":1,"position":579,"atkType":2,"gacha":"活动限定"},
   {"id":1258,"name":"莉莉（堕天使）","isLimited":0,"rarity":3,"position":464,"atkType":1,"gacha":"常驻"},
   {"id":1260,"name":"可利亚（堕天使）","isLimited":0,"rarity":3,"position":406,"atkType":1,"gacha":"常驻"},
+  {"id":1261,"name":"普蕾西亚（堕天使）","isLimited":0,"rarity":3,"position":480,"atkType":2,"gacha":"常驻"},
   {"id":1262,"name":"伊莉亚（祭服）","isLimited":1,"rarity":3,"position":568,"atkType":2,"gacha":"限定"},
   {"id":1263,"name":"雪（祭服）","isLimited":0,"rarity":3,"position":456,"atkType":2,"gacha":"常驻"},
   {"id":1264,"name":"克萝茜","isLimited":1,"rarity":3,"position":373,"atkType":1,"gacha":"fes限定"},
