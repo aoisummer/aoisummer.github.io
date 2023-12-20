@@ -94,7 +94,7 @@ function getSourceGroup(name) {
         // return { ...item, url: `data/${item.id}.json`, _checked: true };
         return {
             ...item,
-            url: `https://cdn.jsdelivr.net/gh/aoisummer/ics-collection/dist/${item.id}.json`,
+            url: `https://fastly.jsdelivr.net/gh/aoisummer/ics-collection/dist/${item.id}.json`,
             extraParams: () => ({ _: Math.floor(Date.now() / 1000 / 86400) }),
             _checked: true,
         };
