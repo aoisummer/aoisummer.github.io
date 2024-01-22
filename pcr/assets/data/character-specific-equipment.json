@@ -129,5 +129,8 @@
   { "cid": 1143, "equipmentName": "魔法闪耀之剑", "addDate": "2023-11-11" },
   { "cid": 1144, "equipmentName": "紫藤庐圣诞礼服", "addDate": "2023-12-08" },
   { "cid": 1145, "equipmentName": "咲恋救济院圣诞礼服", "addDate": "2023-12-08" },
-  { "cid": 1146, "equipmentName": "圣诞皇家酒杯", "addDate": "2023-12-08" }
+  { "cid": 1146, "equipmentName": "圣诞皇家酒杯", "addDate": "2023-12-08" },
+  { "cid": 1118, "equipmentName": "迎新美食的盛装", "addDate": "2024-01-11" },
+  { "cid": 1147, "equipmentName": "大恶徒的新春盛装", "addDate": "2024-01-11" },
+  { "cid": 1150, "equipmentName": "新春幻影和伞", "addDate": "2024-01-11" }
 ]
