@@ -238,7 +238,7 @@
   { "id": 1280, "name": "克蕾琪塔（圣诞节）", "isLimited": 0, "rarity": 3, "position": 723, "atkType": 1, "gacha": "常驻" },
   { "id": 1283, "name": "祈梨（新年）", "isLimited": 1, "rarity": 1, "position": 191, "atkType": 1, "gacha": "活动限定" },
   { "id": 1284, "name": "初音（新年）", "isLimited": 1, "rarity": 3, "position": 801, "atkType": 2, "gacha": "限定" },
-  { "id": 1285, "name": "香澄（新年）", "isLimited": 1, "rarity": 3, "position": 0, "atkType": 2, "gacha": "限定" },
+  { "id": 1285, "name": "香澄（新年）", "isLimited": 1, "rarity": 3, "position": 739, "atkType": 2, "gacha": "限定" },
   { "id": 1701, "name": "环奈", "isLimited": 1, "rarity": 3, "position": 433, "atkType": 1, "gacha": "限定" },
   { "id": 1702, "name": "环奈（振袖）", "isLimited": 1, "rarity": 3, "position": 527, "atkType": 1, "gacha": "限定" },
   { "id": 1801, "name": "日和莉（公主）", "isLimited": 1, "rarity": 3, "position": 199, "atkType": 1, "gacha": "fes限定" },
