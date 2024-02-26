@@ -239,6 +239,7 @@
   { "id": 1283, "name": "祈梨（新年）", "isLimited": 1, "rarity": 1, "position": 191, "atkType": 1, "gacha": "活动限定" },
   { "id": 1284, "name": "初音（新年）", "isLimited": 1, "rarity": 3, "position": 801, "atkType": 2, "gacha": "限定" },
   { "id": 1285, "name": "香澄（新年）", "isLimited": 1, "rarity": 3, "position": 739, "atkType": 2, "gacha": "限定" },
+  { "id": 1287, "name": "日和莉（星幽）", "isLimited": 1, "rarity": 3, "position": 226, "atkType": 1, "gacha": "限定" },
   { "id": 1288, "name": "怜（星幽）", "isLimited": 1, "rarity": 1, "position": 194, "atkType": 1, "gacha": "活动限定" },
   { "id": 1289, "name": "优衣（星幽）", "isLimited": 1, "rarity": 3, "position": 772, "atkType": 2, "gacha": "限定" },
   { "id": 1701, "name": "环奈", "isLimited": 1, "rarity": 3, "position": 433, "atkType": 1, "gacha": "限定" },

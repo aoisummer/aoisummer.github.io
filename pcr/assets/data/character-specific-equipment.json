@@ -132,5 +132,9 @@
   { "cid": 1146, "equipmentName": "圣诞皇家酒杯", "addDate": "2023-12-08" },
   { "cid": 1118, "equipmentName": "迎新美食的盛装", "addDate": "2024-01-11" },
   { "cid": 1147, "equipmentName": "大恶徒的新春盛装", "addDate": "2024-01-11" },
-  { "cid": 1150, "equipmentName": "新春幻影和伞", "addDate": "2024-01-11" }
+  { "cid": 1150, "equipmentName": "新春幻影和伞", "addDate": "2024-01-11" },
+  { "cid": 1064, "equipmentName": "冰龙剑", "addDate": "2024-02-08" },
+  { "cid": 1155, "equipmentName": "大精灵的仪剑", "addDate": "2024-02-08" },
+  { "cid": 1156, "equipmentName": "大精灵的仪杖", "addDate": "2024-02-08" },
+  { "cid": 1157, "equipmentName": "夏日侦探法杖", "addDate": "2024-02-08" }
 ]
