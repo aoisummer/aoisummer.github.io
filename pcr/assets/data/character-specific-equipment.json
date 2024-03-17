@@ -136,5 +136,8 @@
   { "cid": 1064, "equipmentName": "冰龙剑", "addDate": "2024-02-08" },
   { "cid": 1155, "equipmentName": "大精灵的仪剑", "addDate": "2024-02-08" },
   { "cid": 1156, "equipmentName": "大精灵的仪杖", "addDate": "2024-02-08" },
-  { "cid": 1157, "equipmentName": "夏日侦探法杖", "addDate": "2024-02-08" }
+  { "cid": 1157, "equipmentName": "夏日侦探法杖", "addDate": "2024-02-08" },
+  { "cid": 1158, "equipmentName": "梦幻灰姑娘礼裙", "addDate": "2024-03-11" },
+  { "cid": 1159, "equipmentName": "狼人轮舞曲礼裙", "addDate": "2024-03-11" },
+  { "cid": 1160, "equipmentName": "真步真步童话礼裙", "addDate": "2024-03-11" }
 ]
