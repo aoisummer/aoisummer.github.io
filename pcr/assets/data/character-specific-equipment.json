@@ -139,5 +139,9 @@
   { "cid": 1157, "equipmentName": "夏日侦探法杖", "addDate": "2024-02-08" },
   { "cid": 1158, "equipmentName": "梦幻灰姑娘礼裙", "addDate": "2024-03-11" },
   { "cid": 1159, "equipmentName": "狼人轮舞曲礼裙", "addDate": "2024-03-11" },
-  { "cid": 1160, "equipmentName": "真步真步童话礼裙", "addDate": "2024-03-11" }
+  { "cid": 1160, "equipmentName": "真步真步童话礼裙", "addDate": "2024-03-11" },
+  { "cid": 1802, "equipmentName": "许愿公主长袍", "addDate": "2024-03-29" },
+  { "cid": 1804, "equipmentName": "皇家公主礼裙", "addDate": "2024-03-29" },
+  { "cid": 1162, "addDate": "2024-04-11" },
+  { "cid": 1163, "addDate": "2024-04-11" }
 ]
