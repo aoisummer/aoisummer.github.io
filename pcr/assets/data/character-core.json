@@ -249,6 +249,7 @@
   { "id": 1298, "name": "真琴（教官）", "isLimited": 1, "rarity": 3, "position": 269, "atkType": 1, "gacha": "限定", "element": 5 },
   { "id": 1299, "name": "惠理子（教官）", "isLimited": 0, "rarity": 3, "position": 294, "atkType": 1, "gacha": "常驻", "element": 5 },
   { "id": 1307, "name": "镜华（春日）", "isLimited": 1, "rarity": 3, "position": 563, "atkType": 2, "gacha": "限定", "element": 3 },
+  { "id": 1308, "name": "铃莓（春日）", "isLimited": 0, "rarity": 3, "position": 558, "atkType": 2, "gacha": "常驻", "element": 3 },
   { "id": 1701, "name": "环奈", "isLimited": 1, "rarity": 3, "position": 433, "atkType": 1, "gacha": "限定", "element": 0 },
   { "id": 1702, "name": "环奈（振袖）", "isLimited": 1, "rarity": 3, "position": 527, "atkType": 1, "gacha": "限定", "element": 0 },
   { "id": 1801, "name": "日和莉（公主）", "isLimited": 1, "rarity": 3, "position": 199, "atkType": 1, "gacha": "fes限定", "element": 1 },
