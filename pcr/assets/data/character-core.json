@@ -250,6 +250,7 @@
   { "id": 1299, "name": "惠理子（教官）", "isLimited": 0, "rarity": 3, "position": 294, "atkType": 1, "gacha": "常驻", "element": 5 },
   { "id": 1307, "name": "镜华（春日）", "isLimited": 1, "rarity": 3, "position": 563, "atkType": 2, "gacha": "限定", "element": 3 },
   { "id": 1308, "name": "铃莓（春日）", "isLimited": 0, "rarity": 3, "position": 558, "atkType": 2, "gacha": "常驻", "element": 3 },
+  { "id": 1309, "name": "库露露", "isLimited": 0, "rarity": 3, "position": 440, "atkType": 2, "gacha": "常驻", "element": 4 },
   { "id": 1310, "name": "真步（梦想乐园）", "isLimited": 1, "rarity": 3, "position": 702, "atkType": 2, "gacha": "限定", "element": 4 },
   { "id": 1701, "name": "环奈", "isLimited": 1, "rarity": 3, "position": 433, "atkType": 1, "gacha": "限定", "element": 0 },
   { "id": 1702, "name": "环奈（振袖）", "isLimited": 1, "rarity": 3, "position": 527, "atkType": 1, "gacha": "限定", "element": 0 },

@@ -252,6 +252,7 @@
   { "cid": 1299, "age": "16", "guild": "トワイライトキャラバン", "race": "魔族", "height": "154", "weight": "43", "birthMonth": "7", "birthDay": "30", "bloodType": "B" },
   { "cid": 1307, "age": "8", "guild": "リトルリリカル", "race": "エルフ", "height": "118", "weight": "21", "birthMonth": "2", "birthDay": "2", "bloodType": "A" },
   { "cid": 1308, "age": "15", "guild": "サレンディア救護院", "race": "ヒューマン", "height": "154", "weight": "43", "birthMonth": "12", "birthDay": "12", "bloodType": "O" },
+  { "cid": 1309, "age": "16", "guild": "ジオ・テオゴニア", "race": "宝石兎族", "height": "158", "weight": "46", "birthMonth": "8", "birthDay": "2", "bloodType": "A" },
   { "cid": 1310, "age": "16", "guild": "自警団（カォン）", "race": "獣人族", "height": "155", "weight": "42", "birthMonth": "9", "birthDay": "22", "bloodType": "O" },
   { "cid": 1801, "age": "16", "guild": "破晓之星", "race": "兽人族", "height": "155", "weight": "44", "birthMonth": "8", "birthDay": "27", "bloodType": "A" },
   { "cid": 1802, "age": "17", "guild": "破晓之星", "race": "人类", "height": "158", "weight": "47", "birthMonth": "4", "birthDay": "5", "bloodType": "O" },
