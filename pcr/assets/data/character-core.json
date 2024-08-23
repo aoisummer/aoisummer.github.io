@@ -165,6 +165,7 @@
   { "id": 1181, "name": "兰法", "isLimited": 1, "rarity": 3, "position": 782, "atkType": 2, "gacha": "fes限定", "element": 5 },
   { "id": 1182, "name": "美空", "isLimited": 1, "rarity": 3, "position": 730, "atkType": 2, "gacha": "fes限定", "element": 5 },
   { "id": 1185, "name": "花凛", "isLimited": 1, "rarity": 1, "position": 787, "atkType": 2, "gacha": "ex限定", "element": 3 },
+  { "id": 1186, "name": "涅比亚", "isLimited": 1, "rarity": 3, "position": 826, "atkType": 2, "gacha": "ex限定", "element": 4 },
   { "id": 1190, "name": "伊绪（黑暗）", "isLimited": 0, "rarity": 3, "position": 714, "atkType": 2, "gacha": "常驻", "element": 5 },
   { "id": 1191, "name": "空花（黑暗）", "isLimited": 0, "rarity": 3, "position": 143, "atkType": 2, "gacha": "常驻", "element": 5 },
   { "id": 1192, "name": "真阳（圣诞节）", "isLimited": 1, "rarity": 1, "position": 397, "atkType": 1, "gacha": "活动限定", "element": 3 },
@@ -257,6 +258,7 @@
   { "id": 1312, "name": "美空（夏日）", "isLimited": 1, "rarity": 3, "position": 702, "atkType": 2, "gacha": "限定", "element": 3 },
   { "id": 1316, "name": "莉莉（夏日）", "isLimited": 1, "rarity": 3, "position": 399, "atkType": 1, "gacha": "限定", "element": 2 },
   { "id": 1317, "name": "爱梅斯（夏日）", "isLimited": 1, "rarity": 3, "position": 743, "atkType": 2, "gacha": "限定", "element": 2 },
+  { "id": 1318, "name": "帆稀（夏日）", "isLimited": 0, "rarity": 3, "position": 709, "atkType": 2, "gacha": "常驻", "element": 5 },
   { "id": 1701, "name": "环奈", "isLimited": 1, "rarity": 3, "position": 433, "atkType": 1, "gacha": "限定", "element": 0 },
   { "id": 1702, "name": "环奈（振袖）", "isLimited": 1, "rarity": 3, "position": 527, "atkType": 1, "gacha": "限定", "element": 0 },
   { "id": 1801, "name": "日和莉（公主）", "isLimited": 1, "rarity": 3, "position": 199, "atkType": 1, "gacha": "fes限定", "element": 1 },
@@ -269,5 +271,6 @@
   { "id": 1808, "name": "未奏希＆美美＆镜华", "isLimited": 1, "rarity": 3, "position": 465, "atkType": 1, "gacha": "fes限定", "element": 4 },
   { "id": 1809, "name": "秋乃＆咲恋", "isLimited": 1, "rarity": 3, "position": 421, "atkType": 1, "gacha": "fes限定", "element": 1 },
   { "id": 1810, "name": "安＆古蕾雅", "isLimited": 1, "rarity": 3, "position": 577, "atkType": 2, "gacha": "fes限定", "element": 1 },
-  { "id": 1811, "name": "静流&璃乃", "isLimited": 1, "rarity": 3, "position": 551, "atkType": 1, "gacha": "fes限定", "element": 4 }
+  { "id": 1811, "name": "静流&璃乃", "isLimited": 1, "rarity": 3, "position": 551, "atkType": 1, "gacha": "fes限定", "element": 4 },
+  { "id": 1812, "name": "雪菲（公主）", "isLimited": 1, "rarity": 3, "position": 368, "atkType": 1, "gacha": "fes限定", "element": 2 }
 ]

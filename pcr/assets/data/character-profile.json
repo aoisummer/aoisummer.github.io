@@ -166,6 +166,7 @@
   { "cid": 1181, "age": "20", "guild": "愤怒军团", "race": "魔族", "height": "165", "weight": "53", "birthMonth": "12", "birthDay": "28", "bloodType": "O" },
   { "cid": 1182, "age": "16", "guild": "愤怒军团", "race": "人族", "height": "159", "weight": "??", "birthMonth": "7", "birthDay": "2", "bloodType": "A" },
   { "cid": 1185, "age": "24", "guild": "？？？", "race": "人类", "height": "152", "weight": "43", "birthMonth": "9", "birthDay": "12", "bloodType": "A" },
+  { "cid": 1186, "age": "??", "guild": "？？？", "race": "？？？", "height": "???", "weight": "???", "birthMonth": "?", "birthDay": "?", "bloodType": "?" },
   { "cid": 1190, "age": "23", "guild": "月光学院", "race": "魔族", "height": "162", "weight": "52", "birthMonth": "8", "birthDay": "14", "bloodType": "B" },
   { "cid": 1191, "age": "18", "guild": "纯白之翼　兰德索尔分部", "race": "人类", "height": "157", "weight": "49", "birthMonth": "11", "birthDay": "19", "bloodType": "AB" },
   { "cid": 1192, "age": "20", "guild": "伊丽莎白牧场", "race": "人类", "height": "142", "weight": "35", "birthMonth": "3", "birthDay": "3", "bloodType": "B" },
@@ -259,6 +260,7 @@
   { "cid": 1312, "age": "16", "guild": "レイジ・レギオン", "race": "ヒューマン", "height": "159", "weight": "??", "birthMonth": "7", "birthDay": "2", "bloodType": "A" },
   { "cid": 1316, "age": "15", "guild": "アルターメイデン", "race": "ヒューマン", "height": "154", "weight": "44", "birthMonth": "4", "birthDay": "29", "bloodType": "A" },
   { "cid": 1317, "age": "??", "guild": "？？？", "race": "？？？", "height": "150", "weight": "???", "birthMonth": "?", "birthDay": "?", "bloodType": "?" },
+  { "cid": 1318, "age": "25", "guild": "ドラゴンズネスト", "race": "ドラゴン族", "height": "168", "weight": "???", "birthMonth": "4", "birthDay": "17", "bloodType": "O" },
   { "cid": 1801, "age": "16", "guild": "破晓之星", "race": "兽人族", "height": "155", "weight": "44", "birthMonth": "8", "birthDay": "27", "bloodType": "A" },
   { "cid": 1802, "age": "17", "guild": "破晓之星", "race": "人类", "height": "158", "weight": "47", "birthMonth": "4", "birthDay": "5", "bloodType": "O" },
   { "cid": 1803, "age": "18", "guild": "破晓之星", "race": "魔族", "height": "163", "weight": "46", "birthMonth": "1", "birthDay": "12", "bloodType": "B" },
@@ -270,6 +272,7 @@
   { "cid": 1809, "age": "17", "guild": "墨丘利财团、咲恋救济院", "race": "人族、精灵", "height": "-", "weight": "-", "birthMonth": "-", "birthDay": "-", "bloodType": "-" },
   { "cid": 1810, "age": "17", "guild": "？？？", "race": "人族、半人半龙", "height": "-", "weight": "-", "birthMonth": "-", "birthDay": "-", "bloodType": "-" },
   { "cid": 1811, "age": "18", "guild": "ラビリンス", "race": "ヒューマン、ヒューマン", "height": "-", "weight": "-", "birthMonth": "-", "birthDay": "-", "bloodType": "-" },
+  { "cid": 1812, "age": "14", "guild": "美食殿", "race": "ドラゴン族", "height": "147", "weight": "???", "birthMonth": "12", "birthDay": "14", "bloodType": "B" },
   { "cid": 1701, "age": "14", "guild": "？？？", "race": "人类", "height": "152", "weight": "？？", "birthMonth": "2", "birthDay": "3", "bloodType": "AB" },
   { "cid": 1702, "age": "14", "guild": "？？？", "race": "人类", "height": "152", "weight": "？？", "birthMonth": "2", "birthDay": "3", "bloodType": "AB" }
 ]
