@@ -237,6 +237,7 @@
   { "cid": 1273, "age": "18", "guild": "月光学院", "race": "魔族", "height": "167", "weight": "48", "birthMonth": "4", "birthDay": "10", "bloodType": "O" },
   { "cid": 1275, "age": "17", "guild": "サレンディア救護院", "race": "エルフ", "height": "156", "weight": "43", "birthMonth": "10", "birthDay": "4", "bloodType": "A" },
   { "cid": 1276, "age": "25", "guild": "トワイライトキャラバン", "race": "ヒューマン", "height": "167", "weight": "54", "birthMonth": "7", "birthDay": "11", "bloodType": "B" },
+  { "cid": 1277, "age": "12", "guild": "？？？", "race": "ドラゴン族", "height": "145", "weight": "??", "birthMonth": "2", "birthDay": "5", "bloodType": "?" },
   { "cid": 1279, "age": "17", "guild": "美食殿", "race": "ヒューマン", "height": "156", "weight": "46", "birthMonth": "3", "birthDay": "31", "bloodType": "O" },
   { "cid": 1280, "age": "26", "guild": "リッチモンド商工会", "race": "ヒューマン", "height": "160", "weight": "57", "birthMonth": "9", "birthDay": "19", "bloodType": "A" },
   { "cid": 1283, "age": "13", "guild": "ドラゴンズネスト", "race": "ドラゴン族", "height": "145", "weight": "???", "birthMonth": "9", "birthDay": "29", "bloodType": "AB" },

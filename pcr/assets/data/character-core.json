@@ -235,6 +235,7 @@
   { "id": 1273, "name": "铃奈（插班生）", "isLimited": 0, "rarity": 3, "position": 750, "atkType": 1, "gacha": "常驻", "element": 4 },
   { "id": 1275, "name": "咲恋（沙拉沙莉亚）", "isLimited": 1, "rarity": 3, "position": 304, "atkType": 1, "gacha": "限定", "element": 1 },
   { "id": 1276, "name": "流夏（沙拉沙莉亚）", "isLimited": 0, "rarity": 3, "position": 157, "atkType": 1, "gacha": "常驻", "element": 2 },
+  { "id": 1277, "name": "琳德", "isLimited": 0, "rarity": 3, "position": 693, "atkType": 2, "gacha": "常驻", "element": 1 },
   { "id": 1279, "name": "佩可莉姆（圣诞节）", "isLimited": 1, "rarity": 3, "position": 372, "atkType": 2, "gacha": "限定", "element": 2 },
   { "id": 1280, "name": "克蕾琪塔（圣诞节）", "isLimited": 0, "rarity": 3, "position": 723, "atkType": 1, "gacha": "常驻", "element": 4 },
   { "id": 1283, "name": "祈梨（新年）", "isLimited": 1, "rarity": 1, "position": 191, "atkType": 1, "gacha": "活动限定", "element": 1 },
