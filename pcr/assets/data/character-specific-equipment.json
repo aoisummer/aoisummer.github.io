@@ -163,5 +163,8 @@
   { "cid": 1190, "equipmentName": "黑暗老师礼服", "addDate": "2024-11-08" },
   { "cid": 1191, "equipmentName": "黑暗受虐狂宝珠", "addDate": "2024-11-08" },
   { "cid": 1801, "equipmentName": "狂野公主拳套", "addDate": "2024-11-21" },
-  { "cid": 1806, "equipmentName": "无畏公主法杖", "addDate": "2024-11-21" }
+  { "cid": 1806, "equipmentName": "无畏公主法杖", "addDate": "2024-11-21" },
+  { "cid": 1192, "equipmentName": "大圣牧杖伊丽莎白", "addDate": "2024-12-09" },
+  { "cid": 1193, "equipmentName": "圣诞祝福弓", "addDate": "2024-12-09" },
+  { "cid": 1199, "equipmentName": "布丁糕点师外套", "addDate": "2024-12-09" }
 ]

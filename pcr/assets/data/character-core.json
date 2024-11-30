@@ -268,6 +268,7 @@
   { "id": 1320, "name": "艾姬多娜（夏日）", "isLimited": 1, "rarity": 3, "position": 775, "atkType": 2, "gacha": "限定", "element": 5 },
   { "id": 1321, "name": "拉姆（夏日）", "isLimited": 1, "rarity": 3, "position": 146, "atkType": 1, "gacha": "限定", "element": 4 },
   { "id": 1322, "name": "望（炼金术士）", "isLimited": 1, "rarity": 3, "position": 721, "atkType": 2, "gacha": "限定", "element": 2 },
+  { "id": 1328, "name": "莱拉耶尔（圣诞）", "isLimited": 1, "rarity": 3, "position": 750, "atkType": 2, "gacha": "限定", "element": 1 },
   { "id": 1701, "name": "环奈", "isLimited": 1, "rarity": 3, "position": 433, "atkType": 1, "gacha": "限定", "element": 0 },
   { "id": 1702, "name": "环奈（振袖）", "isLimited": 1, "rarity": 3, "position": 527, "atkType": 1, "gacha": "限定", "element": 0 },
   { "id": 1801, "name": "日和莉（公主）", "isLimited": 1, "rarity": 3, "position": 199, "atkType": 1, "gacha": "fes限定", "element": 1 },
