@@ -169,5 +169,9 @@
   { "cid": 1199, "equipmentName": "布丁糕点师外套", "addDate": "2024-12-09", "slot": 1 },
   { "cid": 1207, "equipmentName": "舞冰龙的神乐振袖", "addDate": "2025-01-10", "slot": 1 },
   { "cid": 1208, "equipmentName": "碧色冬山茶花纹振袖", "addDate": "2025-01-10", "slot": 1 },
-  { "cid": 1209, "equipmentName": "新春尖牙斧", "addDate": "2025-01-10", "slot": 1 }
+  { "cid": 1209, "equipmentName": "新春尖牙斧", "addDate": "2025-01-10", "slot": 1 },
+  { "cid": 1164, "equipmentName": "高机动万能鞋·复制者", "addDate": "2025-02-07", "slot": 1 },
+  { "cid": 1210, "equipmentName": "超越叛逆的公主之剑", "addDate": "2025-02-07", "slot": 1 },
+  { "cid": 1211, "equipmentName": "超越叛逆的魔导书法杖", "addDate": "2025-02-07", "slot": 1 },
+  { "cid": 1212, "equipmentName": "超越叛逆的女王之剑", "addDate": "2025-02-07", "slot": 1 }
 ]
