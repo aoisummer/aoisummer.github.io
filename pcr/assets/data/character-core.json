@@ -276,6 +276,7 @@
   { "id": 1335, "name": "咲恋（新年）", "isLimited": 1, "rarity": 3, "position": 718, "atkType": 2, "gacha": "限定", "element": 4 },
   { "id": 1336, "name": "美杜莎", "isLimited": 1, "rarity": 3, "position": 445, "atkType": 1, "gacha": "限定", "element": 5 },
   { "id": 1337, "name": "菈比莉斯塔（阿尔法）", "isLimited": 1, "rarity": 3, "position": 717, "atkType": 2, "gacha": "限定", "element": 2 },
+  { "id": 1339, "name": "克莉丝提娜（阿尔法）", "isLimited": 1, "rarity": 3, "position": 228, "atkType": 1, "gacha": "限定", "element": 5 },
   { "id": 1701, "name": "环奈", "isLimited": 1, "rarity": 3, "position": 433, "atkType": 1, "gacha": "限定", "element": null },
   { "id": 1702, "name": "环奈（振袖）", "isLimited": 1, "rarity": 3, "position": 527, "atkType": 1, "gacha": "限定", "element": null },
   { "id": 1801, "name": "日和莉（公主）", "isLimited": 1, "rarity": 3, "position": 199, "atkType": 1, "gacha": "fes限定", "element": 1 },
