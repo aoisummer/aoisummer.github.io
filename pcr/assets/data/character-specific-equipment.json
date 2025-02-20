@@ -113,7 +113,7 @@
   { "cid": 1066, "equipmentName": "祈梨的小锤", "addDate": "2023-06-09", "slot": 1 },
   { "cid": 1129, "equipmentName": "仙境弓", "addDate": "2023-06-09", "slot": 1 },
   { "cid": 1130, "equipmentName": "仙境时钟枪", "addDate": "2023-06-09", "slot": 1 },
-  { "cid": 1131, "equipmentName": "绝海·波浪丸 拵违", "addDate": "2023-07-08", "slot": 1 },
+  { "cid": 1131, "equipmentName": "绝海·波浪丸 双刀", "addDate": "2023-07-08", "slot": 1 },
   { "cid": 1132, "equipmentName": "海魔狱灭缚锁锚", "addDate": "2023-07-08", "slot": 1 },
   { "cid": 1133, "equipmentName": "七七香夏川之杖", "addDate": "2023-07-08", "slot": 1 },
   { "cid": 1134, "equipmentName": "星光闪耀☆彩球", "addDate": "2023-08-09", "slot": 1 },
@@ -173,5 +173,8 @@
   { "cid": 1164, "equipmentName": "高机动万能鞋·复制者", "addDate": "2025-02-07", "slot": 1 },
   { "cid": 1210, "equipmentName": "超越叛逆的公主之剑", "addDate": "2025-02-07", "slot": 1 },
   { "cid": 1211, "equipmentName": "超越叛逆的魔导书法杖", "addDate": "2025-02-07", "slot": 1 },
-  { "cid": 1212, "equipmentName": "超越叛逆的女王之剑", "addDate": "2025-02-07", "slot": 1 }
+  { "cid": 1212, "equipmentName": "超越叛逆的女王之剑", "addDate": "2025-02-07", "slot": 1 },
+  { "cid": 1068, "equipmentName": "女王操作台", "addDate": "2025-02-26", "slot": 1 },
+  { "cid": 1213, "equipmentName": "小小甜心演出服", "addDate": "2025-02-26", "slot": 1 },
+  { "cid": 1214, "equipmentName": "魔眼移动贩卖所", "addDate": "2025-02-26", "slot": 1 }
 ]
