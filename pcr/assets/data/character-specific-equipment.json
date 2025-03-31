@@ -176,5 +176,7 @@
   { "cid": 1212, "equipmentName": "超越叛逆的女王之剑", "addDate": "2025-02-07", "slot": 1 },
   { "cid": 1068, "equipmentName": "女王操作台", "addDate": "2025-02-26", "slot": 1 },
   { "cid": 1213, "equipmentName": "小小甜心演出服", "addDate": "2025-02-26", "slot": 1 },
-  { "cid": 1214, "equipmentName": "魔眼移动贩卖所", "addDate": "2025-02-26", "slot": 1 }
+  { "cid": 1214, "equipmentName": "魔眼移动贩卖所", "addDate": "2025-02-26", "slot": 1 },
+  { "cid": 1215, "equipmentName": "看不见的少女长矛", "addDate": "2025-03-31", "slot": 1 },
+  { "cid": 1216, "equipmentName": "不可视之龙", "addDate": "2025-03-31", "slot": 1 }
 ]
