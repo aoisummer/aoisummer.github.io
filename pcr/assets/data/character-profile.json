@@ -283,6 +283,7 @@
   { "cid": 1340, "age": "??", "guild": "？？？", "race": "？？？", "height": "???", "weight": "???", "birthMonth": "?", "birthDay": "?", "bloodType": "?" },
   { "cid": 1343, "age": "20", "guild": "レイジ・レギオン", "race": "魔族", "height": "165", "weight": "53", "birthMonth": "12", "birthDay": "28", "bloodType": "O" },
   { "cid": 1344, "age": "17", "guild": "カルミナ", "race": "ヒューマン", "height": "163", "weight": "46", "birthMonth": "6", "birthDay": "3", "bloodType": "O" },
+  { "cid": 1345, "age": "??", "guild": "？？？", "race": "機械人族", "height": "170", "weight": "全備重量278.1", "birthMonth": "11", "birthDay": "11", "bloodType": "?" },
   { "cid": 1346, "age": "13", "guild": "フォレスティエ", "race": "エルフ", "height": "158", "weight": "44", "birthMonth": "6", "birthDay": "6", "bloodType": "AB" },
   { "cid": 1801, "age": "16", "guild": "破晓之星", "race": "兽人族", "height": "155", "weight": "44", "birthMonth": "8", "birthDay": "27", "bloodType": "A" },
   { "cid": 1802, "age": "17", "guild": "破晓之星", "race": "人类", "height": "158", "weight": "47", "birthMonth": "4", "birthDay": "5", "bloodType": "O" },

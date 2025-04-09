@@ -178,5 +178,8 @@
   { "cid": 1213, "equipmentName": "小小甜心演出服", "addDate": "2025-02-26", "slot": 1 },
   { "cid": 1214, "equipmentName": "魔眼移动贩卖所", "addDate": "2025-02-26", "slot": 1 },
   { "cid": 1215, "equipmentName": "看不见的少女长矛", "addDate": "2025-03-31", "slot": 1 },
-  { "cid": 1216, "equipmentName": "不可视之龙", "addDate": "2025-03-31", "slot": 1 }
+  { "cid": 1216, "equipmentName": "不可视之龙", "addDate": "2025-03-31", "slot": 1 },
+  { "cid": 1219, "equipmentName": "七界霸王晦冥喝破之装", "addDate": "2025-04-15", "slot": 1 },
+  { "cid": 1220, "equipmentName": "灵锚坚斧", "addDate": "2025-04-15", "slot": 1 },
+  { "cid": 1803, "equipmentName": "绚丽公主裙", "addDate": "2025-04-23", "slot": 1 }
 ]
