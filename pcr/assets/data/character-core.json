@@ -283,6 +283,7 @@
   { "id": 1344, "name": "千歌（礼服）", "isLimited": 0, "rarity": 3, "position": 773, "atkType": 2, "gacha": "常驻", "element": 3, "role": 3 },
   { "id": 1345, "name": "克萝茜（风灵）", "isLimited": 1, "rarity": 3, "position": 719, "atkType": 2, "gacha": "限定", "element": 1, "role": 5 },
   { "id": 1346, "name": "碧（驾驶员）", "isLimited": 1, "rarity": 3, "position": 526, "atkType": 1, "gacha": "限定", "element": 4, "role": 4 },
+  { "id": 1347, "name": "凤凰", "isLimited": 1, "rarity": 3, "position": 490, "atkType": 1, "gacha": "限定", "element": 1, "role": 6 },
   { "id": 1701, "name": "环奈", "isLimited": 1, "rarity": 3, "position": 433, "atkType": 1, "gacha": "限定", "element": null, "role": null },
   { "id": 1702, "name": "环奈（振袖）", "isLimited": 1, "rarity": 3, "position": 527, "atkType": 1, "gacha": "限定", "element": null, "role": null },
   { "id": 1801, "name": "日和莉（公主）", "isLimited": 1, "rarity": 3, "position": 199, "atkType": 1, "gacha": "fes限定", "element": 1, "role": 4 },
