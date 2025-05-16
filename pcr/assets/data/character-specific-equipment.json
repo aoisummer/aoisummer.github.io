@@ -184,5 +184,8 @@
   { "cid": 1803, "equipmentName": "绚丽公主裙", "addDate": "2025-04-23", "slot": 1 },
   { "cid": 1221, "equipmentName": "单人露营弩", "addDate": "2025-04-30", "slot": 1 },
   { "cid": 1222, "equipmentName": "露营双子马克杯", "addDate": "2025-04-30", "slot": 1 },
-  { "cid": 1223, "equipmentName": "小贝丝", "addDate": "2025-04-30", "slot": 1 }
+  { "cid": 1223, "equipmentName": "小贝丝", "addDate": "2025-04-30", "slot": 1 },
+  { "cid": 1224, "equipmentName": "闪亮夏日比基尼", "addDate": "2025-05-15", "slot": 1 },
+  { "cid": 1225, "equipmentName": "闪亮夏日长剑", "addDate": "2025-05-15", "slot": 1 },
+  { "cid": 1226, "equipmentName": "闪亮夏日发带", "addDate": "2025-05-15", "slot": 1 }
 ]
