@@ -190,5 +190,8 @@
   { "cid": 1226, "equipmentName": "闪亮夏日发带", "addDate": "2025-05-15", "slot": 1 },
   { "cid": 1227, "equipmentName": "夏日追忆之杖", "addDate": "2025-05-30", "slot": 1 },
   { "cid": 1228, "equipmentName": "海边的陷阱鞋", "addDate": "2025-05-30", "slot": 1 },
-  { "cid": 1229, "equipmentName": "兔兔泳装", "addDate": "2025-05-30", "slot": 1 }
+  { "cid": 1229, "equipmentName": "兔兔泳装", "addDate": "2025-05-30", "slot": 1 },
+  { "cid": 1077, "equipmentName": "回忆的草帽", "addDate": "2025-06-14", "slot": 2 },
+  { "cid": 1079, "equipmentName": "猫猫披帛", "addDate": "2025-06-14", "slot": 2 },
+  { "cid": 1080, "equipmentName": "苍龙装罗坦", "addDate": "2025-06-14", "slot": 2 }
 ]

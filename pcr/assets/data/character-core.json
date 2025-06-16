@@ -288,6 +288,7 @@
   { "id": 1346, "name": "碧（驾驶员）", "isLimited": 1, "rarity": 3, "position": 526, "atkType": 1, "gacha": "限定", "element": 4, "role": 4 },
   { "id": 1347, "name": "凤凰", "isLimited": 1, "rarity": 3, "position": 490, "atkType": 1, "gacha": "限定", "element": 1, "role": 6 },
   { "id": 1348, "name": "纺希（吉欧・格黑纳）", "isLimited": 1, "rarity": 3, "position": 485, "atkType": 1, "gacha": "限定", "element": 4, "role": 3 },
+  { "id": 1349, "name": "华音", "isLimited": 1, "rarity": 3, "position": 196, "atkType": 1, "gacha": "限定", "element": 1, "role": 2 },
   { "id": 1701, "name": "环奈", "isLimited": 1, "rarity": 3, "position": 433, "atkType": 1, "gacha": "限定", "element": null, "role": null },
   { "id": 1702, "name": "环奈（振袖）", "isLimited": 1, "rarity": 3, "position": 527, "atkType": 1, "gacha": "限定", "element": null, "role": null },
   { "id": 1801, "name": "日和莉（公主）", "isLimited": 1, "rarity": 3, "position": 199, "atkType": 1, "gacha": "fes限定", "element": 1, "role": 4 },
