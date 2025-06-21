@@ -270,6 +270,7 @@
   { "id": 1321, "name": "拉姆（夏日）", "isLimited": 1, "rarity": 3, "position": 146, "atkType": 1, "gacha": "限定", "element": 4, "role": 1 },
   { "id": 1322, "name": "望（炼金术士）", "isLimited": 1, "rarity": 3, "position": 721, "atkType": 2, "gacha": "限定", "element": 2, "role": 3 },
   { "id": 1323, "name": "露易丝玛莉", "isLimited": 1, "rarity": 3, "position": 754, "atkType": 2, "gacha": "限定", "element": 1, "role": 3 },
+  { "id": 1324, "name": "彩羽", "isLimited": 0, "rarity": 3, "position": 501, "atkType": 1, "gacha": "常驻", "element": 4, "role": 1 },
   { "id": 1325, "name": "苑", "isLimited": 0, "rarity": 3, "position": 636, "atkType": 2, "gacha": "常驻", "element": 2, "role": 4 },
   { "id": 1328, "name": "莱拉耶尔（圣诞）", "isLimited": 1, "rarity": 3, "position": 750, "atkType": 2, "gacha": "限定", "element": 1, "role": 2 },
   { "id": 1329, "name": "伊绪（圣诞）", "isLimited": 0, "rarity": 3, "position": 748, "atkType": 2, "gacha": "常驻", "element": 4, "role": 4 },
