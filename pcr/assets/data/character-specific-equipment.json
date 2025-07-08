@@ -193,5 +193,16 @@
   { "cid": 1229, "equipmentName": "兔兔泳装", "addDate": "2025-05-30", "slot": 1 },
   { "cid": 1077, "equipmentName": "回忆的草帽", "addDate": "2025-06-14", "slot": 2 },
   { "cid": 1079, "equipmentName": "猫猫披帛", "addDate": "2025-06-14", "slot": 2 },
-  { "cid": 1080, "equipmentName": "苍龙装罗坦", "addDate": "2025-06-14", "slot": 2 }
+  { "cid": 1080, "equipmentName": "苍龙装罗坦", "addDate": "2025-06-14", "slot": 2 },
+  { "cid": 1231, "equipmentName": "真步真步旅行装", "addDate": "2025-06-30", "slot": 1 },
+  { "cid": 1232, "equipmentName": "熊熊游猎装", "addDate": "2025-06-30", "slot": 1 },
+  { "cid": 1233, "equipmentName": "黏答答披帛", "addDate": "2025-06-30", "slot": 1 },
+  { "cid": 1016, "equipmentName": "魅力定制礼装", "addDate": "2025-06-30", "slot": 2 },
+  { "cid": 1060, "equipmentName": "混沌光球", "addDate": "2025-06-30", "slot": 2 },
+  { "cid": 1235, "equipmentName": "懒洋洋僵尸帽", "addDate": "2025-07-15", "slot": 1 },
+  { "cid": 1236, "equipmentName": "万圣节警察变装", "addDate": "2025-07-15", "slot": 1 },
+  { "cid": 1237, "equipmentName": "小七七香的巫师变装", "addDate": "2025-07-15", "slot": 1 },
+  { "cid": 1081, "equipmentName": "万圣节骷髅老爸", "addDate": "2025-07-15", "slot": 2 },
+  { "cid": 1082, "equipmentName": "狼女套装", "addDate": "2025-07-15", "slot": 2 },
+  { "cid": 1083, "equipmentName": "淑女的魔女帽", "addDate": "2025-07-15", "slot": 2 }
 ]
