@@ -291,6 +291,7 @@
   { "id": 1348, "name": "纺希（吉欧・格黑纳）", "isLimited": 1, "rarity": 3, "position": 485, "atkType": 1, "gacha": "限定", "element": 4, "role": 3 },
   { "id": 1349, "name": "华音", "isLimited": 1, "rarity": 3, "position": 196, "atkType": 1, "gacha": "限定", "element": 1, "role": 2 },
   { "id": 1350, "name": "厄莉丝（夏日）", "isLimited": 1, "rarity": 3, "position": 785, "atkType": 2, "gacha": "限定", "element": 3, "role": 3 },
+  { "id": 1351, "name": "雪菲（夏日）", "isLimited": 1, "rarity": 3, "position": 143, "atkType": 1, "gacha": "限定", "element": 4, "role": 7 },
   { "id": 1701, "name": "环奈", "isLimited": 1, "rarity": 3, "position": 433, "atkType": 1, "gacha": "限定", "element": null, "role": null },
   { "id": 1702, "name": "环奈（振袖）", "isLimited": 1, "rarity": 3, "position": 527, "atkType": 1, "gacha": "限定", "element": null, "role": null },
   { "id": 1801, "name": "日和莉（公主）", "isLimited": 1, "rarity": 3, "position": 199, "atkType": 1, "gacha": "fes限定", "element": 1, "role": 4 },
