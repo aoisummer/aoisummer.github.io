@@ -204,5 +204,10 @@
   { "cid": 1237, "equipmentName": "小七七香的巫师变装", "addDate": "2025-07-15", "slot": 1 },
   { "cid": 1081, "equipmentName": "万圣节骷髅老爸", "addDate": "2025-07-15", "slot": 2 },
   { "cid": 1082, "equipmentName": "狼女套装", "addDate": "2025-07-15", "slot": 2 },
-  { "cid": 1083, "equipmentName": "淑女的魔女帽", "addDate": "2025-07-15", "slot": 2 }
+  { "cid": 1083, "equipmentName": "淑女的魔女帽", "addDate": "2025-07-15", "slot": 2 },
+  { "cid": 1238, "equipmentName": "野兔装甲", "addDate": "2025-07-30", "slot": 1 },
+  { "cid": 1239, "equipmentName": "猛虎铠甲", "addDate": "2025-07-30", "slot": 1 },
+  { "cid": 1805, "equipmentName": "慈爱公主长袍", "addDate": "2025-07-30", "slot": 1 },
+  { "cid": 1033, "equipmentName": "特浓【牧场】牛奶", "addDate": "2025-07-30", "slot": 2 },
+  { "cid": 1058, "equipmentName": "公主头冠", "addDate": "2025-07-30", "slot": 2 }
 ]
