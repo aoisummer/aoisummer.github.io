@@ -209,5 +209,11 @@
   { "cid": 1239, "equipmentName": "猛虎铠甲", "addDate": "2025-07-30", "slot": 1 },
   { "cid": 1805, "equipmentName": "慈爱公主长袍", "addDate": "2025-07-30", "slot": 1 },
   { "cid": 1033, "equipmentName": "特浓【牧场】牛奶", "addDate": "2025-07-30", "slot": 2 },
-  { "cid": 1058, "equipmentName": "公主头冠", "addDate": "2025-07-30", "slot": 2 }
+  { "cid": 1058, "equipmentName": "公主头冠", "addDate": "2025-07-30", "slot": 2 },
+  { "cid": 1240, "equipmentName": "珍藏的萨克斯管", "addDate": "2025-08-14", "slot": 1 },
+  { "cid": 1241, "equipmentName": "依里送的玩偶", "addDate": "2025-08-14", "slot": 1 },
+  { "cid": 1242, "equipmentName": "圣女假面铠甲", "addDate": "2025-08-14", "slot": 1 },
+  { "cid": 1084, "equipmentName": "符石圣诞礼服", "addDate": "2025-08-14", "slot": 2 },
+  { "cid": 1085, "equipmentName": "圣诞演员服", "addDate": "2025-08-14", "slot": 2 },
+  { "cid": 1086, "equipmentName": "噗吉雪人", "addDate": "2025-08-14", "slot": 2 }
 ]
