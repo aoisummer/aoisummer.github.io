@@ -308,6 +308,6 @@
   { "id": 1808, "name": "未奏希＆美美＆镜华", "isLimited": 1, "rarity": 3, "position": 465, "atkType": 1, "gacha": "fes限定", "element": 4, "role": 2 },
   { "id": 1809, "name": "秋乃＆咲恋", "isLimited": 1, "rarity": 3, "position": 421, "atkType": 1, "gacha": "fes限定", "element": 1, "role": 3 },
   { "id": 1810, "name": "安＆古蕾雅", "isLimited": 1, "rarity": 3, "position": 577, "atkType": 2, "gacha": "fes限定", "element": 1, "role": 1 },
-  { "id": 1811, "name": "静流&璃乃", "isLimited": 1, "rarity": 3, "position": 551, "atkType": 1, "gacha": "fes限定", "element": 4, "role": 7 },
+  { "id": 1811, "name": "静流＆璃乃", "isLimited": 1, "rarity": 3, "position": 551, "atkType": 1, "gacha": "fes限定", "element": 4, "role": 7 },
   { "id": 1812, "name": "雪菲（公主）", "isLimited": 1, "rarity": 3, "position": 368, "atkType": 1, "gacha": "fes限定", "element": 2, "role": 2 }
 ]

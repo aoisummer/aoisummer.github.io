@@ -215,5 +215,11 @@
   { "cid": 1242, "equipmentName": "圣女假面铠甲", "addDate": "2025-08-14", "slot": 1 },
   { "cid": 1084, "equipmentName": "符石圣诞礼服", "addDate": "2025-08-14", "slot": 2 },
   { "cid": 1085, "equipmentName": "圣诞演员服", "addDate": "2025-08-14", "slot": 2 },
-  { "cid": 1086, "equipmentName": "噗吉雪人", "addDate": "2025-08-14", "slot": 2 }
+  { "cid": 1086, "equipmentName": "噗吉雪人", "addDate": "2025-08-14", "slot": 2 },
+  { "cid": 1245, "equipmentName": "龙老板娘的极道扇子", "addDate": "2025-08-29", "slot": 1 },
+  { "cid": 1246, "equipmentName": "雾气缭绕母性小老板娘装束", "addDate": "2025-08-29", "slot": 1 },
+  { "cid": 1247, "equipmentName": "玫瑰老板娘的温泉疗养烟管", "addDate": "2025-08-29", "slot": 1 },
+  { "cid": 1807, "equipmentName": "初音和栞的发饰", "addDate": "2025-08-29", "slot": 1 },
+  { "cid": 1090, "equipmentName": "疯狂的爱", "addDate": "2025-08-29", "slot": 2 },
+  { "cid": 1091, "equipmentName": "爱的姐姐围裙", "addDate": "2025-08-29", "slot": 2 }
 ]

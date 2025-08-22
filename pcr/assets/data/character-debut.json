@@ -239,9 +239,9 @@
   { "cid": 1278, "debutDateCN": null, "debutDateJP": "2024-10-18" },
   { "cid": 1279, "debutDateCN": "2025-08-14", "debutDateJP": "2023-11-30" },
   { "cid": 1280, "debutDateCN": "2025-08-14", "debutDateJP": "2023-12-15" },
-  { "cid": 1283, "debutDateCN": null, "debutDateJP": "2023-12-31" },
-  { "cid": 1284, "debutDateCN": null, "debutDateJP": "2024-01-03" },
-  { "cid": 1285, "debutDateCN": null, "debutDateJP": "2024-01-15" },
+  { "cid": 1283, "debutDateCN": "2025-08-29", "debutDateJP": "2023-12-31" },
+  { "cid": 1284, "debutDateCN": "2025-09-01", "debutDateJP": "2024-01-03" },
+  { "cid": 1285, "debutDateCN": "2025-09-01", "debutDateJP": "2024-01-15" },
   { "cid": 1287, "debutDateCN": null, "debutDateJP": "2024-02-15" },
   { "cid": 1288, "debutDateCN": null, "debutDateJP": "2024-01-31" },
   { "cid": 1289, "debutDateCN": null, "debutDateJP": "2024-01-31" },
@@ -308,6 +308,6 @@
   { "cid": 1808, "debutDateCN": "2023-12-29", "debutDateJP": "2021-12-31" },
   { "cid": 1809, "debutDateCN": "2024-04-17", "debutDateJP": "2022-04-30" },
   { "cid": 1810, "debutDateCN": "2024-12-31", "debutDateJP": "2022-12-31" },
-  { "cid": 1811, "debutDateCN": null, "debutDateJP": "2023-12-31" },
+  { "cid": 1811, "debutDateCN": "2025-08-29", "debutDateJP": "2023-12-31" },
   { "cid": 1812, "debutDateCN": null, "debutDateJP": "2024-08-23" }
 ]
