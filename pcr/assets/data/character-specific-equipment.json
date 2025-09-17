@@ -221,5 +221,8 @@
   { "cid": 1247, "equipmentName": "玫瑰老板娘的温泉疗养烟管", "addDate": "2025-08-29", "slot": 1 },
   { "cid": 1807, "equipmentName": "初音和栞的发饰", "addDate": "2025-08-29", "slot": 1 },
   { "cid": 1090, "equipmentName": "疯狂的爱", "addDate": "2025-08-29", "slot": 2 },
-  { "cid": 1091, "equipmentName": "爱的姐姐围裙", "addDate": "2025-08-29", "slot": 2 }
+  { "cid": 1091, "equipmentName": "爱的姐姐围裙", "addDate": "2025-08-29", "slot": 2 },
+  { "cid": 1248, "equipmentName": "心之解放者", "addDate": "2025-09-15", "slot": 1 },
+  { "cid": 1249, "equipmentName": "灵魂解放者", "addDate": "2025-09-15", "slot": 1 },
+  { "cid": 1250, "equipmentName": "天楼霸断剑【解放者】", "addDate": "2025-09-15", "slot": 1 }
 ]
