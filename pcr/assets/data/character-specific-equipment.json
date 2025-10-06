@@ -224,5 +224,10 @@
   { "cid": 1091, "equipmentName": "爱的姐姐围裙", "addDate": "2025-08-29", "slot": 2 },
   { "cid": 1248, "equipmentName": "心之解放者", "addDate": "2025-09-15", "slot": 1 },
   { "cid": 1249, "equipmentName": "灵魂解放者", "addDate": "2025-09-15", "slot": 1 },
-  { "cid": 1250, "equipmentName": "天楼霸断剑【解放者】", "addDate": "2025-09-15", "slot": 1 }
+  { "cid": 1250, "equipmentName": "天楼霸断剑【解放者】", "addDate": "2025-09-15", "slot": 1 },
+  { "cid": 1200, "equipmentName": "", "addDate": "2025-10-13", "slot": 1 },
+  { "cid": 1251, "equipmentName": "", "addDate": "2025-10-13", "slot": 1 },
+  { "cid": 1252, "equipmentName": "", "addDate": "2025-10-13", "slot": 1 },
+  { "cid": 1011, "equipmentName": "", "addDate": "2025-10-13", "slot": 2 },
+  { "cid": 1049, "equipmentName": "", "addDate": "2025-10-13", "slot": 2 }
 ]
