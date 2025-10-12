@@ -299,6 +299,7 @@
   { "id": 1356, "name": "志那都", "isLimited": 1, "rarity": 3, "position": 198, "atkType": 1, "gacha": "fes限定", "element": 3, "role": 2 },
   { "id": 1357, "name": "日和莉（萨里萨利亚）", "isLimited": 0, "rarity": 3, "position": 291, "atkType": 1, "gacha": "常驻", "element": 5, "role": 5 },
   { "id": 1358, "name": "雪野", "isLimited": 1, "rarity": 3, "position": 830, "atkType": 2, "gacha": "限定", "element": 2, "role": 2 },
+  { "id": 1359, "name": "刹鬼", "isLimited": 1, "rarity": 3, "position": 219, "atkType": 1, "gacha": "限定", "element": 5, "role": 1 },
   { "id": 1371, "name": "妮侬（夏日）", "isLimited": 0, "rarity": 3, "position": 566, "atkType": 2, "gacha": "常驻", "element": 2, "role": 8 },
   { "id": 1701, "name": "环奈", "isLimited": 1, "rarity": 3, "position": 433, "atkType": 1, "gacha": "限定", "element": null, "role": null },
   { "id": 1702, "name": "环奈（振袖）", "isLimited": 1, "rarity": 3, "position": 527, "atkType": 1, "gacha": "限定", "element": null, "role": null },
