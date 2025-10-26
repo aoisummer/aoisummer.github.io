@@ -226,8 +226,13 @@
   { "cid": 1249, "equipmentName": "灵魂解放者", "addDate": "2025-09-15", "slot": 1 },
   { "cid": 1250, "equipmentName": "天楼霸断剑【解放者】", "addDate": "2025-09-15", "slot": 1 },
   { "cid": 1200, "equipmentName": "", "addDate": "2025-10-13", "slot": 1 },
-  { "cid": 1251, "equipmentName": "", "addDate": "2025-10-13", "slot": 1 },
-  { "cid": 1252, "equipmentName": "", "addDate": "2025-10-13", "slot": 1 },
-  { "cid": 1011, "equipmentName": "", "addDate": "2025-10-13", "slot": 2 },
-  { "cid": 1049, "equipmentName": "", "addDate": "2025-10-13", "slot": 2 }
+  { "cid": 1251, "equipmentName": "甜食党主任服", "addDate": "2025-10-13", "slot": 1 },
+  { "cid": 1252, "equipmentName": "甜食党店长服", "addDate": "2025-10-13", "slot": 1 },
+  { "cid": 1011, "equipmentName": "快乐姊妹弓", "addDate": "2025-10-13", "slot": 2 },
+  { "cid": 1049, "equipmentName": "神圣的修女面纱", "addDate": "2025-10-13", "slot": 2 },
+  { "cid": 1253, "equipmentName": "", "addDate": "2025-10-30", "slot": 1 },
+  { "cid": 1254, "equipmentName": "", "addDate": "2025-10-30", "slot": 1 },
+  { "cid": 1258, "equipmentName": "", "addDate": "2025-10-30", "slot": 1 },
+  { "cid": 1095, "equipmentName": "", "addDate": "2025-10-30", "slot": 2 },
+  { "cid": 1096, "equipmentName": "", "addDate": "2025-10-30", "slot": 2 }
 ]
