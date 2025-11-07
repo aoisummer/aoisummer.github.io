@@ -234,5 +234,10 @@
   { "cid": 1254, "equipmentName": "", "addDate": "2025-10-30", "slot": 1 },
   { "cid": 1258, "equipmentName": "", "addDate": "2025-10-30", "slot": 1 },
   { "cid": 1095, "equipmentName": "千变万化的艳丽山茶花", "addDate": "2025-10-30", "slot": 2 },
-  { "cid": 1096, "equipmentName": "干练的女忍者套装", "addDate": "2025-10-30", "slot": 2 }
+  { "cid": 1096, "equipmentName": "干练的女忍者套装", "addDate": "2025-10-30", "slot": 2 },
+  { "cid": 1255, "equipmentName": "", "addDate": "2025-11-14", "slot": 1 },
+  { "cid": 1256, "equipmentName": "", "addDate": "2025-11-14", "slot": 1 },
+  { "cid": 1257, "equipmentName": "", "addDate": "2025-11-14", "slot": 1 },
+  { "cid": 1013, "equipmentName": "", "addDate": "2025-11-14", "slot": 2 },
+  { "cid": 1107, "equipmentName": "", "addDate": "2025-11-14", "slot": 2 }
 ]

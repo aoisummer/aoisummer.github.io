@@ -249,7 +249,7 @@
   { "id": 1293, "name": "优妮（冬日）", "isLimited": 1, "rarity": 3, "position": 708, "atkType": 2, "gacha": "限定", "element": 2, "role": 5 },
   { "id": 1294, "name": "克罗依（冬日）", "isLimited": 0, "rarity": 3, "position": 188, "atkType": 1, "gacha": "限定", "element": 2, "role": 2 },
   { "id": 1295, "name": "琪爱儿（冬日）", "isLimited": 1, "rarity": 3, "position": 247, "atkType": 1, "gacha": "限定", "element": 2, "role": 5 },
-  { "id": 1296, "name": "安涅默涅", "isLimited": 1, "rarity": 3, "position": 550, "atkType": 1, "gacha": "fes限定", "element": 3, "role": 4 },
+  { "id": 1296, "name": "银莲", "isLimited": 1, "rarity": 3, "position": 550, "atkType": 1, "gacha": "fes限定", "element": 3, "role": 4 },
   { "id": 1297, "name": "涅妃・涅罗", "isLimited": 1, "rarity": 3, "position": 540, "atkType": 1, "gacha": "fes限定", "element": 1, "role": 5 },
   { "id": 1298, "name": "真琴（教官）", "isLimited": 1, "rarity": 3, "position": 269, "atkType": 1, "gacha": "限定", "element": 5, "role": 2 },
   { "id": 1299, "name": "惠理子（教官）", "isLimited": 0, "rarity": 3, "position": 294, "atkType": 1, "gacha": "常驻", "element": 5, "role": 3 },
