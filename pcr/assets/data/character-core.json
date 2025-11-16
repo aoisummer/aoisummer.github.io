@@ -302,6 +302,7 @@
   { "id": 1359, "name": "刹鬼", "isLimited": 1, "rarity": 3, "position": 219, "atkType": 1, "gacha": "限定", "element": 5, "role": 1 },
   { "id": 1360, "name": "阿剌克涅", "isLimited": 1, "rarity": 3, "position": 732, "atkType": 1, "gacha": "限定", "element": 1, "role": 5 },
   { "id": 1361, "name": "樱", "isLimited": 1, "rarity": 3, "position": 432, "atkType": 1, "gacha": "限定", "element": 5, "role": 3 },
+  { "id": 1362, "name": "娜娜", "isLimited": 0, "rarity": 3, "position": 198, "atkType": 1, "gacha": "常驻", "element": 1, "role": 3 },
   { "id": 1371, "name": "妮侬（夏日）", "isLimited": 0, "rarity": 3, "position": 566, "atkType": 2, "gacha": "常驻", "element": 2, "role": 8 },
   { "id": 1374, "name": "香澄（修女）", "isLimited": 1, "rarity": 3, "position": 688, "atkType": 2, "gacha": "限定", "element": 4, "role": 2 },
   { "id": 1701, "name": "环奈", "isLimited": 1, "rarity": 3, "position": 433, "atkType": 1, "gacha": "限定", "element": 4, "role": null },
