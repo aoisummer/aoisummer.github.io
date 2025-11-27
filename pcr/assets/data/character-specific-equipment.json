@@ -239,5 +239,10 @@
   { "cid": 1256, "equipmentName": "", "addDate": "2025-11-14", "slot": 1 },
   { "cid": 1257, "equipmentName": "药剂瓶", "addDate": "2025-11-14", "slot": 1 },
   { "cid": 1013, "equipmentName": "七七香魔法假面", "addDate": "2025-11-14", "slot": 2 },
-  { "cid": 1107, "equipmentName": "碧的好朋友手账", "addDate": "2025-11-14", "slot": 2 }
+  { "cid": 1107, "equipmentName": "碧的好朋友手账", "addDate": "2025-11-14", "slot": 2 },
+  { "cid": 1262, "equipmentName": "", "addDate": "2025-11-29", "slot": 1 },
+  { "cid": 1263, "equipmentName": "", "addDate": "2025-11-29", "slot": 1 },
+  { "cid": 1100, "equipmentName": "", "addDate": "2025-11-29", "slot": 2 },
+  { "cid": 1101, "equipmentName": "", "addDate": "2025-11-29", "slot": 2 },
+  { "cid": 1103, "equipmentName": "", "addDate": "2025-11-29", "slot": 2 }
 ]
