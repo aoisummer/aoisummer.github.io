@@ -247,10 +247,10 @@
   { "cid": 1100, "equipmentName": "极其丰盛的水果芭菲", "addDate": "2025-11-29", "slot": 2 },
   { "cid": 1101, "equipmentName": "夏日的爱", "addDate": "2025-11-29", "slot": 2 },
   { "cid": 1103, "equipmentName": "闪耀的夏日回忆", "addDate": "2025-11-29", "slot": 2 },
-  { "cid": 1266, "equipmentName": "", "addDate": "2025-12-15", "slot": 1 },
-  { "cid": 1267, "equipmentName": "", "addDate": "2025-12-15", "slot": 1 },
-  { "cid": 1268, "equipmentName": "", "addDate": "2025-12-15", "slot": 1 },
-  { "cid": 1104, "equipmentName": "", "addDate": "2025-12-15", "slot": 2 },
-  { "cid": 1105, "equipmentName": "", "addDate": "2025-12-15", "slot": 2 },
-  { "cid": 1106, "equipmentName": "", "addDate": "2025-12-15", "slot": 2 }
+  { "cid": 1266, "equipmentName": "夏日草帽", "addDate": "2025-12-15", "slot": 1 },
+  { "cid": 1267, "equipmentName": "光辉的夏日回忆", "addDate": "2025-12-15", "slot": 1 },
+  { "cid": 1268, "equipmentName": "夏日圣骑士酒杯", "addDate": "2025-12-15", "slot": 1 },
+  { "cid": 1104, "equipmentName": "狼人夏日比基尼", "addDate": "2025-12-15", "slot": 2 },
+  { "cid": 1105, "equipmentName": "琉球犬式·跃三线", "addDate": "2025-12-15", "slot": 2 },
+  { "cid": 1106, "equipmentName": "真步真步玩偶骑士团", "addDate": "2025-12-15", "slot": 2 }
 ]
