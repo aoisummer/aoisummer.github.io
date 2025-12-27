@@ -252,5 +252,8 @@
   { "cid": 1268, "equipmentName": "夏日圣骑士酒杯", "addDate": "2025-12-15", "slot": 1 },
   { "cid": 1104, "equipmentName": "狼人夏日比基尼", "addDate": "2025-12-15", "slot": 2 },
   { "cid": 1105, "equipmentName": "琉球犬式·跃三线", "addDate": "2025-12-15", "slot": 2 },
-  { "cid": 1106, "equipmentName": "真步真步玩偶骑士团", "addDate": "2025-12-15", "slot": 2 }
+  { "cid": 1106, "equipmentName": "真步真步玩偶骑士团", "addDate": "2025-12-15", "slot": 2 },
+  { "cid": 1269, "equipmentName": "", "addDate": "2025-12-30", "slot": 1 },
+  { "cid": 1270, "equipmentName": "", "addDate": "2025-12-30", "slot": 1 },
+  { "cid": 1271, "equipmentName": "", "addDate": "2025-12-30", "slot": 1 }
 ]
