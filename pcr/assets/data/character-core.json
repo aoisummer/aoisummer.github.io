@@ -305,6 +305,7 @@
   { "id": 1362, "name": "娜娜", "isLimited": 0, "rarity": 3, "position": 198, "atkType": 1, "gacha": "常驻", "element": 1, "role": 3 },
   { "id": 1363, "name": "美空（圣诞节）", "isLimited": 1, "rarity": 3, "position": 655, "atkType": 2, "gacha": "限定", "element": 2, "role": 3 },
   { "id": 1364, "name": "优衣（圣诞节）", "isLimited": 1, "rarity": 3, "position": 382, "atkType": 2, "gacha": "限定", "element": 1, "role": 7 },
+  { "id": 1365, "name": "静流（新年）", "isLimited": 1, "rarity": 3, "position": 151, "atkType": 1, "gacha": "限定", "element": 3, "role": 7 },
   { "id": 1371, "name": "妮侬（夏日）", "isLimited": 0, "rarity": 3, "position": 566, "atkType": 2, "gacha": "常驻", "element": 2, "role": 8 },
   { "id": 1374, "name": "香澄（修女）", "isLimited": 1, "rarity": 3, "position": 688, "atkType": 2, "gacha": "限定", "element": 4, "role": 2 },
   { "id": 1376, "name": "可可萝（向导幼君）", "isLimited": 1, "rarity": 3, "position": 733, "atkType": 2, "gacha": "限定", "element": 3, "role": 3 },
