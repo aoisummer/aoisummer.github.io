@@ -255,5 +255,12 @@
   { "cid": 1106, "equipmentName": "真步真步玩偶骑士团", "addDate": "2025-12-15", "slot": 2 },
   { "cid": 1269, "equipmentName": "", "addDate": "2025-12-30", "slot": 1 },
   { "cid": 1270, "equipmentName": "空花特制绝对支配", "addDate": "2025-12-30", "slot": 1 },
-  { "cid": 1271, "equipmentName": "怪异！盛夏的骷髅老爸", "addDate": "2025-12-30", "slot": 1 }
+  { "cid": 1271, "equipmentName": "怪异！盛夏的骷髅老爸", "addDate": "2025-12-30", "slot": 1 },
+  { "cid": 1272, "equipmentName": "", "addDate": "2026-01-29", "slot": 1 },
+  { "cid": 1273, "equipmentName": "", "addDate": "2026-01-29", "slot": 1 },
+  { "cid": 1808, "equipmentName": "", "addDate": "2026-01-29", "slot": 1 },
+  { "cid": 1025, "equipmentName": "", "addDate": "2026-01-29", "slot": 2 },
+  { "cid": 1111, "equipmentName": "", "addDate": "2026-01-29", "slot": 2 },
+  { "cid": 1112, "equipmentName": "", "addDate": "2026-01-29", "slot": 2 },
+  { "cid": 1113, "equipmentName": "", "addDate": "2026-01-29", "slot": 2 }
 ]
