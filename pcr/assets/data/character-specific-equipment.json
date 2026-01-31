@@ -256,11 +256,11 @@
   { "cid": 1269, "equipmentName": "", "addDate": "2025-12-30", "slot": 1 },
   { "cid": 1270, "equipmentName": "空花特制绝对支配", "addDate": "2025-12-30", "slot": 1 },
   { "cid": 1271, "equipmentName": "怪异！盛夏的骷髅老爸", "addDate": "2025-12-30", "slot": 1 },
-  { "cid": 1272, "equipmentName": "", "addDate": "2026-01-29", "slot": 1 },
-  { "cid": 1273, "equipmentName": "", "addDate": "2026-01-29", "slot": 1 },
-  { "cid": 1808, "equipmentName": "", "addDate": "2026-01-29", "slot": 1 },
-  { "cid": 1025, "equipmentName": "", "addDate": "2026-01-29", "slot": 2 },
-  { "cid": 1111, "equipmentName": "", "addDate": "2026-01-29", "slot": 2 },
-  { "cid": 1112, "equipmentName": "", "addDate": "2026-01-29", "slot": 2 },
-  { "cid": 1113, "equipmentName": "", "addDate": "2026-01-29", "slot": 2 }
+  { "cid": 1272, "equipmentName": "青春四角帽", "addDate": "2026-01-29", "slot": 1 },
+  { "cid": 1273, "equipmentName": "青春校园书包", "addDate": "2026-01-29", "slot": 1 },
+  { "cid": 1808, "equipmentName": "小小大冒险的回忆", "addDate": "2026-01-29", "slot": 1 },
+  { "cid": 1025, "equipmentName": "皇家女仆一滴不落", "addDate": "2026-01-29", "slot": 2 },
+  { "cid": 1111, "equipmentName": "万圣节兜帽黑猫", "addDate": "2026-01-29", "slot": 2 },
+  { "cid": 1112, "equipmentName": "万圣节糖果袋", "addDate": "2026-01-29", "slot": 2 },
+  { "cid": 1113, "equipmentName": "旋转兔兔帽子", "addDate": "2026-01-29", "slot": 2 }
 ]

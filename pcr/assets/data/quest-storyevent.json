@@ -469,6 +469,11 @@
       "id": 5212,
       "name": "Labyrinth -reboot　重なる黎明の標",
       "character": []
+    },
+    {
+      "id": 5213,
+      "name": "Grand Cru Royal　召しませ！ハートフルコース オープニング",
+      "character": []
     }
   ],
   "eventCN": [
@@ -2221,6 +2226,11 @@
       "startDate": "2026-01-16T12:00:00+09:00",
       "endDate": "2026-01-23T20:59:59+09:00",
       "reopen": true
+    },
+    {
+      "sid": 5213,
+      "startDate": "2026-01-31T12:00:00+09:00",
+      "endDate": "2026-02-23T04:59:59+09:00"
     }
   ]
 }
