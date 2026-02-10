@@ -262,5 +262,9 @@
   { "cid": 1025, "equipmentName": "皇家女仆一滴不落", "addDate": "2026-01-29", "slot": 2 },
   { "cid": 1111, "equipmentName": "万圣节兜帽黑猫", "addDate": "2026-01-29", "slot": 2 },
   { "cid": 1112, "equipmentName": "万圣节糖果袋", "addDate": "2026-01-29", "slot": 2 },
-  { "cid": 1113, "equipmentName": "旋转兔兔帽子", "addDate": "2026-01-29", "slot": 2 }
+  { "cid": 1113, "equipmentName": "旋转兔兔帽子", "addDate": "2026-01-29", "slot": 2 },
+  { "cid": 1260, "equipmentName": "", "addDate": "2026-02-13", "slot": 1 },
+  { "cid": 1261, "equipmentName": "", "addDate": "2026-02-13", "slot": 1 },
+  { "cid": 1275, "equipmentName": "", "addDate": "2026-02-13", "slot": 1 },
+  { "cid": 1276, "equipmentName": "", "addDate": "2026-02-13", "slot": 1 }
 ]
