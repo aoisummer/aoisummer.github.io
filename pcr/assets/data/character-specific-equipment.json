@@ -263,8 +263,11 @@
   { "cid": 1111, "equipmentName": "万圣节兜帽黑猫", "addDate": "2026-01-29", "slot": 2 },
   { "cid": 1112, "equipmentName": "万圣节糖果袋", "addDate": "2026-01-29", "slot": 2 },
   { "cid": 1113, "equipmentName": "旋转兔兔帽子", "addDate": "2026-01-29", "slot": 2 },
-  { "cid": 1260, "equipmentName": "", "addDate": "2026-02-13", "slot": 1 },
-  { "cid": 1261, "equipmentName": "", "addDate": "2026-02-13", "slot": 1 },
-  { "cid": 1275, "equipmentName": "", "addDate": "2026-02-13", "slot": 1 },
-  { "cid": 1276, "equipmentName": "", "addDate": "2026-02-13", "slot": 1 }
+  { "cid": 1260, "equipmentName": "雷帝的隐棘", "addDate": "2026-02-13", "slot": 1 },
+  { "cid": 1261, "equipmentName": "迪丝诺美亚的破杖", "addDate": "2026-02-13", "slot": 1 },
+  { "cid": 1275, "equipmentName": "炙热沙漠的萨拉萨利安", "addDate": "2026-02-13", "slot": 1 },
+  { "cid": 1276, "equipmentName": "清凉水畔的萨拉萨利安", "addDate": "2026-02-13", "slot": 1 },
+  { "cid": 1279, "equipmentName": "", "addDate": "2026-02-28", "slot": 1 },
+  { "cid": 1280, "equipmentName": "", "addDate": "2026-02-28", "slot": 1 },
+  { "cid": 1059, "equipmentName": "", "addDate": "2026-02-28", "slot": 2 }
 ]
