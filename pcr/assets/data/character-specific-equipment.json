@@ -270,8 +270,11 @@
   { "cid": 1279, "equipmentName": "", "addDate": "2026-02-28", "slot": 1 },
   { "cid": 1280, "equipmentName": "", "addDate": "2026-02-28", "slot": 1 },
   { "cid": 1059, "equipmentName": "可可萝的精灵", "addDate": "2026-02-28", "slot": 2 },
-  { "cid": 1283, "equipmentName": "", "addDate": "2026-03-16", "slot": 1 },
-  { "cid": 1284, "equipmentName": "", "addDate": "2026-03-16", "slot": 1 },
+  { "cid": 1283, "equipmentName": "辰年神之大槌", "addDate": "2026-03-16", "slot": 1 },
+  { "cid": 1284, "equipmentName": "新年☆流星", "addDate": "2026-03-16", "slot": 1 },
   { "cid": 1285, "equipmentName": "", "addDate": "2026-03-16", "slot": 1 },
-  { "cid": 1809, "equipmentName": "", "addDate": "2026-03-16", "slot": 1 }
+  { "cid": 1809, "equipmentName": "劲敌们的光辉", "addDate": "2026-03-16", "slot": 1 },
+  { "cid": 1287, "equipmentName": "", "addDate": "2026-03-31", "slot": 1 },
+  { "cid": 1288, "equipmentName": "", "addDate": "2026-03-31", "slot": 1 },
+  { "cid": 1289, "equipmentName": "", "addDate": "2026-03-31", "slot": 1 }
 ]
