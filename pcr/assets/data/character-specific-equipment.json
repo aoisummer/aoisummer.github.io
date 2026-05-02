@@ -276,5 +276,8 @@
   { "cid": 1809, "equipmentName": "劲敌们的光辉", "addDate": "2026-03-16", "slot": 1 },
   { "cid": 1287, "equipmentName": "火焰阿斯特拉", "addDate": "2026-03-31", "slot": 1 },
   { "cid": 1288, "equipmentName": "疾风阿斯特拉", "addDate": "2026-03-31", "slot": 1 },
-  { "cid": 1289, "equipmentName": "", "addDate": "2026-03-31", "slot": 1 }
+  { "cid": 1289, "equipmentName": "", "addDate": "2026-03-31", "slot": 1 },
+  { "cid": 1319, "equipmentName": "帕克（夏日）", "addDate": "2026-04-30", "slot": 1 },
+  { "cid": 1320, "equipmentName": "魔女的茶具套装", "addDate": "2026-04-30", "slot": 1 },
+  { "cid": 1321, "equipmentName": "夏日晨星", "addDate": "2026-04-30", "slot": 1 }
 ]
