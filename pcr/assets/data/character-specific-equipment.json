@@ -280,8 +280,12 @@
   { "cid": 1319, "equipmentName": "帕克（夏日）", "addDate": "2026-04-30", "slot": 1 },
   { "cid": 1320, "equipmentName": "魔女的茶具套装", "addDate": "2026-04-30", "slot": 1 },
   { "cid": 1321, "equipmentName": "夏日晨星", "addDate": "2026-04-30", "slot": 1 },
-  { "cid": 1293, "equipmentName": "", "addDate": "2026-05-15", "slot": 1 },
-  { "cid": 1294, "equipmentName": "", "addDate": "2026-05-15", "slot": 1 },
-  { "cid": 1122, "equipmentName": "", "addDate": "2026-05-15", "slot": 2 },
-  { "cid": 1123, "equipmentName": "", "addDate": "2026-05-15", "slot": 2 }
+  { "cid": 1293, "equipmentName": "硕学书斋·复制品", "addDate": "2026-05-15", "slot": 1 },
+  { "cid": 1294, "equipmentName": "八煞", "addDate": "2026-05-15", "slot": 1 },
+  { "cid": 1122, "equipmentName": "魔法神秘缎带", "addDate": "2026-05-15", "slot": 2 },
+  { "cid": 1123, "equipmentName": "魔法纯洁缎带", "addDate": "2026-05-15", "slot": 2 },
+  { "cid": 1298, "equipmentName": "", "addDate": "2026-06-01", "slot": 1 },
+  { "cid": 1299, "equipmentName": "", "addDate": "2026-06-01", "slot": 1 },
+  { "cid": 1003, "equipmentName": "", "addDate": "2026-06-01", "slot": 2 },
+  { "cid": 1121, "equipmentName": "", "addDate": "2026-06-01", "slot": 2 }
 ]
