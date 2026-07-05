@@ -288,10 +288,14 @@
   { "cid": 1299, "equipmentName": "是的，亲爱的", "addDate": "2026-06-01", "slot": 1 },
   { "cid": 1003, "equipmentName": "神风之剑", "addDate": "2026-06-01", "slot": 2 },
   { "cid": 1121, "equipmentName": "神殿巫女的装束", "addDate": "2026-06-01", "slot": 2 },
-  { "cid": 1181, "equipmentName": "", "addDate": "2026-06-16", "slot": 1 },
-  { "cid": 1307, "equipmentName": "", "addDate": "2026-06-16", "slot": 1 },
-  { "cid": 1308, "equipmentName": "", "addDate": "2026-06-16", "slot": 1 },
-  { "cid": 1115, "equipmentName": "", "addDate": "2026-06-16", "slot": 2 },
-  { "cid": 1116, "equipmentName": "", "addDate": "2026-06-16", "slot": 2 },
-  { "cid": 1117, "equipmentName": "", "addDate": "2026-06-16", "slot": 2 }
+  { "cid": 1181, "equipmentName": "翠玉共鸣", "addDate": "2026-06-16", "slot": 1 },
+  { "cid": 1307, "equipmentName": "苍穹芙罗拉", "addDate": "2026-06-16", "slot": 1 },
+  { "cid": 1308, "equipmentName": "日光芙罗拉", "addDate": "2026-06-16", "slot": 1 },
+  { "cid": 1115, "equipmentName": "誓约女君的祝酒杯", "addDate": "2026-06-16", "slot": 2 },
+  { "cid": 1116, "equipmentName": "望但的应援棒", "addDate": "2026-06-16", "slot": 2 },
+  { "cid": 1117, "equipmentName": "统治圣夜的斗篷", "addDate": "2026-06-16", "slot": 2 },
+  { "cid": 1182, "equipmentName": "美空的加特林", "addDate": "2026-07-01", "slot": 1 },
+  { "cid": 1309, "equipmentName": "宝石兔兔", "addDate": "2026-07-01", "slot": 1 },
+  { "cid": 1310, "equipmentName": "真步真步梦幻套装", "addDate": "2026-07-01", "slot": 1 },
+  { "cid": 1075, "equipmentName": "夏日海滨公主", "addDate": "2026-07-01", "slot": 2 }
 ]
