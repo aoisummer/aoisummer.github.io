@@ -328,6 +328,7 @@
   { "id": 1397, "name": "普蕾西亚（女武神）", "isLimited": 1, "rarity": 3, "position": 500, "atkType": 2, "gacha": "限定", "element": 4, "role": 3 },
   { "id": 1398, "name": "雪菲（真龙觉醒）", "isLimited": 1, "rarity": 3, "position": 386, "atkType": 1, "gacha": "fes限定", "element": 5, "role": 1 },
   { "id": 1399, "name": "露易丝玛莉（夏日）", "isLimited": 1, "rarity": 3, "position": 757, "atkType": 2, "gacha": "限定", "element": 2, "role": 3 },
+  { "id": 1400, "name": "克蕾琪塔（夏日）", "isLimited": 1, "rarity": 3, "position": 730, "atkType": 2, "gacha": "限定", "element": 1, "role": 3 },
   { "id": 1701, "name": "环奈", "isLimited": 1, "rarity": 3, "position": 433, "atkType": 1, "gacha": "限定", "element": 4, "role": 1 },
   { "id": 1702, "name": "环奈（振袖）", "isLimited": 1, "rarity": 3, "position": 527, "atkType": 1, "gacha": "限定", "element": 4, "role": 3 },
   { "id": 1801, "name": "日和莉（公主）", "isLimited": 1, "rarity": 3, "position": 199, "atkType": 1, "gacha": "fes限定", "element": 1, "role": 4 },
