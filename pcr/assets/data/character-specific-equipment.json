@@ -302,5 +302,7 @@
   { "cid": 1312, "equipmentName": "", "addDate": "2026-07-16", "slot": 1 },
   { "cid": 1316, "equipmentName": "木刀·劈西瓜", "addDate": "2026-07-16", "slot": 1 },
   { "cid": 1131, "equipmentName": "纱笼·纯白人造丝小竹原", "addDate": "2026-07-16", "slot": 2 },
-  { "cid": 1133, "equipmentName": "七七香忧郁夏日记忆", "addDate": "2026-07-16", "slot": 2 }
+  { "cid": 1133, "equipmentName": "七七香忧郁夏日记忆", "addDate": "2026-07-16", "slot": 2 },
+  { "cid": 1317, "equipmentName": "", "addDate": "2026-07-31", "slot": 1 },
+  { "cid": 1318, "equipmentName": "", "addDate": "2026-07-31", "slot": 1 }
 ]
