@@ -234,7 +234,7 @@
   { "cid": 1049, "equipmentName": "神圣的修女面纱", "addDate": "2025-10-13", "slot": 2 },
   { "cid": 1253, "equipmentName": "小狗狗主人", "addDate": "2025-10-30", "slot": 1 },
   { "cid": 1254, "equipmentName": "小喵特", "addDate": "2025-10-30", "slot": 1 },
-  { "cid": 1258, "equipmentName": "", "addDate": "2025-10-30", "slot": 1 },
+  { "cid": 1258, "equipmentName": "爱尔格雅的叹镰", "addDate": "2025-10-30", "slot": 1 },
   { "cid": 1095, "equipmentName": "千变万化的艳丽山茶花", "addDate": "2025-10-30", "slot": 2 },
   { "cid": 1096, "equipmentName": "干练的女忍者套装", "addDate": "2025-10-30", "slot": 2 },
   { "cid": 1255, "equipmentName": "恶魔之杖", "addDate": "2025-11-14", "slot": 1 },
@@ -253,7 +253,7 @@
   { "cid": 1104, "equipmentName": "狼人夏日比基尼", "addDate": "2025-12-15", "slot": 2 },
   { "cid": 1105, "equipmentName": "琉球犬式·跃三线", "addDate": "2025-12-15", "slot": 2 },
   { "cid": 1106, "equipmentName": "真步真步玩偶骑士团", "addDate": "2025-12-15", "slot": 2 },
-  { "cid": 1269, "equipmentName": "", "addDate": "2025-12-30", "slot": 1 },
+  { "cid": 1269, "equipmentName": "歌姬的阳伞", "addDate": "2025-12-30", "slot": 1 },
   { "cid": 1270, "equipmentName": "空花特制绝对支配", "addDate": "2025-12-30", "slot": 1 },
   { "cid": 1271, "equipmentName": "怪异！盛夏的骷髅老爸", "addDate": "2025-12-30", "slot": 1 },
   { "cid": 1272, "equipmentName": "青春四角帽", "addDate": "2026-01-29", "slot": 1 },
@@ -305,6 +305,8 @@
   { "cid": 1133, "equipmentName": "七七香忧郁夏日记忆", "addDate": "2026-07-16", "slot": 2 },
   { "cid": 1317, "equipmentName": "水之妖精", "addDate": "2026-07-31", "slot": 1 },
   { "cid": 1318, "equipmentName": "龙的假日", "addDate": "2026-07-31", "slot": 1 },
-  { "cid": 1170, "equipmentName": "", "addDate": "2026-08-14", "slot": 2 },
-  { "cid": 1171, "equipmentName": "夏日的姐姐帽子", "addDate": "2026-08-14", "slot": 2 }
+  { "cid": 1170, "equipmentName": "浪漫药剂", "addDate": "2026-08-14", "slot": 2 },
+  { "cid": 1171, "equipmentName": "夏日的姐姐帽子", "addDate": "2026-08-14", "slot": 2 },
+  { "cid": 1134, "equipmentName": "", "addDate": "2026-09-15", "slot": 2 },
+  { "cid": 1136, "equipmentName": "", "addDate": "2026-09-15", "slot": 2 }
 ]
