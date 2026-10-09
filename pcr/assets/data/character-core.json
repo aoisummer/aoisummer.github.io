@@ -335,6 +335,8 @@
   { "id": 1404, "name": "莉莎", "isLimited": 1, "rarity": 3, "position": 780, "atkType": 1, "gacha": "限定", "element": 3, "role": 8 },
   { "id": 1405, "name": "维尔姆（灼热之龙）", "isLimited": 1, "rarity": 3, "position": 396, "atkType": 1, "gacha": "限定", "element": 5, "role": 5 },
   { "id": 1406, "name": "克萝茜（潜水艇）", "isLimited": 0, "rarity": 3, "position": 400, "atkType": 1, "gacha": "常驻", "element": 2, "role": 1 },
+  { "id": 1407, "name": "咲恋（枪手）", "isLimited": 1, "rarity": 3, "position": 431, "atkType": 1, "gacha": "限定", "element": 5, "role": 2 },
+  { "id": 1408, "name": "爱梅斯（枪手）", "isLimited": 1, "rarity": 3, "position": 512, "atkType": 2, "gacha": "限定", "element": 1, "role": 2 },
   { "id": 1701, "name": "环奈", "isLimited": 1, "rarity": 3, "position": 433, "atkType": 1, "gacha": "限定", "element": 4, "role": 1 },
   { "id": 1702, "name": "环奈（振袖）", "isLimited": 1, "rarity": 3, "position": 527, "atkType": 1, "gacha": "限定", "element": 4, "role": 3 },
   { "id": 1801, "name": "日和莉（公主）", "isLimited": 1, "rarity": 3, "position": 199, "atkType": 1, "gacha": "fes限定", "element": 1, "role": 4 },
