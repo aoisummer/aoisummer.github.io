@@ -309,8 +309,13 @@
   { "cid": 1171, "equipmentName": "夏日的姐姐帽子", "addDate": "2026-08-14", "slot": 2 },
   { "cid": 1134, "equipmentName": "", "addDate": "2026-09-15", "slot": 2 },
   { "cid": 1136, "equipmentName": "夏日骑士套装", "addDate": "2026-09-15", "slot": 2 },
-  { "cid": 1277, "equipmentName": "", "addDate": "2026-10-15", "slot": 1 },
-  { "cid": 1278, "equipmentName": "", "addDate": "2026-10-15", "slot": 1 },
-  { "cid": 1322, "equipmentName": "", "addDate": "2026-10-15", "slot": 1 },
-  { "cid": 1139, "equipmentName": "", "addDate": "2026-10-15", "slot": 2 }
+  { "cid": 1277, "equipmentName": "龙族女仆拖把", "addDate": "2026-10-15", "slot": 1 },
+  { "cid": 1278, "equipmentName": "龙族女仆茶具套装", "addDate": "2026-10-15", "slot": 1 },
+  { "cid": 1322, "equipmentName": "炼金术师香水", "addDate": "2026-10-15", "slot": 1 },
+  { "cid": 1139, "equipmentName": "万圣节发箍", "addDate": "2026-10-15", "slot": 2 },
+  { "cid": 1300, "equipmentName": "", "addDate": "2026-10-30", "slot": 1 },
+  { "cid": 1301, "equipmentName": "若菜手工围裙", "addDate": "2026-10-30", "slot": 1 },
+  { "cid": 1302, "equipmentName": "泉奈发射器♡定制款", "addDate": "2026-10-30", "slot": 1 },
+  { "cid": 1137, "equipmentName": "", "addDate": "2026-11-13", "slot": 2 },
+  { "cid": 1138, "equipmentName": "", "addDate": "2026-11-13", "slot": 2 }
 ]
