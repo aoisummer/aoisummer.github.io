@@ -340,6 +340,7 @@
   { "id": 1409, "name": "阿格莱雅", "isLimited": 1, "rarity": 3, "position": 780, "atkType": 2, "gacha": "fes限定", "element": 4, "role": 3 },
   { "id": 1410, "name": "黄金船", "isLimited": 1, "rarity": 1, "position": 368, "atkType": 1, "gacha": "活动限定", "element": 2, "role": 1 },
   { "id": 1411, "name": "杏目", "isLimited": 1, "rarity": 3, "position": 261, "atkType": 1, "gacha": "限定", "element": 4, "role": 2 },
+  { "id": 1412, "name": "旺紫丁", "isLimited": 1, "rarity": 3, "position": 737, "atkType": 2, "gacha": "限定", "element": 1, "role": 1 },
   { "id": 1701, "name": "环奈", "isLimited": 1, "rarity": 3, "position": 433, "atkType": 1, "gacha": "限定", "element": 4, "role": 1 },
   { "id": 1702, "name": "环奈（振袖）", "isLimited": 1, "rarity": 3, "position": 527, "atkType": 1, "gacha": "限定", "element": 4, "role": 3 },
   { "id": 1801, "name": "日和莉（公主）", "isLimited": 1, "rarity": 3, "position": 199, "atkType": 1, "gacha": "fes限定", "element": 1, "role": 4 },
